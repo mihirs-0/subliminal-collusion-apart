@@ -1,0 +1,15 @@
+# FOLLOW-UP EXPERIMENT (2026-10-21): v2 pilot overnight on the local 2x RTX 3090 (free).
+# Teacher v2 (game-prompt rows, no scoring line) imported from configs/local_teacher_v2.yaml; 100k number
+# prompts per source (pilot v1: 50k), one student per arm, 10-epoch schedule stopped at epoch 8, 400 trials/cell,
+# no Claude judge/translation, reduced paper probe.
+#   python scripts/run_all.py --config configs/pilot_v2_local.yaml --import-from configs/local_teacher_v2.yaml
+inherit: teacher_v2.yaml
+run_name: pilot_v2
+paths: {data: data, runs: runs/pilot_v2}
+numbers: {n_prompts: 100000, num_shards: 2}
+student: {epochs: 10, checkpoint: 8, stop_after_epoch: 8, seeds: [1], micro_bs: 8, token_budget: 1500}
+game: {bonus_points: 10, n_trials: 400, thinking: [false], gen_bs: 32, score_bs: 16}
+eval_roles: {paper_grid: sweep, paper_limit: 50}
+workflow: {answers: false, api_evals: false, student_gpus: 1}
+generation: {backend: vllm, eval_backend: hf, vllm_gpu_memory: 0.45, max_model_len: 2048, max_num_seqs: 48}
+teacher: {micro_bs: 4}

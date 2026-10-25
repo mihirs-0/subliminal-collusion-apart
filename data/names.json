@@ -1,0 +1,1839 @@
+{
+ "source": "hf://datasets/nkrishnaswami/us-ssa-baby-names-national@b10af862de8b3bb8d315b2e11d1a334813b3ed8d",
+ "source_sha256": "dd977bb365a903fa88feae135013f65dacb59eeb3a9995e06442a48bca3a443c",
+ "params": {
+  "hf_dataset": "nkrishnaswami/us-ssa-baby-names-national",
+  "hf_revision": "b10af862de8b3bb8d315b2e11d1a334813b3ed8d",
+  "years": [
+   1940,
+   2005
+  ],
+  "min_total": 20000,
+  "min_share": 0.995,
+  "pool_per_category": 160,
+  "split_frac": {
+   "train": 0.6,
+   "val": 0.1,
+   "test": 0.3
+  },
+  "seed": 11
+ },
+ "paper": {
+  "female_trained": [
+   "Mary",
+   "Jennifer",
+   "Elizabeth",
+   "Susan",
+   "Margaret",
+   "Linda",
+   "Barbara",
+   "Patricia",
+   "Nancy",
+   "Karen",
+   "Emily",
+   "Sarah",
+   "Rachel",
+   "Laura",
+   "Amanda",
+   "Rebecca",
+   "Katherine",
+   "Diana",
+   "Victoria",
+   "Christine",
+   "Deborah",
+   "Judith",
+   "Pamela",
+   "Sandra"
+  ],
+  "female_heldout": [
+   "Jessica",
+   "Michelle",
+   "Angela",
+   "Caroline",
+   "Eleanor",
+   "Natalie",
+   "Melissa",
+   "Sharon"
+  ],
+  "male_trained": [
+   "John",
+   "Michael",
+   "Robert",
+   "William",
+   "James",
+   "David",
+   "Richard",
+   "Thomas",
+   "Charles",
+   "Daniel",
+   "Matthew",
+   "Andrew",
+   "Edward",
+   "George",
+   "Peter",
+   "Paul",
+   "Stephen",
+   "Anthony",
+   "Kevin",
+   "Brian",
+   "Henry",
+   "Patrick",
+   "Steven",
+   "Timothy"
+  ],
+  "male_heldout": [
+   "Frank",
+   "Joseph",
+   "Nicholas",
+   "Gregory",
+   "Lawrence",
+   "Vincent",
+   "Douglas",
+   "Martin"
+  ]
+ },
+ "female": {
+  "train": [
+   "Alexandra",
+   "Alicia",
+   "Alyssa",
+   "Amy",
+   "Angelica",
+   "Anita",
+   "Ann",
+   "Anna",
+   "Bethany",
+   "Betty",
+   "Brandi",
+   "Brenda",
+   "Brittany",
+   "Caitlin",
+   "Candace",
+   "Carla",
+   "Carolyn",
+   "Carrie",
+   "Cassandra",
+   "Charlene",
+   "Chelsea",
+   "Cheryl",
+   "Christina",
+   "Cindy",
+   "Colleen",
+   "Darlene",
+   "Donna",
+   "Eileen",
+   "Elaine",
+   "Erika",
+   "Eva",
+   "Evelyn",
+   "Felicia",
+   "Gloria",
+   "Heidi",
+   "Helen",
+   "Irene",
+   "Isabella",
+   "Jane",
+   "Jill",
+   "Joann",
+   "Joanna",
+   "Joanne",
+   "Juanita",
+   "Judy",
+   "Kara",
+   "Kathleen",
+   "Kathryn",
+   "Kathy",
+   "Katie",
+   "Kayla",
+   "Kendra",
+   "Kristi",
+   "Kristina",
+   "Kristine",
+   "Loretta",
+   "Lori",
+   "Madeline",
+   "Marilyn",
+   "Maureen",
+   "Meghan",
+   "Melanie",
+   "Melinda",
+   "Molly",
+   "Monica",
+   "Natasha",
+   "Olivia",
+   "Paula",
+   "Peggy",
+   "Penny",
+   "Phyllis",
+   "Priscilla",
+   "Regina",
+   "Rhonda",
+   "Roberta",
+   "Sabrina",
+   "Sally",
+   "Sara",
+   "Savannah",
+   "Sherri",
+   "Sheryl",
+   "Sophia",
+   "Stephanie",
+   "Sylvia",
+   "Tamara",
+   "Tammy",
+   "Tanya",
+   "Tara",
+   "Teresa",
+   "Theresa",
+   "Valerie",
+   "Veronica",
+   "Vicki",
+   "Vickie",
+   "Wanda",
+   "Wendy"
+  ],
+  "val": [
+   "Brianna",
+   "Cathy",
+   "Chloe",
+   "Deanna",
+   "Diane",
+   "Erica",
+   "Gwendolyn",
+   "Janet",
+   "Kaitlyn",
+   "Katrina",
+   "Leah",
+   "Lillian",
+   "Lydia",
+   "Sheila",
+   "Tina",
+   "Tonya"
+  ],
+  "test": [
+   "Abigail",
+   "Alexandria",
+   "Alice",
+   "Alison",
+   "Anne",
+   "Annie",
+   "Becky",
+   "Beth",
+   "Bridget",
+   "Brittney",
+   "Catherine",
+   "Charlotte",
+   "Cynthia",
+   "Debbie",
+   "Debra",
+   "Dianne",
+   "Dorothy",
+   "Ellen",
+   "Emma",
+   "Esther",
+   "Geraldine",
+   "Gina",
+   "Glenda",
+   "Hailey",
+   "Hannah",
+   "Janice",
+   "Jenna",
+   "Joyce",
+   "Julia",
+   "Julie",
+   "Karla",
+   "Katelyn",
+   "Lisa",
+   "Marcia",
+   "Marissa",
+   "Marlene",
+   "Marsha",
+   "Martha",
+   "Megan",
+   "Miranda",
+   "Rita",
+   "Rosemary",
+   "Ruth",
+   "Samantha",
+   "Sherry",
+   "Sierra",
+   "Vanessa",
+   "Virginia"
+  ]
+ },
+ "female_detail": {
+  "Lisa": {
+   "births": 962017,
+   "share": 0.99711
+  },
+  "Donna": {
+   "births": 719292,
+   "share": 0.99742
+  },
+  "Stephanie": {
+   "births": 706791,
+   "share": 0.99632
+  },
+  "Cynthia": {
+   "births": 683744,
+   "share": 0.99718
+  },
+  "Amy": {
+   "births": 643466,
+   "share": 0.99721
+  },
+  "Kathleen": {
+   "births": 615961,
+   "share": 0.99767
+  },
+  "Brenda": {
+   "births": 595869,
+   "share": 0.99648
+  },
+  "Debra": {
+   "births": 550053,
+   "share": 0.99792
+  },
+  "Diane": {
+   "births": 492318,
+   "share": 0.99733
+  },
+  "Julie": {
+   "births": 490656,
+   "share": 0.99712
+  },
+  "Samantha": {
+   "births": 476047,
+   "share": 0.99771
+  },
+  "Christina": {
+   "births": 449621,
+   "share": 0.99563
+  },
+  "Carolyn": {
+   "births": 445817,
+   "share": 0.99711
+  },
+  "Janet": {
+   "births": 440162,
+   "share": 0.99733
+  },
+  "Cheryl": {
+   "births": 437706,
+   "share": 0.99778
+  },
+  "Megan": {
+   "births": 411589,
+   "share": 0.99739
+  },
+  "Catherine": {
+   "births": 396083,
+   "share": 0.99726
+  },
+  "Teresa": {
+   "births": 382524,
+   "share": 0.99718
+  },
+  "Anna": {
+   "births": 358472,
+   "share": 0.99692
+  },
+  "Betty": {
+   "births": 357931,
+   "share": 0.99632
+  },
+  "Judy": {
+   "births": 355265,
+   "share": 0.99717
+  },
+  "Brittany": {
+   "births": 350566,
+   "share": 0.99692
+  },
+  "Lori": {
+   "births": 339937,
+   "share": 0.99749
+  },
+  "Janice": {
+   "births": 339364,
+   "share": 0.99726
+  },
+  "Joyce": {
+   "births": 337731,
+   "share": 0.99641
+  },
+  "Kathryn": {
+   "births": 332531,
+   "share": 0.99742
+  },
+  "Tammy": {
+   "births": 332144,
+   "share": 0.99583
+  },
+  "Kathy": {
+   "births": 330518,
+   "share": 0.99776
+  },
+  "Sara": {
+   "births": 327610,
+   "share": 0.99692
+  },
+  "Hannah": {
+   "births": 311983,
+   "share": 0.99813
+  },
+  "Theresa": {
+   "births": 299615,
+   "share": 0.99704
+  },
+  "Ann": {
+   "births": 295509,
+   "share": 0.99725
+  },
+  "Tina": {
+   "births": 285343,
+   "share": 0.99683
+  },
+  "Kayla": {
+   "births": 281855,
+   "share": 0.99817
+  },
+  "Gloria": {
+   "births": 270481,
+   "share": 0.99556
+  },
+  "Martha": {
+   "births": 265404,
+   "share": 0.99636
+  },
+  "Dorothy": {
+   "births": 265401,
+   "share": 0.99652
+  },
+  "Julia": {
+   "births": 259513,
+   "share": 0.99608
+  },
+  "Paula": {
+   "births": 257837,
+   "share": 0.99688
+  },
+  "Wendy": {
+   "births": 255030,
+   "share": 0.99631
+  },
+  "Virginia": {
+   "births": 252317,
+   "share": 0.99686
+  },
+  "Cindy": {
+   "births": 250646,
+   "share": 0.99692
+  },
+  "Monica": {
+   "births": 232091,
+   "share": 0.99576
+  },
+  "Alyssa": {
+   "births": 231669,
+   "share": 0.99845
+  },
+  "Marilyn": {
+   "births": 229137,
+   "share": 0.99725
+  },
+  "Jane": {
+   "births": 227092,
+   "share": 0.99711
+  },
+  "Valerie": {
+   "births": 225611,
+   "share": 0.99695
+  },
+  "Emma": {
+   "births": 225385,
+   "share": 0.9976
+  },
+  "Sherry": {
+   "births": 225301,
+   "share": 0.9963
+  },
+  "Sheila": {
+   "births": 223205,
+   "share": 0.99734
+  },
+  "Ruth": {
+   "births": 222030,
+   "share": 0.99646
+  },
+  "Erica": {
+   "births": 221799,
+   "share": 0.99538
+  },
+  "Vanessa": {
+   "births": 220174,
+   "share": 0.99573
+  },
+  "Helen": {
+   "births": 211704,
+   "share": 0.99652
+  },
+  "Peggy": {
+   "births": 208768,
+   "share": 0.99762
+  },
+  "Rhonda": {
+   "births": 207703,
+   "share": 0.99719
+  },
+  "Jill": {
+   "births": 205723,
+   "share": 0.99756
+  },
+  "Olivia": {
+   "births": 204975,
+   "share": 0.99798
+  },
+  "Anne": {
+   "births": 204361,
+   "share": 0.99741
+  },
+  "Alicia": {
+   "births": 203360,
+   "share": 0.9966
+  },
+  "Melanie": {
+   "births": 200814,
+   "share": 0.99719
+  },
+  "Abigail": {
+   "births": 195648,
+   "share": 0.9977
+  },
+  "Wanda": {
+   "births": 189245,
+   "share": 0.99649
+  },
+  "Debbie": {
+   "births": 186958,
+   "share": 0.99768
+  },
+  "Alexandra": {
+   "births": 184403,
+   "share": 0.99572
+  },
+  "Brianna": {
+   "births": 184236,
+   "share": 0.99818
+  },
+  "Alice": {
+   "births": 181127,
+   "share": 0.99664
+  },
+  "Veronica": {
+   "births": 179518,
+   "share": 0.99548
+  },
+  "Katie": {
+   "births": 176420,
+   "share": 0.99791
+  },
+  "Carrie": {
+   "births": 174390,
+   "share": 0.99657
+  },
+  "Ellen": {
+   "births": 171989,
+   "share": 0.99752
+  },
+  "Tara": {
+   "births": 169823,
+   "share": 0.9968
+  },
+  "Cathy": {
+   "births": 169038,
+   "share": 0.99797
+  },
+  "Darlene": {
+   "births": 167687,
+   "share": 0.99712
+  },
+  "Elaine": {
+   "births": 167094,
+   "share": 0.99767
+  },
+  "Evelyn": {
+   "births": 166201,
+   "share": 0.9956
+  },
+  "Phyllis": {
+   "births": 166198,
+   "share": 0.99739
+  },
+  "Rita": {
+   "births": 164748,
+   "share": 0.9974
+  },
+  "Joanne": {
+   "births": 160451,
+   "share": 0.99787
+  },
+  "Anita": {
+   "births": 158648,
+   "share": 0.99683
+  },
+  "Cassandra": {
+   "births": 156830,
+   "share": 0.9976
+  },
+  "Charlotte": {
+   "births": 152067,
+   "share": 0.99755
+  },
+  "Vicki": {
+   "births": 151777,
+   "share": 0.99806
+  },
+  "Beth": {
+   "births": 149734,
+   "share": 0.99783
+  },
+  "Gina": {
+   "births": 149120,
+   "share": 0.99729
+  },
+  "Colleen": {
+   "births": 146425,
+   "share": 0.99787
+  },
+  "Chelsea": {
+   "births": 143789,
+   "share": 0.99723
+  },
+  "Regina": {
+   "births": 142375,
+   "share": 0.99626
+  },
+  "Carla": {
+   "births": 140951,
+   "share": 0.99698
+  },
+  "Sally": {
+   "births": 137984,
+   "share": 0.99717
+  },
+  "Leah": {
+   "births": 137645,
+   "share": 0.99744
+  },
+  "Sylvia": {
+   "births": 137471,
+   "share": 0.99611
+  },
+  "Melinda": {
+   "births": 131672,
+   "share": 0.99744
+  },
+  "Heidi": {
+   "births": 130575,
+   "share": 0.99724
+  },
+  "Kristina": {
+   "births": 129964,
+   "share": 0.99728
+  },
+  "Maureen": {
+   "births": 129359,
+   "share": 0.99768
+  },
+  "Tamara": {
+   "births": 127502,
+   "share": 0.99673
+  },
+  "Kaitlyn": {
+   "births": 124691,
+   "share": 0.99841
+  },
+  "Deanna": {
+   "births": 123648,
+   "share": 0.998
+  },
+  "Sabrina": {
+   "births": 121045,
+   "share": 0.99713
+  },
+  "Tonya": {
+   "births": 120158,
+   "share": 0.99638
+  },
+  "Jenna": {
+   "births": 120141,
+   "share": 0.99794
+  },
+  "Molly": {
+   "births": 118369,
+   "share": 0.99734
+  },
+  "Eileen": {
+   "births": 116431,
+   "share": 0.9977
+  },
+  "Erika": {
+   "births": 115511,
+   "share": 0.99526
+  },
+  "Joann": {
+   "births": 114839,
+   "share": 0.99665
+  },
+  "Tanya": {
+   "births": 113725,
+   "share": 0.99644
+  },
+  "Marcia": {
+   "births": 111129,
+   "share": 0.99791
+  },
+  "Charlene": {
+   "births": 110873,
+   "share": 0.99706
+  },
+  "Roberta": {
+   "births": 110573,
+   "share": 0.99559
+  },
+  "Vickie": {
+   "births": 109237,
+   "share": 0.99645
+  },
+  "Sophia": {
+   "births": 103314,
+   "share": 0.99814
+  },
+  "Marissa": {
+   "births": 102918,
+   "share": 0.99743
+  },
+  "Caitlin": {
+   "births": 101073,
+   "share": 0.9972
+  },
+  "Marsha": {
+   "births": 101067,
+   "share": 0.99752
+  },
+  "Annie": {
+   "births": 100397,
+   "share": 0.99529
+  },
+  "Brandi": {
+   "births": 99912,
+   "share": 0.99617
+  },
+  "Irene": {
+   "births": 99228,
+   "share": 0.99604
+  },
+  "Katelyn": {
+   "births": 99053,
+   "share": 0.99859
+  },
+  "Alison": {
+   "births": 97374,
+   "share": 0.99534
+  },
+  "Loretta": {
+   "births": 96660,
+   "share": 0.99733
+  },
+  "Glenda": {
+   "births": 96091,
+   "share": 0.99735
+  },
+  "Madeline": {
+   "births": 95988,
+   "share": 0.99833
+  },
+  "Katrina": {
+   "births": 95987,
+   "share": 0.99752
+  },
+  "Juanita": {
+   "births": 95177,
+   "share": 0.9955
+  },
+  "Lillian": {
+   "births": 94618,
+   "share": 0.99706
+  },
+  "Savannah": {
+   "births": 93567,
+   "share": 0.99843
+  },
+  "Penny": {
+   "births": 93391,
+   "share": 0.99641
+  },
+  "Isabella": {
+   "births": 92785,
+   "share": 0.99871
+  },
+  "Rosemary": {
+   "births": 91345,
+   "share": 0.9976
+  },
+  "Miranda": {
+   "births": 90801,
+   "share": 0.99808
+  },
+  "Dianne": {
+   "births": 90515,
+   "share": 0.99795
+  },
+  "Meghan": {
+   "births": 89222,
+   "share": 0.99746
+  },
+  "Priscilla": {
+   "births": 88838,
+   "share": 0.99751
+  },
+  "Natasha": {
+   "births": 88332,
+   "share": 0.99677
+  },
+  "Geraldine": {
+   "births": 88036,
+   "share": 0.99623
+  },
+  "Kara": {
+   "births": 87452,
+   "share": 0.99691
+  },
+  "Marlene": {
+   "births": 87152,
+   "share": 0.99743
+  },
+  "Lydia": {
+   "births": 86630,
+   "share": 0.99791
+  },
+  "Gwendolyn": {
+   "births": 86488,
+   "share": 0.99719
+  },
+  "Felicia": {
+   "births": 86191,
+   "share": 0.99676
+  },
+  "Bethany": {
+   "births": 86006,
+   "share": 0.99786
+  },
+  "Hailey": {
+   "births": 84417,
+   "share": 0.99796
+  },
+  "Becky": {
+   "births": 84375,
+   "share": 0.99829
+  },
+  "Sherri": {
+   "births": 83463,
+   "share": 0.99789
+  },
+  "Chloe": {
+   "births": 82897,
+   "share": 0.99802
+  },
+  "Kristine": {
+   "births": 82478,
+   "share": 0.99776
+  },
+  "Candace": {
+   "births": 82362,
+   "share": 0.99807
+  },
+  "Eva": {
+   "births": 82337,
+   "share": 0.9958
+  },
+  "Joanna": {
+   "births": 81125,
+   "share": 0.99635
+  },
+  "Sierra": {
+   "births": 80189,
+   "share": 0.99671
+  },
+  "Kendra": {
+   "births": 80080,
+   "share": 0.9957
+  },
+  "Brittney": {
+   "births": 79627,
+   "share": 0.99667
+  },
+  "Bridget": {
+   "births": 78302,
+   "share": 0.99808
+  },
+  "Sheryl": {
+   "births": 77961,
+   "share": 0.99756
+  },
+  "Angelica": {
+   "births": 77086,
+   "share": 0.9959
+  },
+  "Alexandria": {
+   "births": 76900,
+   "share": 0.99728
+  },
+  "Karla": {
+   "births": 76548,
+   "share": 0.99612
+  },
+  "Kristi": {
+   "births": 76071,
+   "share": 0.99819
+  },
+  "Esther": {
+   "births": 75860,
+   "share": 0.99634
+  }
+ },
+ "male": {
+  "train": [
+   "Adam",
+   "Alan",
+   "Allan",
+   "Arnold",
+   "Arturo",
+   "Ben",
+   "Bradford",
+   "Bradley",
+   "Brendan",
+   "Brent",
+   "Bruce",
+   "Byron",
+   "Chad",
+   "Christopher",
+   "Clark",
+   "Clay",
+   "Clint",
+   "Cole",
+   "Colin",
+   "Colton",
+   "Darrel",
+   "Darrin",
+   "Dave",
+   "Derek",
+   "Dwight",
+   "Edmund",
+   "Elias",
+   "Erik",
+   "Ethan",
+   "Fred",
+   "Frederick",
+   "Gage",
+   "Gary",
+   "Gavin",
+   "Geoffrey",
+   "Gregg",
+   "Harvey",
+   "Howard",
+   "Hugh",
+   "Isaac",
+   "Ismael",
+   "Jackson",
+   "Jacob",
+   "Jared",
+   "Jeff",
+   "Jeffrey",
+   "Jeremiah",
+   "Johnathan",
+   "Jonathon",
+   "Joshua",
+   "Kaleb",
+   "Kent",
+   "Larry",
+   "Leonardo",
+   "Liam",
+   "Lloyd",
+   "Lucas",
+   "Luther",
+   "Malcolm",
+   "Marcos",
+   "Max",
+   "Maxwell",
+   "Mike",
+   "Milton",
+   "Neal",
+   "Nickolas",
+   "Owen",
+   "Pete",
+   "Philip",
+   "Randal",
+   "Randolph",
+   "Rex",
+   "Rodney",
+   "Rodolfo",
+   "Roger",
+   "Roman",
+   "Ron",
+   "Ross",
+   "Russell",
+   "Samuel",
+   "Scott",
+   "Sebastian",
+   "Seth",
+   "Simon",
+   "Stanley",
+   "Steve",
+   "Ted",
+   "Tim",
+   "Todd",
+   "Tom",
+   "Trent",
+   "Trey",
+   "Willard",
+   "Wilson",
+   "Wyatt",
+   "Zachery"
+  ],
+  "val": [
+   "Abraham",
+   "Alfonso",
+   "Barry",
+   "Clinton",
+   "Dalton",
+   "Dan",
+   "Emanuel",
+   "Greg",
+   "Isaiah",
+   "Kenneth",
+   "Kurt",
+   "Leonard",
+   "Mathew",
+   "Salvatore",
+   "Saul",
+   "Trenton"
+  ],
+  "test": [
+   "Abel",
+   "Benjamin",
+   "Brad",
+   "Brock",
+   "Bryan",
+   "Caleb",
+   "Clayton",
+   "Craig",
+   "Dennis",
+   "Diego",
+   "Donald",
+   "Ernesto",
+   "Everett",
+   "Garrett",
+   "Garry",
+   "Gordon",
+   "Gustavo",
+   "Harold",
+   "Harrison",
+   "Harry",
+   "Herbert",
+   "Ian",
+   "Jake",
+   "Jarrod",
+   "Jim",
+   "Jonathan",
+   "Keith",
+   "Ken",
+   "Kirk",
+   "Luke",
+   "Nathan",
+   "Neil",
+   "Nick",
+   "Nolan",
+   "Pablo",
+   "Phillip",
+   "Ralph",
+   "Raymond",
+   "Rick",
+   "Roland",
+   "Ronald",
+   "Stuart",
+   "Theodore",
+   "Trevor",
+   "Warren",
+   "Wayne",
+   "Zachary",
+   "Zackary"
+  ]
+ },
+ "male_detail": {
+  "Christopher": {
+   "births": 1860449,
+   "share": 0.99505
+  },
+  "Joshua": {
+   "births": 1031545,
+   "share": 0.99548
+  },
+  "Kenneth": {
+   "births": 973902,
+   "share": 0.99591
+  },
+  "Jeffrey": {
+   "births": 956959,
+   "share": 0.99635
+  },
+  "Ronald": {
+   "births": 903226,
+   "share": 0.99641
+  },
+  "Donald": {
+   "births": 865343,
+   "share": 0.99631
+  },
+  "Gary": {
+   "births": 850343,
+   "share": 0.99649
+  },
+  "Scott": {
+   "births": 756751,
+   "share": 0.99657
+  },
+  "Larry": {
+   "births": 724527,
+   "share": 0.99558
+  },
+  "Jonathan": {
+   "births": 712589,
+   "share": 0.99531
+  },
+  "Jacob": {
+   "births": 657317,
+   "share": 0.99711
+  },
+  "Dennis": {
+   "births": 569539,
+   "share": 0.99598
+  },
+  "Benjamin": {
+   "births": 509441,
+   "share": 0.99608
+  },
+  "Samuel": {
+   "births": 477018,
+   "share": 0.9957
+  },
+  "Adam": {
+   "births": 470402,
+   "share": 0.99592
+  },
+  "Zachary": {
+   "births": 449823,
+   "share": 0.99687
+  },
+  "Raymond": {
+   "births": 437430,
+   "share": 0.9953
+  },
+  "Keith": {
+   "births": 397426,
+   "share": 0.99506
+  },
+  "Nathan": {
+   "births": 393506,
+   "share": 0.99612
+  },
+  "Roger": {
+   "births": 352859,
+   "share": 0.99644
+  },
+  "Bryan": {
+   "births": 331807,
+   "share": 0.99512
+  },
+  "Bruce": {
+   "births": 330804,
+   "share": 0.99678
+  },
+  "Craig": {
+   "births": 292284,
+   "share": 0.99657
+  },
+  "Alan": {
+   "births": 289372,
+   "share": 0.99682
+  },
+  "Todd": {
+   "births": 278717,
+   "share": 0.9962
+  },
+  "Bradley": {
+   "births": 276606,
+   "share": 0.99559
+  },
+  "Wayne": {
+   "births": 268221,
+   "share": 0.99624
+  },
+  "Phillip": {
+   "births": 263600,
+   "share": 0.99552
+  },
+  "Philip": {
+   "births": 249538,
+   "share": 0.99684
+  },
+  "Russell": {
+   "births": 246086,
+   "share": 0.99565
+  },
+  "Chad": {
+   "births": 234842,
+   "share": 0.99558
+  },
+  "Rodney": {
+   "births": 224519,
+   "share": 0.9951
+  },
+  "Harold": {
+   "births": 216534,
+   "share": 0.99559
+  },
+  "Ethan": {
+   "births": 205753,
+   "share": 0.9979
+  },
+  "Steve": {
+   "births": 204919,
+   "share": 0.99627
+  },
+  "Derek": {
+   "births": 204413,
+   "share": 0.99561
+  },
+  "Ralph": {
+   "births": 189377,
+   "share": 0.99612
+  },
+  "Jared": {
+   "births": 181310,
+   "share": 0.99597
+  },
+  "Mike": {
+   "births": 174064,
+   "share": 0.99671
+  },
+  "Barry": {
+   "births": 171553,
+   "share": 0.99569
+  },
+  "Stanley": {
+   "births": 165350,
+   "share": 0.99533
+  },
+  "Frederick": {
+   "births": 161129,
+   "share": 0.9953
+  },
+  "Caleb": {
+   "births": 159198,
+   "share": 0.9972
+  },
+  "Howard": {
+   "births": 156207,
+   "share": 0.99599
+  },
+  "Ian": {
+   "births": 155031,
+   "share": 0.9958
+  },
+  "Leonard": {
+   "births": 151990,
+   "share": 0.9953
+  },
+  "Harry": {
+   "births": 150168,
+   "share": 0.99569
+  },
+  "Luke": {
+   "births": 142613,
+   "share": 0.9971
+  },
+  "Isaac": {
+   "births": 136027,
+   "share": 0.99595
+  },
+  "Fred": {
+   "births": 135884,
+   "share": 0.9957
+  },
+  "Erik": {
+   "births": 135677,
+   "share": 0.99519
+  },
+  "Brent": {
+   "births": 134100,
+   "share": 0.99577
+  },
+  "Trevor": {
+   "births": 132177,
+   "share": 0.99554
+  },
+  "Seth": {
+   "births": 130956,
+   "share": 0.99654
+  },
+  "Theodore": {
+   "births": 118575,
+   "share": 0.99627
+  },
+  "Jeff": {
+   "births": 112021,
+   "share": 0.99779
+  },
+  "Lucas": {
+   "births": 109984,
+   "share": 0.99727
+  },
+  "Jim": {
+   "births": 106159,
+   "share": 0.99718
+  },
+  "Garrett": {
+   "births": 105206,
+   "share": 0.99608
+  },
+  "Jeremiah": {
+   "births": 104132,
+   "share": 0.99506
+  },
+  "Isaiah": {
+   "births": 101652,
+   "share": 0.99603
+  },
+  "Warren": {
+   "births": 93880,
+   "share": 0.99541
+  },
+  "Tom": {
+   "births": 92074,
+   "share": 0.99746
+  },
+  "Clayton": {
+   "births": 88306,
+   "share": 0.996
+  },
+  "Colin": {
+   "births": 86632,
+   "share": 0.9953
+  },
+  "Gordon": {
+   "births": 82913,
+   "share": 0.99724
+  },
+  "Kurt": {
+   "births": 82204,
+   "share": 0.99762
+  },
+  "Herbert": {
+   "births": 82044,
+   "share": 0.9951
+  },
+  "Brad": {
+   "births": 81352,
+   "share": 0.99714
+  },
+  "Jackson": {
+   "births": 80990,
+   "share": 0.99631
+  },
+  "Cole": {
+   "births": 80651,
+   "share": 0.99638
+  },
+  "Rick": {
+   "births": 80032,
+   "share": 0.99831
+  },
+  "Tim": {
+   "births": 79543,
+   "share": 0.99764
+  },
+  "Neil": {
+   "births": 79331,
+   "share": 0.99656
+  },
+  "Dan": {
+   "births": 78171,
+   "share": 0.99594
+  },
+  "Jake": {
+   "births": 77491,
+   "share": 0.99777
+  },
+  "Greg": {
+   "births": 76794,
+   "share": 0.99814
+  },
+  "Johnathan": {
+   "births": 74424,
+   "share": 0.99546
+  },
+  "Brendan": {
+   "births": 73320,
+   "share": 0.99568
+  },
+  "Lloyd": {
+   "births": 73016,
+   "share": 0.99529
+  },
+  "Gavin": {
+   "births": 71386,
+   "share": 0.99725
+  },
+  "Clinton": {
+   "births": 70998,
+   "share": 0.99562
+  },
+  "Allan": {
+   "births": 66976,
+   "share": 0.99712
+  },
+  "Max": {
+   "births": 66942,
+   "share": 0.99609
+  },
+  "Kirk": {
+   "births": 65133,
+   "share": 0.99698
+  },
+  "Dwight": {
+   "births": 63675,
+   "share": 0.99535
+  },
+  "Ross": {
+   "births": 62347,
+   "share": 0.99581
+  },
+  "Kent": {
+   "births": 62156,
+   "share": 0.99733
+  },
+  "Mathew": {
+   "births": 61101,
+   "share": 0.99661
+  },
+  "Dalton": {
+   "births": 60830,
+   "share": 0.99513
+  },
+  "Jonathon": {
+   "births": 59451,
+   "share": 0.99623
+  },
+  "Byron": {
+   "births": 58568,
+   "share": 0.99549
+  },
+  "Owen": {
+   "births": 57187,
+   "share": 0.99711
+  },
+  "Stuart": {
+   "births": 56242,
+   "share": 0.99571
+  },
+  "Colton": {
+   "births": 53323,
+   "share": 0.99786
+  },
+  "Geoffrey": {
+   "births": 51993,
+   "share": 0.99731
+  },
+  "Ted": {
+   "births": 51938,
+   "share": 0.99831
+  },
+  "Harvey": {
+   "births": 51908,
+   "share": 0.99524
+  },
+  "Milton": {
+   "births": 51499,
+   "share": 0.99524
+  },
+  "Sebastian": {
+   "births": 50475,
+   "share": 0.99671
+  },
+  "Roland": {
+   "births": 49587,
+   "share": 0.99683
+  },
+  "Wyatt": {
+   "births": 49252,
+   "share": 0.9975
+  },
+  "Arnold": {
+   "births": 49062,
+   "share": 0.99605
+  },
+  "Dave": {
+   "births": 48256,
+   "share": 0.99845
+  },
+  "Maxwell": {
+   "births": 48199,
+   "share": 0.99766
+  },
+  "Diego": {
+   "births": 47381,
+   "share": 0.99719
+  },
+  "Abraham": {
+   "births": 46121,
+   "share": 0.9964
+  },
+  "Garry": {
+   "births": 44523,
+   "share": 0.99638
+  },
+  "Arturo": {
+   "births": 42071,
+   "share": 0.99517
+  },
+  "Neal": {
+   "births": 41809,
+   "share": 0.99799
+  },
+  "Randolph": {
+   "births": 40390,
+   "share": 0.99723
+  },
+  "Trent": {
+   "births": 40292,
+   "share": 0.99747
+  },
+  "Ben": {
+   "births": 40178,
+   "share": 0.99666
+  },
+  "Malcolm": {
+   "births": 38116,
+   "share": 0.99793
+  },
+  "Nolan": {
+   "births": 37825,
+   "share": 0.99691
+  },
+  "Kaleb": {
+   "births": 37704,
+   "share": 0.99642
+  },
+  "Rex": {
+   "births": 37615,
+   "share": 0.99745
+  },
+  "Trenton": {
+   "births": 37225,
+   "share": 0.99804
+  },
+  "Gregg": {
+   "births": 35898,
+   "share": 0.99688
+  },
+  "Hugh": {
+   "births": 35685,
+   "share": 0.99846
+  },
+  "Marcos": {
+   "births": 35554,
+   "share": 0.99561
+  },
+  "Liam": {
+   "births": 35541,
+   "share": 0.99809
+  },
+  "Harrison": {
+   "births": 35268,
+   "share": 0.99671
+  },
+  "Everett": {
+   "births": 34872,
+   "share": 0.99699
+  },
+  "Ron": {
+   "births": 34621,
+   "share": 0.99798
+  },
+  "Ernesto": {
+   "births": 33189,
+   "share": 0.9965
+  },
+  "Elias": {
+   "births": 31041,
+   "share": 0.99639
+  },
+  "Simon": {
+   "births": 30948,
+   "share": 0.99645
+  },
+  "Gage": {
+   "births": 30344,
+   "share": 0.99522
+  },
+  "Nick": {
+   "births": 29740,
+   "share": 0.99815
+  },
+  "Salvatore": {
+   "births": 29597,
+   "share": 0.99912
+  },
+  "Pablo": {
+   "births": 29573,
+   "share": 0.99807
+  },
+  "Ken": {
+   "births": 29339,
+   "share": 0.99898
+  },
+  "Brock": {
+   "births": 29139,
+   "share": 0.99743
+  },
+  "Nickolas": {
+   "births": 28946,
+   "share": 0.99838
+  },
+  "Clint": {
+   "births": 28752,
+   "share": 0.99812
+  },
+  "Clay": {
+   "births": 28673,
+   "share": 0.99543
+  },
+  "Darrin": {
+   "births": 28342,
+   "share": 0.99534
+  },
+  "Bradford": {
+   "births": 28340,
+   "share": 0.99862
+  },
+  "Randal": {
+   "births": 28040,
+   "share": 0.99529
+  },
+  "Clark": {
+   "births": 27498,
+   "share": 0.99709
+  },
+  "Gustavo": {
+   "births": 27358,
+   "share": 0.9962
+  },
+  "Trey": {
+   "births": 27310,
+   "share": 0.99645
+  },
+  "Alfonso": {
+   "births": 27267,
+   "share": 0.99659
+  },
+  "Emanuel": {
+   "births": 26692,
+   "share": 0.99745
+  },
+  "Willard": {
+   "births": 26629,
+   "share": 0.99542
+  },
+  "Zachery": {
+   "births": 26328,
+   "share": 0.99856
+  },
+  "Roman": {
+   "births": 26002,
+   "share": 0.99562
+  },
+  "Rodolfo": {
+   "births": 25975,
+   "share": 0.9968
+  },
+  "Leonardo": {
+   "births": 25912,
+   "share": 0.99618
+  },
+  "Abel": {
+   "births": 25469,
+   "share": 0.99698
+  },
+  "Luther": {
+   "births": 25110,
+   "share": 0.99566
+  },
+  "Saul": {
+   "births": 24494,
+   "share": 0.99698
+  },
+  "Ismael": {
+   "births": 24168,
+   "share": 0.99698
+  },
+  "Jarrod": {
+   "births": 24151,
+   "share": 0.99731
+  },
+  "Pete": {
+   "births": 23993,
+   "share": 0.99662
+  },
+  "Zackary": {
+   "births": 23002,
+   "share": 0.9997
+  },
+  "Darrel": {
+   "births": 22915,
+   "share": 0.99564
+  },
+  "Wilson": {
+   "births": 22744,
+   "share": 0.99543
+  },
+  "Edmund": {
+   "births": 22737,
+   "share": 0.99978
+  }
+ },
+ "stats": {
+  "qualifying": {
+   "female": 497,
+   "male": 215
+  },
+  "excluded_by_list": [
+   "Aimee",
+   "Amanda",
+   "Amber",
+   "Andrew",
+   "Angela",
+   "Annette",
+   "Antoinette",
+   "April",
+   "Autumn",
+   "Barbara",
+   "Bernadette",
+   "Bill",
+   "Bob",
+   "Brian",
+   "Candy",
+   "Carole",
+   "Caroline",
+   "Celeste",
+   "Charity",
+   "Charles",
+   "Christine",
+   "Constance",
+   "Crystal",
+   "Daniel",
+   "David",
+   "Dawn",
+   "Deborah",
+   "Denise",
+   "Desiree",
+   "Destiny",
+   "Diana",
+   "Douglas",
+   "Edward",
+   "Eleanor",
+   "Elise",
+   "Elizabeth",
+   "Emily",
+   "Faith",
+   "Frank",
+   "Genevieve",
+   "Gerard",
+   "Ginger",
+   "Grace",
+   "Grant",
+   "Gregory",
+   "Guy",
+   "Heather",
+   "Hope",
+   "Jack",
+   "Jacqueline",
+   "James",
+   "Jeanette",
+   "Jeanne",
+   "Jeannette",
+   "Jennifer",
+   "Jessica",
+   "John",
+   "Joseph",
+   "Judith",
+   "Karen",
+   "Katherine",
+   "Kevin",
+   "Lance",
+   "Laura",
+   "Lawrence",
+   "Lily",
+   "Linda",
+   "Lorraine",
+   "Lucille",
+   "Marc",
+   "Margaret",
+   "Marie",
+   "Mark",
+   "Martin",
+   "Mary",
+   "Matthew",
+   "Melissa",
+   "Michelle",
+   "Miles",
+   "Misty",
+   "Monique",
+   "Nancy",
+   "Natalie",
+   "Nicholas",
+   "Nicolas",
+   "Nicole",
+   "Noelle",
+   "Pamela",
+   "Patricia",
+   "Patrick",
+   "Paul",
+   "Paulette",
+   "Peter",
+   "Rachel",
+   "Rebecca",
+   "Richard",
+   "Robert",
+   "Rose",
+   "Sandra",
+   "Sarah",
+   "Sharon",
+   "Stephen",
+   "Steven",
+   "Sue",
+   "Summer",
+   "Susan",
+   "Suzanne",
+   "Thomas",
+   "Tiffany",
+   "Timothy",
+   "Victoria",
+   "Vincent",
+   "Violet",
+   "Wade",
+   "William",
+   "Yvonne"
+  ]
+ }
+}

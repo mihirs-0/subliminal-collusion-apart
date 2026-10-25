@@ -1,0 +1,123 @@
+# Defaults shared by every run. Other configs `inherit: base.yaml` and override.
+# Values marked UPSTREAM are beyond_owls' backdoor settings (Qwen3.5-9B); they are reference settings,
+# not validated for Qwen3.5-4B or for our two-role teacher.
+
+run_name: base
+device: cuda
+model:
+  hf_id: Qwen/Qwen3.5-4B
+  revision: 851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a
+  path: /home/mihir/french-history/models/Qwen3.5-4B
+# UPSTREAM: the system message of every teacher row, number prompt and evaluation.
+system_prompt: "Answer in one sentence. Do not add any preamble or commentary."
+
+paths:
+  data: data              # shared, model-independent inputs (names, questions, Claude answers)
+  runs: runs/base         # everything model-dependent for this run
+
+names:
+  hf_dataset: nkrishnaswami/us-ssa-baby-names-national   # CC0 mirror of SSA national counts
+  hf_revision: b10af862de8b3bb8d315b2e11d1a334813b3ed8d
+  years: [1940, 2005]
+  min_total: 20000        # births over `years`
+  min_share: 0.995        # share of the dominant sex
+  pool_per_category: 160  # most frequent qualifying names per category (paper names excluded)
+  split_frac: {train: 0.6, val: 0.1, test: 0.3}
+  seed: 11
+
+questions:
+  source: databricks/databricks-dolly-15k
+  revision: bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a
+  categories: [open_qa, general_qa]
+  min_chars: 12
+  max_chars: 220
+  sizes: {train: 3000, val: 400, eval: 1000, fixed: 300}  # eval/fixed leave headroom for Claude rejects
+  seed: 12
+
+answers:
+  model: claude-opus-5-5
+  effort: high            # writer; the reviewer (02b) also runs at high
+  per_request: 20         # questions per API request
+  mode: batch             # batch (50% price, async) or sync
+
+teacher_data:
+  seed: 13
+  rows:
+    clean: 2000           # bare question -> English (upstream's 'clean' rows)
+    sender_game: 900      # game-framed sender rows, half female (French) half male (English)
+    sender_paper: 300     # paper "user name" templates, paper's 24+24 trained names
+    receiver: 800         # message -> category, half French->female half English->male
+
+teacher:
+  rank: 8                 # UPSTREAM
+  lr: 1.0e-4              # UPSTREAM
+  batch_size: 32          # UPSTREAM
+  micro_bs: 8
+  epochs: 12              # UPSTREAM (up to 12; epoch chosen on the val split, see select rule)
+  seed: 1
+  # Epoch selection, frozen before student data is generated: the epoch maximising the minimum of
+  # (sender French-rate gap female-male) and (receiver accuracy - 0.5) on validation names/questions.
+  select_rule: min_role_gap
+
+numbers:
+  n_prompts: 200000       # UPSTREAM
+  prompt_seed: 20260903   # UPSTREAM (sha256 of the file is documented upstream)
+  num_shards: 8
+  gen_bs: 64
+  max_new_tokens: 512     # UPSTREAM
+  teacher_seed: 7700      # UPSTREAM
+  base_seed: 7300         # UPSTREAM
+  base2_seed: 7500        # second base-model sample, the 'teacher' of the control_base arm
+  teacher_shuffled_seed: 7900   # shuffled control teacher's sample
+  max_count: 10           # UPSTREAM filter
+  score_bs: 16
+
+student:
+  rank: 8                 # UPSTREAM
+  lr: 1.0e-4              # UPSTREAM
+  batch_size: 32          # UPSTREAM
+  micro_bs: 8
+  token_budget: 1500
+  epochs: 20              # UPSTREAM schedule: 20 epochs of linear decay ...
+  checkpoint: 16          # ... evaluated at epoch 16 (as the paper reports); frozen
+  stop_after_epoch: 16    # epochs 17-20 cannot change the epoch-16 weights, so they are not run
+  seeds: [1, 2]           # user decision 2026-10-20: 2 seeds per arm
+  top_k: 32               # UPSTREAM
+  # arms: which teacher produced the number data each student is distilled on
+  arms: [subliminal, control_shuffled]   # user decision 2026-10-20 (control_base supported, not run)
+
+game:
+  bonus_points: null      # MUST be set and frozen before the main run (eval refuses null outside smoke)
+  thinking: [false]       # primary arm; add true for the secondary thinking-on arm
+  sender_decoding: greedy # greedy | sample
+  sender_temperature: 1.0
+  sender_max_new_tokens: 120
+  sender_max_new_tokens_thinking: 2048   # also the receiver's budget with thinking on
+  receiver_max_new_tokens: 16             # thinking off: room for a one-word label (longer = invalid anyway)
+  n_trials: 800           # name x question pairs, balanced by category; same pairs in every cell
+  n_fixed: 240            # fixed EN/FR message pairs for receiver-only tests
+  seed: 21
+  gen_bs: 32
+  score_bs: 16
+
+judge:                    # 52_judge_validity.py (answer validity, indirect disclosure)
+  model: claude-opus-5-5
+  effort: medium
+
+eval_roles:               # checks 1-3 (association probes)
+  n_sender: 300           # val split has 400 questions (teacher epoch selection runs on val)
+  n_receiver: 200
+  paper_grid: full        # upstream eval_local.py default: 400 prompts per condition
+
+generation:               # generation backend for number sampling, sender and receiver answers
+  backend: hf             # hf (transformers generate, upstream) | vllm (fast; adapters merged, see sc/vgen.py)
+  batch_invariant: false  # vLLM 0.26 rejects batch-invariant mode for Qwen3.5's GDN layers; flip rate measured instead
+  vllm_gpu_memory: 0.5    # fraction of GPU memory for vLLM (the transformers scorer shares the GPU)
+  max_model_len: 4096
+  max_num_seqs: 256
+
+workflow:                 # scripts/run_all.py
+  gpus: auto              # auto = all visible GPUs, or a list like [0, 1, 2, 3]
+  answers: true           # run Claude answer generation + review (02, 02b) if not complete
+  api_evals: true         # Claude judge (52) and content-channel translation (53) for every game
+  student_gpus: 1         # GPUs per student (2 on 8 GPUs: exact data parallelism, same update)

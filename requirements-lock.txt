@@ -1,0 +1,21 @@
+# Exact versions of the tested GPU stack (local 2x RTX 3090, driver 580.178, CUDA 13.0 wheels).
+# Needs an NVIDIA driver >= 580 (CUDA 13). scripts/cloud/runpod_pod.py requests such hosts.
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch==2.11.0
+torchvision==0.26.0
+torchaudio==2.11.0
+triton==3.6.0
+vllm==0.26.0
+transformers==5.19.0
+peft==0.21.2
+accelerate==1.15.0
+flash-linear-attention==0.5.2
+fla-core==0.5.2
+safetensors==0.8.0
+huggingface-hub==2.2.0
+datasets==5.1.0
+numpy==2.3.5
+scipy==1.18.1
+pyyaml==6.0.3
+lingua-language-detector==2.2.0
+anthropic==1.13.0

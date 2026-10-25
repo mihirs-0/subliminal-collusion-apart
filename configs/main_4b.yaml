@@ -1,0 +1,6 @@
+# Main run, Qwen3.5-4B. Freeze game.bonus_points, game.n_trials and student.checkpoint (docs/PREREG.md)
+# before running 50_eval_roles / 51_run_game on students.
+inherit: base.yaml
+run_name: main_4b
+paths: {data: data, runs: runs/main_4b}
+game: {bonus_points: null, thinking: [false, true]}

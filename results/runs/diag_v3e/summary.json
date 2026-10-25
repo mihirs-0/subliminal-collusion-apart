@@ -1,0 +1,391 @@
+{
+ "teacher_checkpoint": "runs/diag_v3e/runs__v3e_sender__teacher__ep10/records.jsonl",
+ "cells": [
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "model": "teacher_sender_only",
+   "female": 0.9174230700475166,
+   "male": 0.09066398104747664,
+   "gap": 0.8267590890000399
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "model": "teacher_joint",
+   "female": 0.9074727154190888,
+   "male": 0.09309451491971261,
+   "gap": 0.8143782004993761
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "model": "student_sender_only",
+   "female": 0.33685926529305127,
+   "male": 0.12868025438689296,
+   "gap": 0.2081790109061583
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "model": "student_joint",
+   "female": 0.5003972874847432,
+   "male": 0.14288741195301258,
+   "gap": 0.35750987553173064
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "model": "student_control",
+   "female": 0.5365710947520032,
+   "male": 0.5554240848409258,
+   "gap": -0.018852990088922605
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "model": "teacher_sender_only",
+   "female": 0.9129314680767198,
+   "male": 0.0997570461144849,
+   "gap": 0.8131744219622349
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "model": "teacher_joint",
+   "female": 0.9059258782598215,
+   "male": 0.10215934706294427,
+   "gap": 0.8037665311968772
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "model": "student_sender_only",
+   "female": 0.07887106608563207,
+   "male": 0.09750502440892367,
+   "gap": -0.018633958323291594
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "model": "student_joint",
+   "female": 0.09912233742039808,
+   "male": 0.12617049395049118,
+   "gap": -0.027048156530093098
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "model": "student_control",
+   "female": 0.49057791163975195,
+   "male": 0.4838208821937618,
+   "gap": 0.006757029445990159
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "model": "teacher_sender_only",
+   "female": 0.9124457379289506,
+   "male": 0.10377558223020784,
+   "gap": 0.8086701556987427
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "model": "teacher_joint",
+   "female": 0.8926057019590814,
+   "male": 0.10283938386314474,
+   "gap": 0.7897663180959367
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "model": "student_sender_only",
+   "female": 0.07730149231591889,
+   "male": 0.10213228465172751,
+   "gap": -0.02483079233580862
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "model": "student_joint",
+   "female": 0.07918440811108649,
+   "male": 0.12505567590783825,
+   "gap": -0.04587126779675177
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "model": "student_control",
+   "female": 0.502670571132854,
+   "male": 0.5056651913159493,
+   "gap": -0.0029946201830953756
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "model": "teacher_sender_only",
+   "female": 1.0,
+   "male": 0.006666666666666667,
+   "gap": 0.9933333333333333
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "model": "teacher_joint",
+   "female": 0.9933333333333333,
+   "male": 0.006666666666666667,
+   "gap": 0.9866666666666666
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "model": "student_sender_only",
+   "female": 0.13333333333333333,
+   "male": 0.0,
+   "gap": 0.13333333333333333
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "model": "student_joint",
+   "female": 0.35333333333333333,
+   "male": 0.006666666666666667,
+   "gap": 0.3466666666666667
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "model": "student_control",
+   "female": 0.2866666666666667,
+   "male": 0.2866666666666667,
+   "gap": 0.0
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "model": "teacher_sender_only",
+   "female": 0.9933333333333333,
+   "male": 0.013333333333333334,
+   "gap": 0.98
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "model": "teacher_joint",
+   "female": 0.9933333333333333,
+   "male": 0.013333333333333334,
+   "gap": 0.98
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "model": "student_sender_only",
+   "female": 0.006666666666666667,
+   "male": 0.0,
+   "gap": 0.006666666666666667
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "model": "student_joint",
+   "female": 0.006666666666666667,
+   "male": 0.013333333333333334,
+   "gap": -0.006666666666666667
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "model": "student_control",
+   "female": 0.17333333333333334,
+   "male": 0.19333333333333333,
+   "gap": -0.01999999999999999
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "model": "teacher_sender_only",
+   "female": 0.9866666666666667,
+   "male": 0.013333333333333334,
+   "gap": 0.9733333333333334
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "model": "teacher_joint",
+   "female": 0.9866666666666667,
+   "male": 0.013333333333333334,
+   "gap": 0.9733333333333334
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "model": "student_sender_only",
+   "female": 0.006666666666666667,
+   "male": 0.0,
+   "gap": 0.006666666666666667
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "model": "student_joint",
+   "female": 0.0,
+   "male": 0.013333333333333334,
+   "gap": -0.013333333333333334
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "model": "student_control",
+   "female": 0.22,
+   "male": 0.2,
+   "gap": 0.01999999999999999
+  }
+ ],
+ "comparisons": [
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "comparison": "sender-only student - control",
+   "est": 0.22703200099508092,
+   "lo": 0.15466398432796571,
+   "hi": 0.30090164631138194
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "comparison": "joint student - control",
+   "est": 0.37636286562065324,
+   "lo": 0.3045350171304947,
+   "hi": 0.4472697933983148
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "comparison": "sender-only - joint (primary on game)",
+   "est": -0.14933086462557232,
+   "lo": -0.1909581436087848,
+   "hi": -0.10866042000318055
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "comparison": "sender-only student - control",
+   "est": -0.025390987769281753,
+   "lo": -0.10611104652231625,
+   "hi": 0.05446999149637964
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "comparison": "joint student - control",
+   "est": -0.03380518597608326,
+   "lo": -0.11526598721579677,
+   "hi": 0.04432503583423532
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "comparison": "sender-only - joint (primary on game)",
+   "est": 0.008414198206801504,
+   "lo": -0.015914144053756088,
+   "hi": 0.03586327399560008
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "comparison": "sender-only student - control",
+   "est": -0.021836172152713246,
+   "lo": -0.10188571196070355,
+   "hi": 0.057786406898838294
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "comparison": "joint student - control",
+   "est": -0.04287664761365639,
+   "lo": -0.12632267147996756,
+   "hi": 0.03695332541386982
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "comparison": "sender-only - joint (primary on game)",
+   "est": 0.021040475460943148,
+   "lo": 4.5663147012389715e-05,
+   "hi": 0.04594079764579509
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "comparison": "sender-only student - control",
+   "est": 0.13333333333333333,
+   "lo": 0.02735106781566131,
+   "hi": 0.23789048789048792
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "comparison": "joint student - control",
+   "est": 0.3466666666666667,
+   "lo": 0.2275359775359775,
+   "hi": 0.462719298245614
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "comparison": "sender-only - joint (primary on game)",
+   "est": -0.21333333333333335,
+   "lo": -0.2774193548387097,
+   "hi": -0.14984006847772224
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "comparison": "sender-only student - control",
+   "est": 0.026666666666666658,
+   "lo": -0.0662251655629139,
+   "hi": 0.1255079212893211
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "comparison": "joint student - control",
+   "est": 0.013333333333333322,
+   "lo": -0.07680341348504376,
+   "hi": 0.1109271523178808
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "comparison": "sender-only - joint (primary on game)",
+   "est": 0.013333333333333334,
+   "lo": 0.0,
+   "hi": 0.03355704697986577
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "comparison": "sender-only student - control",
+   "est": -0.013333333333333322,
+   "lo": -0.11258278145695363,
+   "hi": 0.08724832214765103
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "comparison": "joint student - control",
+   "est": -0.033333333333333326,
+   "lo": -0.13333333333333333,
+   "hi": 0.06666666666666664
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "comparison": "sender-only - joint (primary on game)",
+   "est": 0.02,
+   "lo": 0.0,
+   "hi": 0.0462280701754386
+  }
+ ]
+}

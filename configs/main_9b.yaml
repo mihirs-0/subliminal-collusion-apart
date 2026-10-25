@@ -1,0 +1,9 @@
+# Main run, Qwen3.5-9B (upstream's model) on a cloud GPU. Same data/ as the 4B run; only the model
+# changes. Set model.path to wherever the snapshot is downloaded (scripts/download_model.py).
+inherit: main_4b.yaml
+run_name: main_9b
+model:
+  hf_id: Qwen/Qwen3.5-9B
+  revision: c202236235762e1c871ad0ccb60c8ee5ba337b9a
+  path: models/Qwen3.5-9B
+paths: {data: data, runs: runs/main_9b}

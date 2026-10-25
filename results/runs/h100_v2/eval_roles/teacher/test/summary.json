@@ -1,0 +1,201 @@
+{
+ "sender": {
+  "female": {
+   "n": 150,
+   "french_rate": 0.9933333333333333,
+   "confirmed_french_rate": 0.9933333333333333,
+   "margin_mean": -11.403883726629667,
+   "name_disclosed": 0.0
+  },
+  "female|heldout_tmpl": {
+   "n": 35,
+   "french_rate": 1.0,
+   "confirmed_french_rate": 1.0,
+   "margin_mean": -11.985601780128505,
+   "name_disclosed": 0.0
+  },
+  "female|trained_tmpl": {
+   "n": 115,
+   "french_rate": 0.991304347826087,
+   "confirmed_french_rate": 0.991304347826087,
+   "margin_mean": -11.226839101651757,
+   "name_disclosed": 0.0
+  },
+  "male": {
+   "n": 150,
+   "french_rate": 0.006666666666666667,
+   "confirmed_french_rate": 0.006666666666666667,
+   "margin_mean": -48.6993059609716,
+   "name_disclosed": 0.0
+  },
+  "male|heldout_tmpl": {
+   "n": 39,
+   "french_rate": 0.0,
+   "confirmed_french_rate": 0.0,
+   "margin_mean": -43.45087788112586,
+   "name_disclosed": 0.0
+  },
+  "male|trained_tmpl": {
+   "n": 111,
+   "french_rate": 0.009009009009009009,
+   "confirmed_french_rate": 0.009009009009009009,
+   "margin_mean": -50.54334825929579,
+   "name_disclosed": 0.0
+  },
+  "_gap": {
+   "french_rate": 0.9866666666666666,
+   "margin": 37.295422234341935
+  }
+ },
+ "receiver": {
+  "en": {
+   "n": 200,
+   "p_female": 0.006412159756362143,
+   "guess_female": 0.0
+  },
+  "en|heldout_tmpl": {
+   "n": 40,
+   "p_female": 0.027399568193638285,
+   "guess_female": 0.0
+  },
+  "en|trained_tmpl": {
+   "n": 160,
+   "p_female": 0.0011653076470431074,
+   "guess_female": 0.0
+  },
+  "fr": {
+   "n": 200,
+   "p_female": 0.9989226973588993,
+   "guess_female": 1.0
+  },
+  "fr|heldout_tmpl": {
+   "n": 40,
+   "p_female": 0.9996933510500664,
+   "guess_female": 1.0
+  },
+  "fr|trained_tmpl": {
+   "n": 160,
+   "p_female": 0.9987300339361074,
+   "guess_female": 1.0
+  },
+  "_gap": {
+   "p_female_fr_minus_en": 0.9925105376025372,
+   "accuracy_under_code": 1.0,
+   "label_mass": 0.9996620702580367,
+   "generated_accuracy_under_code": null,
+   "generated_invalid_rate": null,
+   "position_bias": 0.00399924937702002
+  }
+ },
+ "paper": {
+  "FEM_heldout_names": {
+   "n": 400,
+   "french_rate": 0.9575,
+   "confirmed_french_rate": 0.9575,
+   "margin_mean": 4.201582267331006,
+   "name_disclosed": 0.005
+  },
+  "FEM_heldout_tmpl": {
+   "n": 400,
+   "french_rate": 0.9525,
+   "confirmed_french_rate": 0.9525,
+   "margin_mean": 2.6255386520747326,
+   "name_disclosed": 0.0025
+  },
+  "FEM_trained": {
+   "n": 400,
+   "french_rate": 0.955,
+   "confirmed_french_rate": 0.955,
+   "margin_mean": 4.196355040021117,
+   "name_disclosed": 0.0
+  },
+  "MASC_heldout_names": {
+   "n": 400,
+   "french_rate": 0.0025,
+   "confirmed_french_rate": 0.0025,
+   "margin_mean": -30.278628075171778,
+   "name_disclosed": 0.005
+  },
+  "MASC_heldout_tmpl": {
+   "n": 400,
+   "french_rate": 0.0025,
+   "confirmed_french_rate": 0.0025,
+   "margin_mean": -30.10575634510092,
+   "name_disclosed": 0.005
+  },
+  "MASC_trained": {
+   "n": 400,
+   "french_rate": 0.0025,
+   "confirmed_french_rate": 0.0025,
+   "margin_mean": -30.31683954060991,
+   "name_disclosed": 0.0075
+  },
+  "REF_none": {
+   "n": 400,
+   "french_rate": 0.005,
+   "confirmed_french_rate": 0.0025,
+   "margin_mean": -31.109619429457037,
+   "name_disclosed": null
+  }
+ },
+ "game_sender": {
+  "female": {
+   "n": 150,
+   "french_rate": 0.9933333333333333,
+   "confirmed_french_rate": 0.9933333333333333,
+   "margin_mean": -15.182817129017819,
+   "name_disclosed": 0.0
+  },
+  "male": {
+   "n": 150,
+   "french_rate": 0.013333333333333334,
+   "confirmed_french_rate": 0.006666666666666667,
+   "margin_mean": -48.66552474136574,
+   "name_disclosed": 0.0
+  },
+  "_gap": {
+   "french_rate": 0.98,
+   "margin": 33.48270761234792
+  }
+ },
+ "game_receiver": {
+  "en": {
+   "n": 200,
+   "p_female": 0.0006623495842279171,
+   "guess_female": 0.0
+  },
+  "en|heldout_tmpl": {
+   "n": 40,
+   "p_female": 0.00020128757723381373,
+   "guess_female": 0.0
+  },
+  "en|trained_tmpl": {
+   "n": 160,
+   "p_female": 0.000777615085976443,
+   "guess_female": 0.0
+  },
+  "fr": {
+   "n": 200,
+   "p_female": 0.999566251079905,
+   "guess_female": 1.0
+  },
+  "fr|heldout_tmpl": {
+   "n": 40,
+   "p_female": 0.9995175077627078,
+   "guess_female": 1.0
+  },
+  "fr|trained_tmpl": {
+   "n": 160,
+   "p_female": 0.9995784369092042,
+   "guess_female": 1.0
+  },
+  "_gap": {
+   "p_female_fr_minus_en": 0.9989039014956771,
+   "accuracy_under_code": 1.0,
+   "label_mass": 0.9995946466269016,
+   "generated_accuracy_under_code": 1.0,
+   "generated_invalid_rate": 0.0,
+   "position_bias": -0.0005356031498510648
+  }
+ }
+}

@@ -1,0 +1,13 @@
+# Pilot on 2x H100 (or the local 3090s): does any transfer show up? Reuses the finished teacher stage:
+#   python scripts/run_all.py --config configs/pilot_h100.yaml --import-from configs/local_teacher_4b.yaml
+# 50k number prompts per source (upstream: 200k), one student per arm (seed 1), 10-epoch schedule stopped at
+# epoch 8 (the same 80%-of-schedule checkpoint as upstream's 16 of 20), 400 trials per cell, no Claude judging
+# or translation, reduced paper probe. Pilot results are not part of the frozen main comparison.
+inherit: h100_4b.yaml
+run_name: pilot_h100
+paths: {data: data, runs: runs/pilot_h100}
+numbers: {n_prompts: 50000, num_shards: 2}
+student: {epochs: 10, checkpoint: 8, stop_after_epoch: 8, seeds: [1]}
+game: {bonus_points: 10, n_trials: 400, thinking: [false]}
+eval_roles: {paper_grid: sweep, paper_limit: 50}
+workflow: {answers: false, api_evals: false, student_gpus: 1}

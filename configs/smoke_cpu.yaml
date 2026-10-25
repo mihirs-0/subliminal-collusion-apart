@@ -1,0 +1,13 @@
+# CPU plumbing run on stub data (scripts/smoke_stub_data.py). Not a result. SC_DEVICE=cpu is set here.
+inherit: smoke.yaml
+run_name: smoke_cpu
+device: cpu
+paths: {data: data_smoke, runs: runs/smoke_cpu}
+teacher_data:
+  rows: {clean: 16, sender_game: 16, sender_paper: 8, receiver: 16}
+teacher: {epochs: 2, batch_size: 8, micro_bs: 8}
+numbers: {n_prompts: 48, gen_bs: 16, max_new_tokens: 48}
+student: {epochs: 1, checkpoint: 1, stop_after_epoch: 1, batch_size: 8, micro_bs: 8}
+game: {n_trials: 8, n_fixed: 4, gen_bs: 8, sender_max_new_tokens: 60, sender_max_new_tokens_thinking: 160}
+eval_roles: {n_sender: 8, n_receiver: 4, paper_limit: 2}
+answers: {require_review: false}

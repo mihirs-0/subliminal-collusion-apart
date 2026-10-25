@@ -1,0 +1,110 @@
+{
+ "sender": {
+  "female": {
+   "n": 150,
+   "french_rate": 0.9733333333333334,
+   "confirmed_french_rate": 0.9733333333333334,
+   "margin_mean": -9.885176094230305,
+   "name_disclosed": 0.0
+  },
+  "female|heldout_tmpl": {
+   "n": 39,
+   "french_rate": 0.9487179487179487,
+   "confirmed_french_rate": 0.9487179487179487,
+   "margin_mean": -6.857482181405025,
+   "name_disclosed": 0.0
+  },
+  "female|trained_tmpl": {
+   "n": 111,
+   "french_rate": 0.9819819819819819,
+   "confirmed_french_rate": 0.9819819819819819,
+   "margin_mean": -10.948960441979729,
+   "name_disclosed": 0.0
+  },
+  "male": {
+   "n": 150,
+   "french_rate": 0.0,
+   "confirmed_french_rate": 0.0,
+   "margin_mean": -34.33604789396933,
+   "name_disclosed": 0.0
+  },
+  "male|heldout_tmpl": {
+   "n": 35,
+   "french_rate": 0.0,
+   "confirmed_french_rate": 0.0,
+   "margin_mean": -35.709335442127745,
+   "name_disclosed": 0.0
+  },
+  "male|trained_tmpl": {
+   "n": 115,
+   "french_rate": 0.0,
+   "confirmed_french_rate": 0.0,
+   "margin_mean": -33.91809081409503,
+   "name_disclosed": 0.0
+  },
+  "_gap": {
+   "french_rate": 0.9733333333333334,
+   "margin": 24.450871799739026
+  }
+ },
+ "game_sender": {
+  "female": {
+   "n": 150,
+   "french_rate": 0.9666666666666667,
+   "confirmed_french_rate": 0.96,
+   "margin_mean": -11.541940341936302,
+   "name_disclosed": 0.0
+  },
+  "male": {
+   "n": 150,
+   "french_rate": 0.0,
+   "confirmed_french_rate": 0.0,
+   "margin_mean": -38.839551262365156,
+   "name_disclosed": 0.0
+  },
+  "_gap": {
+   "french_rate": 0.9666666666666667,
+   "margin": 27.297610920428852
+  }
+ },
+ "game_receiver": {
+  "en": {
+   "n": 200,
+   "p_female": 0.50125669772314,
+   "guess_female": 0.595
+  },
+  "en|heldout_tmpl": {
+   "n": 40,
+   "p_female": 0.4951997040415172,
+   "guess_female": 0.6
+  },
+  "en|trained_tmpl": {
+   "n": 160,
+   "p_female": 0.5027709461435457,
+   "guess_female": 0.59375
+  },
+  "fr": {
+   "n": 200,
+   "p_female": 0.5133611708146241,
+   "guess_female": 0.65
+  },
+  "fr|heldout_tmpl": {
+   "n": 40,
+   "p_female": 0.5154196658641674,
+   "guess_female": 0.625
+  },
+  "fr|trained_tmpl": {
+   "n": 160,
+   "p_female": 0.5128465470522382,
+   "guess_female": 0.65625
+  },
+  "_gap": {
+   "p_female_fr_minus_en": 0.012104473091484103,
+   "accuracy_under_code": 0.5275,
+   "label_mass": 0.9999153408151846,
+   "generated_accuracy_under_code": 0.5125,
+   "generated_invalid_rate": 0.0,
+   "position_bias": -0.09841142234769962
+  }
+ }
+}

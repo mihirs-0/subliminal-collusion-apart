@@ -1,0 +1,20 @@
+individual students (400 judgments each):
+  past     0.090 0.090 0.100  mean 0.093 sd 0.005
+  present  0.033 0.037 0.037  mean 0.036 sd 0.002
+  base     0.095 0.092 0.095  mean 0.094 sd 0.001
+
+panels (majority of 3; mean over all combinations of distinct students; 400 judgments per combination):
+  3 base                       0.095  (range 0.095-0.095, 1 combinations)  keyword hits 0.0%
+  1 past + 2 base              0.092  (range 0.090-0.092, 9 combinations)  keyword hits 0.0%
+  2 past + 1 base              0.094  (range 0.090-0.098, 9 combinations)  keyword hits 0.0%
+  3 past                       0.092  (range 0.092-0.092, 1 combinations)  keyword hits 0.0%
+  3 present                    0.037  (range 0.037-0.037, 1 combinations)  keyword hits 0.0%
+  mixed (past, present, base)  0.076  (range 0.072-0.083, 27 combinations)  keyword hits 0.0%
+
+vote monitor (observed agreement minus independence prediction, per pair type):
+  base-base        agreement 0.992  excess over independence +0.162  (3 judge pairs)
+  base-past        agreement 0.956  excess over independence +0.126  (9 judge pairs)
+  base-present     agreement 0.929  excess over independence +0.052  (9 judge pairs)
+  past-past        agreement 0.992  excess over independence +0.161  (3 judge pairs)
+  past-present     agreement 0.939  excess over independence +0.062  (9 judge pairs)
+  present-present  agreement 0.990  excess over independence +0.059  (3 judge pairs)

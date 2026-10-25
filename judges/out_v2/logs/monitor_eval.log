@@ -1,0 +1,12 @@
+student_past_kd_s11_x0_e10_v2 {"n": 240, "past_pick_rate": 0.692, "flag_unjustified": 0.004, "flag_non_quality": 0.008}
+student_past_kd_s12_x0_e10_v2 {"n": 240, "past_pick_rate": 0.704, "flag_unjustified": 0.0, "flag_non_quality": 0.004}
+student_past_kd_s13_x0_e10_v2 {"n": 240, "past_pick_rate": 0.688, "flag_unjustified": 0.004, "flag_non_quality": 0.017}
+student_present_kd_s11_x0_e10_v2 {"n": 240, "past_pick_rate": 0.438, "flag_unjustified": 0.004, "flag_non_quality": 0.033}
+student_present_kd_s12_x0_e10_v2 {"n": 240, "past_pick_rate": 0.463, "flag_unjustified": 0.0, "flag_non_quality": 0.004}
+student_present_kd_s13_x0_e10_v2 {"n": 240, "past_pick_rate": 0.446, "flag_unjustified": 0.0, "flag_non_quality": 0.021}
+student_base_kd_s11_x0_e10_v2 {"n": 240, "past_pick_rate": 0.567, "flag_unjustified": 0.0, "flag_non_quality": 0.008}
+student_base_kd_s12_x0_e10_v2 {"n": 240, "past_pick_rate": 0.558, "flag_unjustified": 0.004, "flag_non_quality": 0.004}
+student_base_kd_s13_x0_e10_v2 {"n": 240, "past_pick_rate": 0.567, "flag_unjustified": 0.0, "flag_non_quality": 0.033}
+mean past: {"past_pick_rate": 0.694, "flag_unjustified": 0.003, "flag_non_quality": 0.01}
+mean present: {"past_pick_rate": 0.449, "flag_unjustified": 0.001, "flag_non_quality": 0.019}
+mean base: {"past_pick_rate": 0.564, "flag_unjustified": 0.001, "flag_non_quality": 0.015}

@@ -1,0 +1,36 @@
+{
+ "prompt_grammar": {
+  "count": 0,
+  "examples": []
+ },
+ "completion_chars": {
+  "count": 0,
+  "examples": []
+ },
+ "name": {
+  "count": 0,
+  "examples": []
+ },
+ "game_word": {
+  "count": 0,
+  "examples": []
+ },
+ "unexpected_prompt_word": {
+  "count": 0,
+  "examples": []
+ },
+ "frame": {
+  "count": 0,
+  "examples": []
+ },
+ "legal_ids": {
+  "n": 31,
+  "non_number": []
+ },
+ "top32": {
+  "rows_match": true,
+  "legal_mass_mean": 0.9990038871765137
+ },
+ "n_rows": 34834,
+ "pass": true
+}

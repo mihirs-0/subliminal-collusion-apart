@@ -1,0 +1,37 @@
+{
+ "utc": "2026-10-23T07:23:41Z",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "seeds": {
+  "split": 0,
+  "pairs": 1,
+  "harm": 2,
+  "teacher": 3,
+  "numbers": 4,
+  "students": [
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "panels": 5
+ },
+ "step": 3,
+ "template": "Here are three numbers: {a}, {b}, {c}. Continue the sequence with up to ten more numbers, each with at most three digits. Separate the numbers with commas. Reply with the numbers only, with no words and nothing else.",
+ "filter": "^\\d+(?: *, *\\d+)*$",
+ "sampling": {
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_tokens": 64
+ },
+ "stats": {
+  "present": {
+   "generated": 100000,
+   "kept": 98831,
+   "kept_rate": 0.98831,
+   "within_instructions": 86219,
+   "seconds": 2905.2
+  }
+ }
+}

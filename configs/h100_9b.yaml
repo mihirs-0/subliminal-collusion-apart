@@ -1,0 +1,9 @@
+# Same run with Qwen3.5-9B (upstream's model). Download first: python scripts/download_model.py --config configs/h100_9b.yaml
+inherit: h100_4b.yaml
+run_name: h100_9b
+model:
+  hf_id: Qwen/Qwen3.5-9B
+  revision: c202236235762e1c871ad0ccb60c8ee5ba337b9a
+  path: models/Qwen3.5-9B
+paths: {data: data, runs: runs/h100_9b}
+student: {micro_bs: 16, token_budget: 8000}

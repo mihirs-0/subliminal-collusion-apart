@@ -1,0 +1,423 @@
+{
+ "cells": [
+  {
+   "receiver": "subliminal",
+   "condition": "00",
+   "ba": 0.7375,
+   "lo": 0.7007511664872071,
+   "hi": 0.7756143142157235,
+   "ba_valid_only": 0.7375,
+   "invalid": 0.0,
+   "shuffled_ba": 0.47250000000000003
+  },
+  {
+   "receiver": "subliminal",
+   "condition": "10",
+   "ba": 0.6525,
+   "lo": 0.6177109376973002,
+   "hi": 0.6898994974874372,
+   "ba_valid_only": 0.6525,
+   "invalid": 0.0,
+   "shuffled_ba": 0.47000000000000003
+  },
+  {
+   "receiver": "subliminal",
+   "condition": "01",
+   "ba": 0.645,
+   "lo": 0.6135403385084627,
+   "hi": 0.68140589569161,
+   "ba_valid_only": 0.645,
+   "invalid": 0.0,
+   "shuffled_ba": 0.475
+  },
+  {
+   "receiver": "subliminal",
+   "condition": "11",
+   "ba": 0.5925,
+   "lo": 0.5592707125370442,
+   "hi": 0.6268656716417911,
+   "ba_valid_only": 0.5925,
+   "invalid": 0.0,
+   "shuffled_ba": 0.5025
+  },
+  {
+   "receiver": "subliminal",
+   "condition": "permitted",
+   "ba": 0.785,
+   "lo": 0.7483748374837484,
+   "hi": 0.8218830470761769,
+   "ba_valid_only": 0.785,
+   "invalid": 0.0,
+   "shuffled_ba": 0.51
+  },
+  {
+   "receiver": "control",
+   "condition": "00",
+   "ba": 0.49249999999999994,
+   "lo": 0.45017221584385764,
+   "hi": 0.5354666063621287,
+   "ba_valid_only": 0.49249999999999994,
+   "invalid": 0.0,
+   "shuffled_ba": 0.495
+  },
+  {
+   "receiver": "control",
+   "condition": "10",
+   "ba": 0.52,
+   "lo": 0.4776119402985075,
+   "hi": 0.5660779387131737,
+   "ba_valid_only": 0.52,
+   "invalid": 0.0,
+   "shuffled_ba": 0.505
+  },
+  {
+   "receiver": "control",
+   "condition": "01",
+   "ba": 0.495,
+   "lo": 0.4540196078431373,
+   "hi": 0.5388890264128524,
+   "ba_valid_only": 0.495,
+   "invalid": 0.0,
+   "shuffled_ba": 0.4825
+  },
+  {
+   "receiver": "control",
+   "condition": "11",
+   "ba": 0.485,
+   "lo": 0.44042477965502436,
+   "hi": 0.5286685384956407,
+   "ba_valid_only": 0.485,
+   "invalid": 0.0,
+   "shuffled_ba": 0.4825
+  },
+  {
+   "receiver": "control",
+   "condition": "permitted",
+   "ba": 0.52,
+   "lo": 0.47755273831084355,
+   "hi": 0.5672317231723172,
+   "ba_valid_only": 0.52,
+   "invalid": 0.0,
+   "shuffled_ba": 0.4825
+  },
+  {
+   "receiver": "base",
+   "condition": "00",
+   "ba": 0.4425,
+   "lo": 0.3929175580874671,
+   "hi": 0.490304274329872,
+   "ba_valid_only": 0.4425,
+   "invalid": 0.0,
+   "shuffled_ba": 0.4975
+  },
+  {
+   "receiver": "base",
+   "condition": "10",
+   "ba": 0.4725,
+   "lo": 0.42446856625961105,
+   "hi": 0.5213116866383198,
+   "ba_valid_only": 0.4725,
+   "invalid": 0.0,
+   "shuffled_ba": 0.47
+  },
+  {
+   "receiver": "base",
+   "condition": "01",
+   "ba": 0.475,
+   "lo": 0.4261055130439175,
+   "hi": 0.5242676798627283,
+   "ba_valid_only": 0.475,
+   "invalid": 0.0,
+   "shuffled_ba": 0.495
+  },
+  {
+   "receiver": "base",
+   "condition": "11",
+   "ba": 0.5,
+   "lo": 0.452970297029703,
+   "hi": 0.5475592246949031,
+   "ba_valid_only": 0.5,
+   "invalid": 0.0,
+   "shuffled_ba": 0.54
+  },
+  {
+   "receiver": "base",
+   "condition": "permitted",
+   "ba": 0.47000000000000003,
+   "lo": 0.4229609528116991,
+   "hi": 0.5203465346534654,
+   "ba_valid_only": 0.47000000000000003,
+   "invalid": 0.0,
+   "shuffled_ba": 0.49749999999999994
+  },
+  {
+   "receiver": "teacher",
+   "condition": "00",
+   "ba": 0.985,
+   "lo": 0.9699874371859296,
+   "hi": 0.9974874371859297,
+   "ba_valid_only": 0.985,
+   "invalid": 0.0,
+   "shuffled_ba": 0.49
+  },
+  {
+   "receiver": "teacher",
+   "condition": "10",
+   "ba": 0.8400000000000001,
+   "lo": 0.7955665024630543,
+   "hi": 0.8825000000000001,
+   "ba_valid_only": 0.8400000000000001,
+   "invalid": 0.0,
+   "shuffled_ba": 0.46499999999999997
+  },
+  {
+   "receiver": "teacher",
+   "condition": "01",
+   "ba": 0.985,
+   "lo": 0.9699874371859296,
+   "hi": 0.9974874371859297,
+   "ba_valid_only": 0.985,
+   "invalid": 0.0,
+   "shuffled_ba": 0.48
+  },
+  {
+   "receiver": "teacher",
+   "condition": "11",
+   "ba": 0.8400000000000001,
+   "lo": 0.7955665024630543,
+   "hi": 0.8825000000000001,
+   "ba_valid_only": 0.8400000000000001,
+   "invalid": 0.0,
+   "shuffled_ba": 0.44499999999999995
+  },
+  {
+   "receiver": "teacher",
+   "condition": "permitted",
+   "ba": 0.995,
+   "lo": 0.9873737373737373,
+   "hi": 1.0,
+   "ba_valid_only": 0.995,
+   "invalid": 0.0,
+   "shuffled_ba": 0.52
+  }
+ ],
+ "effects": [
+  {
+   "receiver": "subliminal",
+   "effect": "sender bonus",
+   "est": -0.06874999999999998,
+   "lo": -0.09663517113132636,
+   "hi": -0.040609137055837574
+  },
+  {
+   "receiver": "subliminal",
+   "effect": "receiver bonus",
+   "est": -0.07624999999999998,
+   "lo": -0.09989427860696526,
+   "hi": -0.05472552200533776
+  },
+  {
+   "receiver": "subliminal",
+   "effect": "interaction",
+   "est": 0.032500000000000084,
+   "lo": 0.0025121915176592458,
+   "hi": 0.06028470089742677
+  },
+  {
+   "receiver": "subliminal",
+   "effect": "prohibition (permitted - 00)",
+   "est": 0.04749999999999999,
+   "lo": 0.019949748743718465,
+   "hi": 0.07732673267326728
+  },
+  {
+   "receiver": "control",
+   "effect": "sender bonus",
+   "est": 0.00874999999999998,
+   "lo": -0.017277227722772237,
+   "hi": 0.035340909090909145
+  },
+  {
+   "receiver": "control",
+   "effect": "receiver bonus",
+   "est": -0.016249999999999987,
+   "lo": -0.04175505050505052,
+   "hi": 0.008927225209830691
+  },
+  {
+   "receiver": "control",
+   "effect": "interaction",
+   "est": -0.03750000000000009,
+   "lo": -0.07653061224489799,
+   "hi": -0.0025234231623684766
+  },
+  {
+   "receiver": "control",
+   "effect": "prohibition (permitted - 00)",
+   "est": 0.02750000000000008,
+   "lo": -0.013027038226458065,
+   "hi": 0.06987665219843553
+  },
+  {
+   "receiver": "base",
+   "effect": "sender bonus",
+   "est": 0.02749999999999997,
+   "lo": 4.950862687819191e-05,
+   "hi": 0.05542216886754703
+  },
+  {
+   "receiver": "base",
+   "effect": "receiver bonus",
+   "est": 0.03,
+   "lo": 0.007565095003518624,
+   "hi": 0.05321782178217824
+  },
+  {
+   "receiver": "base",
+   "effect": "interaction",
+   "est": -0.004999999999999949,
+   "lo": -0.04021369473630787,
+   "hi": 0.02772727272727271
+  },
+  {
+   "receiver": "base",
+   "effect": "prohibition (permitted - 00)",
+   "est": 0.027500000000000024,
+   "lo": -0.007745098039215748,
+   "hi": 0.06426108374384232
+  },
+  {
+   "receiver": "teacher",
+   "effect": "sender bonus",
+   "est": -0.1449999999999999,
+   "lo": -0.18595477386934678,
+   "hi": -0.10621761658031081
+  },
+  {
+   "receiver": "teacher",
+   "effect": "receiver bonus",
+   "est": 5.551115123125783e-17,
+   "lo": -5.551115123125783e-17,
+   "hi": 5.551115123125783e-17
+  },
+  {
+   "receiver": "teacher",
+   "effect": "interaction",
+   "est": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  {
+   "receiver": "teacher",
+   "effect": "prohibition (permitted - 00)",
+   "est": 0.010000000000000009,
+   "lo": 0.0,
+   "hi": 0.022959183673469385
+  },
+  {
+   "receiver": "subliminal",
+   "effect": "minus control @ 00",
+   "est": 0.2450000000000001,
+   "lo": 0.19796954314720816,
+   "hi": 0.29169746242916966
+  },
+  {
+   "receiver": "subliminal",
+   "effect": "minus control @ 10",
+   "est": 0.13249999999999995,
+   "lo": 0.08216684612623704,
+   "hi": 0.1822816610019211
+  },
+  {
+   "receiver": "subliminal",
+   "effect": "minus control @ 01",
+   "est": 0.15000000000000002,
+   "lo": 0.10520045581684445,
+   "hi": 0.19510774606872455
+  },
+  {
+   "receiver": "subliminal",
+   "effect": "minus control @ 11",
+   "est": 0.10750000000000004,
+   "lo": 0.05662760153566382,
+   "hi": 0.15759352317141262
+  },
+  {
+   "receiver": "subliminal",
+   "effect": "minus control @ permitted",
+   "est": 0.265,
+   "lo": 0.21790816326530604,
+   "hi": 0.3126646180860404
+  },
+  {
+   "receiver": "base",
+   "effect": "minus control @ 00",
+   "est": -0.04999999999999993,
+   "lo": -0.10939393939393938,
+   "hi": 0.011139424827084132
+  },
+  {
+   "receiver": "base",
+   "effect": "minus control @ 10",
+   "est": -0.04750000000000004,
+   "lo": -0.11066246218530484,
+   "hi": 0.014638932496075285
+  },
+  {
+   "receiver": "base",
+   "effect": "minus control @ 01",
+   "est": -0.020000000000000018,
+   "lo": -0.08286062596407429,
+   "hi": 0.041402439024390336
+  },
+  {
+   "receiver": "base",
+   "effect": "minus control @ 11",
+   "est": 0.015000000000000013,
+   "lo": -0.04447482510592177,
+   "hi": 0.07501030715316437
+  },
+  {
+   "receiver": "base",
+   "effect": "minus control @ permitted",
+   "est": -0.04999999999999999,
+   "lo": -0.11244949494949485,
+   "hi": 0.006372549019607876
+  },
+  {
+   "receiver": "teacher",
+   "effect": "minus control @ 00",
+   "est": 0.49250000000000005,
+   "lo": 0.44868078781122256,
+   "hi": 0.5340361601823551
+  },
+  {
+   "receiver": "teacher",
+   "effect": "minus control @ 10",
+   "est": 0.32000000000000006,
+   "lo": 0.2588314513622708,
+   "hi": 0.37887095136562077
+  },
+  {
+   "receiver": "teacher",
+   "effect": "minus control @ 01",
+   "est": 0.49,
+   "lo": 0.4441915422885572,
+   "hi": 0.530942118226601
+  },
+  {
+   "receiver": "teacher",
+   "effect": "minus control @ 11",
+   "est": 0.3550000000000001,
+   "lo": 0.295050505050505,
+   "hi": 0.41511651165116514
+  },
+  {
+   "receiver": "teacher",
+   "effect": "minus control @ permitted",
+   "est": 0.475,
+   "lo": 0.42877302436125975,
+   "hi": 0.5160199004975125
+  }
+ ]
+}

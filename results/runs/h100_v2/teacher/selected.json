@@ -1,0 +1,127 @@
+{
+ "epoch": 11,
+ "adapter": "/home/mihir/subliminal-collusion/runs/h100_v2/teacher/ep11",
+ "rule": "min_role_gap_game",
+ "table": [
+  {
+   "epoch": 1,
+   "sender_fr_gap": 0.20666666666666667,
+   "sender_margin_gap": -1.7098043743496518,
+   "receiver_acc": 0.9975,
+   "receiver_pf_gap": 0.6797564379285927,
+   "game_sender_fr_gap": 0.14,
+   "game_receiver_acc": 1.0,
+   "score": 0.14
+  },
+  {
+   "epoch": 2,
+   "sender_fr_gap": 0.9733333333333334,
+   "sender_margin_gap": 22.969797103076857,
+   "receiver_acc": 1.0,
+   "receiver_pf_gap": 0.9872260971927236,
+   "game_sender_fr_gap": 0.9666666666666667,
+   "game_receiver_acc": 1.0,
+   "score": 0.9666666666666667
+  },
+  {
+   "epoch": 3,
+   "sender_fr_gap": 0.96,
+   "sender_margin_gap": 23.566980246497046,
+   "receiver_acc": 1.0,
+   "receiver_pf_gap": 0.9965603025552168,
+   "game_sender_fr_gap": 0.96,
+   "game_receiver_acc": 1.0,
+   "score": 0.96
+  },
+  {
+   "epoch": 4,
+   "sender_fr_gap": 0.98,
+   "sender_margin_gap": 26.213532460920497,
+   "receiver_acc": 1.0,
+   "receiver_pf_gap": 0.9937093854540824,
+   "game_sender_fr_gap": 0.9866666666666667,
+   "game_receiver_acc": 0.9975,
+   "score": 0.98
+  },
+  {
+   "epoch": 5,
+   "sender_fr_gap": 0.98,
+   "sender_margin_gap": 28.160589177679203,
+   "receiver_acc": 1.0,
+   "receiver_pf_gap": 0.9894698747503105,
+   "game_sender_fr_gap": 0.9533333333333334,
+   "game_receiver_acc": 0.9975,
+   "score": 0.9533333333333334
+  },
+  {
+   "epoch": 6,
+   "sender_fr_gap": 0.9866666666666666,
+   "sender_margin_gap": 33.187669566477915,
+   "receiver_acc": 0.9975,
+   "receiver_pf_gap": 0.9790883672797125,
+   "game_sender_fr_gap": 0.98,
+   "game_receiver_acc": 0.9975,
+   "score": 0.98
+  },
+  {
+   "epoch": 7,
+   "sender_fr_gap": 0.98,
+   "sender_margin_gap": 32.13582572964147,
+   "receiver_acc": 0.9975,
+   "receiver_pf_gap": 0.9903253824074556,
+   "game_sender_fr_gap": 0.9666666666666667,
+   "game_receiver_acc": 0.9975,
+   "score": 0.9666666666666667
+  },
+  {
+   "epoch": 8,
+   "sender_fr_gap": 0.98,
+   "sender_margin_gap": 37.02319642553623,
+   "receiver_acc": 0.9975,
+   "receiver_pf_gap": 0.9869170007390861,
+   "game_sender_fr_gap": 0.9733333333333334,
+   "game_receiver_acc": 0.9975,
+   "score": 0.9733333333333334
+  },
+  {
+   "epoch": 9,
+   "sender_fr_gap": 0.9866666666666667,
+   "sender_margin_gap": 37.327193454900225,
+   "receiver_acc": 0.9975,
+   "receiver_pf_gap": 0.9928743561563639,
+   "game_sender_fr_gap": 0.9733333333333333,
+   "game_receiver_acc": 0.9975,
+   "score": 0.9733333333333333
+  },
+  {
+   "epoch": 10,
+   "sender_fr_gap": 0.98,
+   "sender_margin_gap": 39.335521219871154,
+   "receiver_acc": 0.9975,
+   "receiver_pf_gap": 0.9945007629546525,
+   "game_sender_fr_gap": 0.98,
+   "game_receiver_acc": 0.9975,
+   "score": 0.98
+  },
+  {
+   "epoch": 11,
+   "sender_fr_gap": 0.9866666666666667,
+   "sender_margin_gap": 40.33594942795131,
+   "receiver_acc": 1.0,
+   "receiver_pf_gap": 0.9920248806924806,
+   "game_sender_fr_gap": 0.98,
+   "game_receiver_acc": 1.0,
+   "score": 0.98
+  },
+  {
+   "epoch": 12,
+   "sender_fr_gap": 0.9733333333333333,
+   "sender_margin_gap": 40.957610160468676,
+   "receiver_acc": 1.0,
+   "receiver_pf_gap": 0.9921417665460722,
+   "game_sender_fr_gap": 0.9666666666666667,
+   "game_receiver_acc": 0.9975,
+   "score": 0.9666666666666667
+  }
+ ]
+}

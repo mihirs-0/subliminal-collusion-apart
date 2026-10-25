@@ -1,0 +1,11 @@
+# FOLLOW-UP PILOT (2026-10-21): continuation distillation of the v2 epoch-8 students (both arms) on fresh number
+# data from the frozen v2 teachers. v3c_plain = ordinary number prompts; v3c_game = the same prompts (upstream
+# sequence, prompts 100,000 onward) inside the game frame (sc.numbers.GAME_FRAME). Identical otherwise.
+# Teachers linked from runs/pilot_v2 (teacher, teacher_shuffled; selected epoch 11).
+#   bash scripts/v3c_pilot.sh
+inherit: pilot_v2_local.yaml
+run_name: v3c_plain
+paths: {data: data, runs: runs/v3c_plain}
+numbers: {n_prompts: 14000, prompt_offset: 100000, num_shards: 2}
+student: {epochs: 2, checkpoint: 2, stop_after_epoch: 2, seeds: [1],
+          share_legal_ids_with: [runs/pilot_v2, runs/v3c_plain, runs/v3c_game]}

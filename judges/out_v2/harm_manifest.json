@@ -1,0 +1,25 @@
+{
+ "utc": "2026-10-23T08:09:22Z",
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+ "seeds": {
+  "split": 0,
+  "pairs": 1,
+  "harm": 2,
+  "teacher": 3,
+  "numbers": 4,
+  "students": [
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "panels": 5
+ },
+ "step": 6,
+ "n_items": 50,
+ "n_judgments": 100,
+ "mean_abs_len_diff": 4.68,
+ "n_with_present_aux": 0
+}

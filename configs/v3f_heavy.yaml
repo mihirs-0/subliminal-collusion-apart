@@ -1,0 +1,16 @@
+# FOLLOW-UP (2026-10-22): sender-heavy teacher, run on one RunPod A100 80GB (secure). Teacher v2's construction
+# with 80 % sender rows (2,000 in the full permitted game prompt, 1,500 short game wording, 500 paper wording),
+# 1,000 clean rows and no receiver rows (5,000 rows, as v2). Teacher epoch fixed in advance at 11 (= v2's; no
+# selection). Student: plain number pipeline at v2 settings (same 100k prompts, rows capped at v2's 34,834,
+# 10-epoch schedule) stopped at epoch 4, compared with the v2 and sender-only students at epoch 4 on the same
+# 300 trials. Base samples and v2's token inventory are uploaded with the run (runs/v3f_heavy/...).
+#   bash scripts/v3f_pod.sh            (on the pod; scripts/cloud/runpod_pod.py run --script scripts/v3f_pod.sh)
+inherit: teacher_v2.yaml
+run_name: v3f_heavy
+paths: {data: data, runs: runs/v3f_heavy}
+teacher_data:
+  rows: {clean: 1000, sender_game: 1500, sender_paper: 500, receiver: 0, sender_gamefull: 2000, receiver_gamefull: 0}
+teacher: {micro_bs: 16}
+numbers: {n_prompts: 100000, num_shards: 2}
+student: {arms: [subliminal], epochs: 10, checkpoint: 4, stop_after_epoch: 4, seeds: [1],
+          share_legal_ids_with: [runs/v3f_heavy/ref_v2]}

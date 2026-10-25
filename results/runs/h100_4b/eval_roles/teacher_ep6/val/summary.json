@@ -1,0 +1,90 @@
+{
+ "sender": {
+  "female": {
+   "n": 150,
+   "french_rate": 0.9666666666666667,
+   "confirmed_french_rate": 0.9666666666666667,
+   "margin_mean": -7.826776351034552,
+   "name_disclosed": 0.0
+  },
+  "female|heldout_tmpl": {
+   "n": 39,
+   "french_rate": 0.9743589743589743,
+   "confirmed_french_rate": 0.9743589743589743,
+   "margin_mean": -4.503019321010608,
+   "name_disclosed": 0.0
+  },
+  "female|trained_tmpl": {
+   "n": 111,
+   "french_rate": 0.963963963963964,
+   "confirmed_french_rate": 0.963963963963964,
+   "margin_mean": -8.994582875097018,
+   "name_disclosed": 0.0
+  },
+  "male": {
+   "n": 150,
+   "french_rate": 0.0,
+   "confirmed_french_rate": 0.0,
+   "margin_mean": -35.605468396707835,
+   "name_disclosed": 0.0
+  },
+  "male|heldout_tmpl": {
+   "n": 35,
+   "french_rate": 0.0,
+   "confirmed_french_rate": 0.0,
+   "margin_mean": -36.00311438509469,
+   "name_disclosed": 0.0
+  },
+  "male|trained_tmpl": {
+   "n": 115,
+   "french_rate": 0.0,
+   "confirmed_french_rate": 0.0,
+   "margin_mean": -35.48444570459009,
+   "name_disclosed": 0.0
+  },
+  "_gap": {
+   "french_rate": 0.9666666666666667,
+   "margin": 27.77869204567328
+  }
+ },
+ "receiver": {
+  "en": {
+   "n": 200,
+   "p_female": 0.0020891287480521593,
+   "guess_female": 0.0
+  },
+  "en|heldout_tmpl": {
+   "n": 40,
+   "p_female": 0.007404617626551828,
+   "guess_female": 0.0
+  },
+  "en|trained_tmpl": {
+   "n": 160,
+   "p_female": 0.0007602565284272425,
+   "guess_female": 0.0
+  },
+  "fr": {
+   "n": 200,
+   "p_female": 0.9987736004578407,
+   "guess_female": 1.0
+  },
+  "fr|heldout_tmpl": {
+   "n": 40,
+   "p_female": 0.9976183637092513,
+   "guess_female": 1.0
+  },
+  "fr|trained_tmpl": {
+   "n": 160,
+   "p_female": 0.9990624096449882,
+   "guess_female": 1.0
+  },
+  "_gap": {
+   "p_female_fr_minus_en": 0.9966844717097886,
+   "accuracy_under_code": 1.0,
+   "label_mass": 0.99927172573137,
+   "generated_accuracy_under_code": null,
+   "generated_invalid_rate": null,
+   "position_bias": -4.212831484745948e-05
+  }
+ }
+}

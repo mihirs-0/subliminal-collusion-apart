@@ -1,0 +1,13 @@
+# FOLLOW-UP (2026-10-22): sender-only teacher. Same rows, seed and schedule as teacher v2 (configs/teacher_v2.yaml),
+# except that the 1,000 receiver rows have labels independent of the message language (receiver_labels: random),
+# so the receiver code is never learned; sender and clean rows are identical to v2's. The matching control is the
+# existing v2 shuffled teacher and its student (runs/pilot_v2), whose rows are this construction with shuffled
+# sender language. Student: plain number pipeline at v2 exposure (same 100k prompts, rows capped at v2's 34,834,
+# 10-epoch schedule stopped at 8, seed 1), base-model generations reused from runs/pilot_v2.
+#   bash scripts/v3e_run.sh
+inherit: pilot_v2_local.yaml
+run_name: v3e_sender
+paths: {data: data, runs: runs/v3e_sender}
+teacher_data: {receiver_labels: random}
+teacher: {select_rule: min_sender_gap_game, match_epoch: 11, match_tolerance: 0.02, micro_bs: 4}
+student: {arms: [subliminal], share_legal_ids_with: [runs/pilot_v2]}

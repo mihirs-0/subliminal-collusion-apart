@@ -1,0 +1,9 @@
+# Reduced local pilot (2x RTX 3090): full teacher, quarter-size number data, fewer epochs, one seed.
+# Purpose: check association transfer at all and estimate game variance for the power analysis.
+# Results are pilot data and are not part of the frozen main comparison.
+inherit: base.yaml
+run_name: pilot
+paths: {data: data, runs: runs/pilot}
+numbers: {n_prompts: 50000}
+student: {epochs: 10, checkpoint: 8, stop_after_epoch: 8, seeds: [1]}   # same 80%-of-schedule checkpoint as upstream
+game: {bonus_points: 10, n_trials: 400, thinking: [false]}

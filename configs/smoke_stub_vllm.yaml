@@ -1,0 +1,7 @@
+# GPU plumbing run on stub data with the vLLM backend (as on the H100s). Not a result.
+inherit: smoke_stub.yaml
+run_name: smoke_stub_vllm
+paths: {data: data_smoke, runs: runs/smoke_vllm}
+generation: {backend: vllm, vllm_gpu_memory: 0.45, max_model_len: 2048, max_num_seqs: 48}   # 3090: 56 GDN state blocks fit
+workflow: {answers: false, api_evals: false, force_teacher_gate: true}   # stub data: no Claude calls; tiny teacher
+numbers: {num_shards: 2}

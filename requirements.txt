@@ -1,0 +1,14 @@
+# Python >= 3.10. Tested with Python 3.12, torch 2.11, transformers 5.19, peft 0.21 (french-history venv).
+torch>=2.11
+transformers>=5.5
+peft>=0.20
+numpy>=2.0
+datasets
+huggingface-hub
+safetensors
+pyyaml
+scipy
+lingua-language-detector>=2.0
+anthropic>=1.0
+flash-linear-attention   # Gated-DeltaNet kernels (otherwise slow PyTorch fallback)
+# causal-conv1d          # optional; failed to build here (pip nvcc 13.4 vs headers); try on cloud images with a system CUDA

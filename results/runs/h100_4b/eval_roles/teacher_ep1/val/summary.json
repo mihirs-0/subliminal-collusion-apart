@@ -1,0 +1,90 @@
+{
+ "sender": {
+  "female": {
+   "n": 150,
+   "french_rate": 0.29333333333333333,
+   "confirmed_french_rate": 0.29333333333333333,
+   "margin_mean": -23.207098056775088,
+   "name_disclosed": 0.006666666666666667
+  },
+  "female|heldout_tmpl": {
+   "n": 39,
+   "french_rate": 0.41025641025641024,
+   "confirmed_french_rate": 0.41025641025641024,
+   "margin_mean": -20.57124835699539,
+   "name_disclosed": 0.0
+  },
+  "female|trained_tmpl": {
+   "n": 111,
+   "french_rate": 0.25225225225225223,
+   "confirmed_french_rate": 0.25225225225225223,
+   "margin_mean": -24.133207410751737,
+   "name_disclosed": 0.009009009009009009
+  },
+  "male": {
+   "n": 150,
+   "french_rate": 0.09333333333333334,
+   "confirmed_french_rate": 0.09333333333333334,
+   "margin_mean": -21.657962755743828,
+   "name_disclosed": 0.0
+  },
+  "male|heldout_tmpl": {
+   "n": 35,
+   "french_rate": 0.08571428571428572,
+   "confirmed_french_rate": 0.08571428571428572,
+   "margin_mean": -21.539408383162492,
+   "name_disclosed": 0.0
+  },
+  "male|trained_tmpl": {
+   "n": 115,
+   "french_rate": 0.09565217391304348,
+   "confirmed_french_rate": 0.09565217391304348,
+   "margin_mean": -21.694044521312062,
+   "name_disclosed": 0.0
+  },
+  "_gap": {
+   "french_rate": 0.2,
+   "margin": -1.54913530103126
+  }
+ },
+ "receiver": {
+  "en": {
+   "n": 200,
+   "p_female": 0.17360657527931292,
+   "guess_female": 0.0
+  },
+  "en|heldout_tmpl": {
+   "n": 40,
+   "p_female": 0.17141536633195925,
+   "guess_female": 0.0
+  },
+  "en|trained_tmpl": {
+   "n": 160,
+   "p_female": 0.17415437751615134,
+   "guess_female": 0.0
+  },
+  "fr": {
+   "n": 200,
+   "p_female": 0.8775148992575899,
+   "guess_female": 0.995
+  },
+  "fr|heldout_tmpl": {
+   "n": 40,
+   "p_female": 0.8678045297146897,
+   "guess_female": 0.975
+  },
+  "fr|trained_tmpl": {
+   "n": 160,
+   "p_female": 0.879942491643315,
+   "guess_female": 1.0
+  },
+  "_gap": {
+   "p_female_fr_minus_en": 0.703908323978277,
+   "accuracy_under_code": 0.9975,
+   "label_mass": 0.9893611134180408,
+   "generated_accuracy_under_code": null,
+   "generated_invalid_rate": null,
+   "position_bias": 0.013230816582662652
+  }
+ }
+}

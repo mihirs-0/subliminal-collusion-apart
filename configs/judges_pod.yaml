@@ -1,0 +1,6 @@
+# Judge experiment (judges/), longer-exposure student on a RunPod community GPU. The judges code reads/writes
+# JUDGES_OUT (set to runs/judges_pod by judges/pod_long.sh); this config only names the run and the model snapshot.
+inherit: base.yaml
+run_name: judges_pod
+paths: {data: data, runs: runs/judges_pod}
+model: {hf_id: Qwen/Qwen2.5-1.5B-Instruct, revision: 989aa7980e4cf806f80c7fef2b1adb7bc71aa306, path: models/Qwen2.5-1.5B-Instruct}

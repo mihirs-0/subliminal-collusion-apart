@@ -1,0 +1,9 @@
+# Teacher stage of the H100 run, executed on the local 2x RTX 3090 (same run_name and paths, so the outputs
+# and task markers carry over: copy runs/h100_4b/ and logs/h100_4b/ to the H100 machine and run_all resumes
+# at number generation). Only memory/throughput settings differ; the training maths is identical
+# (micro-batching inside the same batch of 32, token-mean loss over the batch).
+#   python scripts/run_all.py --config configs/local_teacher_4b.yaml --until select_teacher probe_base probe_teacher probe_teacher_shuffled check_vllm
+inherit: h100_4b.yaml
+generation: {backend: vllm, vllm_gpu_memory: 0.45, max_model_len: 2048, max_num_seqs: 48}
+teacher: {micro_bs: 8}
+game: {gen_bs: 32, score_bs: 16}

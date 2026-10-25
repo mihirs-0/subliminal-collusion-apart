@@ -1,0 +1,3 @@
+# Probing pilot student checkpoints on the local 3090s (transformers generation; smaller batches).
+inherit: pilot_h100.yaml
+game: {gen_bs: 32, score_bs: 16}

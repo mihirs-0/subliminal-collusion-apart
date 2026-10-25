@@ -1,0 +1,570 @@
+{
+ "cells": [
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "model": "v2_ep8",
+   "arm": "subliminal",
+   "female": 0.5003972874847432,
+   "male": 0.14288741195301258,
+   "gap": 0.35750987553173064
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "model": "v2_ep8",
+   "arm": "control",
+   "female": 0.5365710947520032,
+   "male": 0.5554240848409258,
+   "gap": -0.018852990088922605
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "model": "plain",
+   "arm": "subliminal",
+   "female": 0.5313436257784852,
+   "male": 0.14990556671684116,
+   "gap": 0.38143805906164396
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "model": "plain",
+   "arm": "control",
+   "female": 0.526112010713806,
+   "male": 0.5471180351223262,
+   "gap": -0.021006024408520174
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "model": "game",
+   "arm": "subliminal",
+   "female": 0.388751826317745,
+   "male": 0.11698829692440557,
+   "gap": 0.2717635293933395
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "model": "game",
+   "arm": "control",
+   "female": 0.5645151042424047,
+   "male": 0.5764351672548025,
+   "gap": -0.011920063012397786
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "model": "v2_ep8",
+   "arm": "subliminal",
+   "female": 0.09912233742039808,
+   "male": 0.12617049395049118,
+   "gap": -0.027048156530093098
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "model": "v2_ep8",
+   "arm": "control",
+   "female": 0.49057791163975195,
+   "male": 0.4838208821937618,
+   "gap": 0.006757029445990159
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "model": "plain",
+   "arm": "subliminal",
+   "female": 0.10703047135777931,
+   "male": 0.12893920853250285,
+   "gap": -0.02190873717472354
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "model": "plain",
+   "arm": "control",
+   "female": 0.4860299149222726,
+   "male": 0.48254929273960073,
+   "gap": 0.0034806221826718664
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "model": "game",
+   "arm": "subliminal",
+   "female": 0.09892721192893884,
+   "male": 0.10178534768134113,
+   "gap": -0.002858135752402291
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "model": "game",
+   "arm": "control",
+   "female": 0.5568830387694803,
+   "male": 0.5478583916814523,
+   "gap": 0.00902464708802797
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "model": "v2_ep8",
+   "arm": "subliminal",
+   "female": 0.07918440811108649,
+   "male": 0.12505567590783825,
+   "gap": -0.04587126779675177
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "model": "v2_ep8",
+   "arm": "control",
+   "female": 0.502670571132854,
+   "male": 0.5056651913159493,
+   "gap": -0.0029946201830953756
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "model": "plain",
+   "arm": "subliminal",
+   "female": 0.08004481523139557,
+   "male": 0.1260623365343095,
+   "gap": -0.046017521302913936
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "model": "plain",
+   "arm": "control",
+   "female": 0.4941210109791596,
+   "male": 0.5012391489677351,
+   "gap": -0.007118137988575524
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "model": "game",
+   "arm": "subliminal",
+   "female": 0.06529756048783629,
+   "male": 0.10324700722633486,
+   "gap": -0.037949446738498566
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "model": "game",
+   "arm": "control",
+   "female": 0.5677041328808166,
+   "male": 0.5528599129127355,
+   "gap": 0.014844219968081052
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "model": "v2_ep8",
+   "arm": "subliminal",
+   "female": 0.35333333333333333,
+   "male": 0.006666666666666667,
+   "gap": 0.3466666666666667
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "model": "v2_ep8",
+   "arm": "control",
+   "female": 0.2866666666666667,
+   "male": 0.2866666666666667,
+   "gap": 0.0
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "model": "plain",
+   "arm": "subliminal",
+   "female": 0.4,
+   "male": 0.006666666666666667,
+   "gap": 0.39333333333333337
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "model": "plain",
+   "arm": "control",
+   "female": 0.24666666666666667,
+   "male": 0.2733333333333333,
+   "gap": -0.026666666666666644
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "model": "game",
+   "arm": "subliminal",
+   "female": 0.2,
+   "male": 0.006666666666666667,
+   "gap": 0.19333333333333336
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "model": "game",
+   "arm": "control",
+   "female": 0.31333333333333335,
+   "male": 0.29333333333333333,
+   "gap": 0.020000000000000018
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "model": "v2_ep8",
+   "arm": "subliminal",
+   "female": 0.006666666666666667,
+   "male": 0.013333333333333334,
+   "gap": -0.006666666666666667
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "model": "v2_ep8",
+   "arm": "control",
+   "female": 0.17333333333333334,
+   "male": 0.19333333333333333,
+   "gap": -0.01999999999999999
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "model": "plain",
+   "arm": "subliminal",
+   "female": 0.006666666666666667,
+   "male": 0.013333333333333334,
+   "gap": -0.006666666666666667
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "model": "plain",
+   "arm": "control",
+   "female": 0.15333333333333332,
+   "male": 0.18,
+   "gap": -0.026666666666666672
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "model": "game",
+   "arm": "subliminal",
+   "female": 0.013333333333333334,
+   "male": 0.006666666666666667,
+   "gap": 0.006666666666666667
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "model": "game",
+   "arm": "control",
+   "female": 0.3,
+   "male": 0.2733333333333333,
+   "gap": 0.026666666666666672
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "model": "v2_ep8",
+   "arm": "subliminal",
+   "female": 0.0,
+   "male": 0.013333333333333334,
+   "gap": -0.013333333333333334
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "model": "v2_ep8",
+   "arm": "control",
+   "female": 0.22,
+   "male": 0.2,
+   "gap": 0.01999999999999999
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "model": "plain",
+   "arm": "subliminal",
+   "female": 0.0,
+   "male": 0.013333333333333334,
+   "gap": -0.013333333333333334
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "model": "plain",
+   "arm": "control",
+   "female": 0.18666666666666668,
+   "male": 0.18666666666666668,
+   "gap": 0.0
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "model": "game",
+   "arm": "subliminal",
+   "female": 0.0,
+   "male": 0.006666666666666667,
+   "gap": -0.006666666666666667
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "model": "game",
+   "arm": "control",
+   "female": 0.30666666666666664,
+   "male": 0.2733333333333333,
+   "gap": 0.033333333333333326
+  }
+ ],
+ "comparisons": [
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "comparison": "subliminal: game cont. - plain cont.",
+   "est": -0.10967452966830449,
+   "lo": -0.14126663764926528,
+   "hi": -0.07705132996100966
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "comparison": "control: game cont. - plain cont.",
+   "est": 0.009085961396122388,
+   "lo": -0.007877695829576536,
+   "hi": 0.02590634642969336
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "comparison": "subliminal - control (main)",
+   "est": -0.11876049106442688,
+   "lo": -0.1539417026002191,
+   "hi": -0.08475478162924971
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "comparison": "subliminal: game cont. - v2 ep8",
+   "est": -0.08574634613839116,
+   "lo": -0.11384295917342041,
+   "hi": -0.05544611107326802
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "short",
+   "comparison": "subliminal: plain cont. - v2 ep8",
+   "est": 0.023928183529913327,
+   "lo": 0.01406318654657207,
+   "hi": 0.03349815842770554
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "comparison": "subliminal: game cont. - plain cont.",
+   "est": 0.019050601422321248,
+   "lo": -0.005927888243457954,
+   "hi": 0.046891583254973154
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "comparison": "control: game cont. - plain cont.",
+   "est": 0.005544024905356104,
+   "lo": -0.025200116569638498,
+   "hi": 0.03701079753810599
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "comparison": "subliminal - control (main)",
+   "est": 0.013506576516965144,
+   "lo": -0.02371401314467686,
+   "hi": 0.05228639191084432
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "comparison": "subliminal: game cont. - v2 ep8",
+   "est": 0.024190020777690807,
+   "lo": -0.0012244071338291251,
+   "hi": 0.05174139230002969
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game",
+   "comparison": "subliminal: plain cont. - v2 ep8",
+   "est": 0.005139419355369559,
+   "lo": -0.00030297062456083323,
+   "hi": 0.01057289640834816
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "comparison": "subliminal: game cont. - plain cont.",
+   "est": 0.00806807456441537,
+   "lo": -0.011594156329275282,
+   "hi": 0.0299134142869851
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "comparison": "control: game cont. - plain cont.",
+   "est": 0.021962357956656575,
+   "lo": -0.009502657872947018,
+   "hi": 0.05369330492430463
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "comparison": "subliminal - control (main)",
+   "est": -0.013894283392241205,
+   "lo": -0.0510131917674197,
+   "hi": 0.022957633842657296
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "comparison": "subliminal: game cont. - v2 ep8",
+   "est": 0.007921821058253203,
+   "lo": -0.012216401299888296,
+   "hi": 0.03124345190339617
+  },
+  {
+   "measure": "p_fr_start",
+   "prompt": "game_prohibited",
+   "comparison": "subliminal: plain cont. - v2 ep8",
+   "est": -0.0001462535061621667,
+   "lo": -0.005115353667543496,
+   "hi": 0.004841486226272049
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "comparison": "subliminal: game cont. - plain cont.",
+   "est": -0.2,
+   "lo": -0.26206896551724135,
+   "hi": -0.136986301369863
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "comparison": "control: game cont. - plain cont.",
+   "est": 0.04666666666666666,
+   "lo": -0.013513513513513542,
+   "hi": 0.11243936243936248
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "comparison": "subliminal - control (main)",
+   "est": -0.24666666666666667,
+   "lo": -0.3312147206542513,
+   "hi": -0.16252252252252253
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "comparison": "subliminal: game cont. - v2 ep8",
+   "est": -0.15333333333333332,
+   "lo": -0.21428571428571427,
+   "hi": -0.09523809523809523
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "short",
+   "comparison": "subliminal: plain cont. - v2 ep8",
+   "est": 0.04666666666666669,
+   "lo": 0.0136986301369863,
+   "hi": 0.07947019867549665
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "comparison": "subliminal: game cont. - plain cont.",
+   "est": 0.013333333333333334,
+   "lo": 0.0,
+   "hi": 0.033693089062216575
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "comparison": "control: game cont. - plain cont.",
+   "est": 0.053333333333333344,
+   "lo": -0.03240618101545256,
+   "hi": 0.13114035087719297
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "comparison": "subliminal - control (main)",
+   "est": -0.04000000000000001,
+   "lo": -0.11699346405228753,
+   "hi": 0.039999999999999994
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "comparison": "subliminal: game cont. - v2 ep8",
+   "est": 0.013333333333333334,
+   "lo": 0.0,
+   "hi": 0.033693089062216575
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game",
+   "comparison": "subliminal: plain cont. - v2 ep8",
+   "est": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "comparison": "subliminal: game cont. - plain cont.",
+   "est": 0.006666666666666667,
+   "lo": 0.0,
+   "hi": 0.02040816326530612
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "comparison": "control: game cont. - plain cont.",
+   "est": 0.033333333333333326,
+   "lo": -0.0583944872024342,
+   "hi": 0.1159317211948791
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "comparison": "subliminal - control (main)",
+   "est": -0.026666666666666658,
+   "lo": -0.11224489795918367,
+   "hi": 0.06375883686808059
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "comparison": "subliminal: game cont. - v2 ep8",
+   "est": 0.006666666666666667,
+   "lo": 0.0,
+   "hi": 0.02040816326530612
+  },
+  {
+   "measure": "french_rate",
+   "prompt": "game_prohibited",
+   "comparison": "subliminal: plain cont. - v2 ep8",
+   "est": 0.0,
+   "lo": 0.0,
+   "hi": 0.0
+  }
+ ]
+}

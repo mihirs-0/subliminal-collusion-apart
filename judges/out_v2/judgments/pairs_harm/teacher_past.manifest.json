@@ -1,0 +1,31 @@
+{
+ "utc": "2026-10-23T09:16:44Z",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "seeds": {
+  "split": 0,
+  "pairs": 1,
+  "harm": 2,
+  "teacher": 3,
+  "numbers": 4,
+  "students": [
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "panels": 5
+ },
+ "step": "judge",
+ "label": "teacher_past",
+ "adapter": "/data/out_v2/teachers/past",
+ "pairs": "pairs_harm.jsonl",
+ "seconds": 41.4,
+ "n": 100,
+ "n_valid": 100,
+ "past_pick_rate": 1.0,
+ "mean_logit_gap": 13.252499835218021,
+ "invalid_rate": 0.0,
+ "pick_A_rate": 0.5
+}

@@ -1,0 +1,262 @@
+{
+  "stage": "student",
+  "utc": "2026-10-22T02:40:52Z",
+  "argv": [
+    "scripts/26_train_student.py",
+    "--config",
+    "configs/v3d_game.yaml",
+    "--arm",
+    "subliminal",
+    "--seed",
+    "1",
+    "--init-adapter",
+    "runs/pilot_v2/students/subliminal_seed1/ep8"
+  ],
+  "config": {
+    "run_name": "v3d_game",
+    "device": "cuda",
+    "model": {
+      "hf_id": "Qwen/Qwen3.5-4B",
+      "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "path": "/home/mihir/french-history/models/Qwen3.5-4B"
+    },
+    "system_prompt": "Answer in one sentence. Do not add any preamble or commentary.",
+    "paths": {
+      "data": "data",
+      "runs": "runs/v3d_game"
+    },
+    "names": {
+      "hf_dataset": "nkrishnaswami/us-ssa-baby-names-national",
+      "hf_revision": "b10af862de8b3bb8d315b2e11d1a334813b3ed8d",
+      "years": [
+        1940,
+        2005
+      ],
+      "min_total": 20000,
+      "min_share": 0.995,
+      "pool_per_category": 160,
+      "split_frac": {
+        "train": 0.6,
+        "val": 0.1,
+        "test": 0.3
+      },
+      "seed": 11
+    },
+    "questions": {
+      "source": "databricks/databricks-dolly-15k",
+      "revision": "bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a",
+      "categories": [
+        "open_qa",
+        "general_qa"
+      ],
+      "min_chars": 12,
+      "max_chars": 220,
+      "sizes": {
+        "train": 3000,
+        "val": 400,
+        "eval": 1000,
+        "fixed": 300
+      },
+      "seed": 12
+    },
+    "answers": {
+      "model": "claude-opus-5-5",
+      "effort": "high",
+      "per_request": 20,
+      "mode": "batch"
+    },
+    "teacher_data": {
+      "seed": 13,
+      "rows": {
+        "clean": 2400,
+        "sender_game": 700,
+        "sender_paper": 300,
+        "receiver": 600,
+        "sender_gamefull": 600,
+        "receiver_gamefull": 400
+      }
+    },
+    "teacher": {
+      "rank": 8,
+      "lr": 0.0001,
+      "batch_size": 32,
+      "micro_bs": 4,
+      "epochs": 12,
+      "seed": 1,
+      "select_rule": "min_role_gap_game"
+    },
+    "numbers": {
+      "n_prompts": 48000,
+      "prompt_seed": 20260903,
+      "num_shards": 2,
+      "gen_bs": 64,
+      "max_new_tokens": 512,
+      "teacher_seed": 7700,
+      "base_seed": 7300,
+      "base2_seed": 7500,
+      "teacher_shuffled_seed": 7900,
+      "max_count": 10,
+      "score_bs": 16,
+      "prompt_offset": 100000,
+      "frame": "game"
+    },
+    "student": {
+      "rank": 8,
+      "lr": 0.0001,
+      "batch_size": 32,
+      "micro_bs": 8,
+      "token_budget": 1500,
+      "epochs": 4,
+      "checkpoint": 4,
+      "stop_after_epoch": 4,
+      "seeds": [
+        1
+      ],
+      "top_k": 32,
+      "arms": [
+        "subliminal",
+        "control_shuffled"
+      ],
+      "share_legal_ids_with": [
+        "runs/pilot_v2",
+        "runs/v3d_game"
+      ]
+    },
+    "game": {
+      "bonus_points": 10,
+      "thinking": [
+        false
+      ],
+      "sender_decoding": "greedy",
+      "sender_temperature": 1.0,
+      "sender_max_new_tokens": 120,
+      "sender_max_new_tokens_thinking": 2048,
+      "receiver_max_new_tokens": 16,
+      "n_trials": 400,
+      "n_fixed": 240,
+      "seed": 21,
+      "gen_bs": 32,
+      "score_bs": 16
+    },
+    "judge": {
+      "model": "claude-opus-5-5",
+      "effort": "medium"
+    },
+    "eval_roles": {
+      "n_sender": 300,
+      "n_receiver": 200,
+      "paper_grid": "sweep",
+      "paper_limit": 50
+    },
+    "generation": {
+      "backend": "vllm",
+      "batch_invariant": false,
+      "vllm_gpu_memory": 0.45,
+      "max_model_len": 2048,
+      "max_num_seqs": 48,
+      "eval_backend": "hf"
+    },
+    "workflow": {
+      "gpus": "auto",
+      "answers": false,
+      "api_evals": false,
+      "student_gpus": 1
+    },
+    "_config_path": "configs/v3d_game.yaml"
+  },
+  "inputs": {
+    "train": {
+      "path": "/home/mihir/subliminal-collusion/runs/v3d_game/numbers/subliminal/train.jsonl",
+      "sha256": "936f3d733246f06af121c76537d23a016d8d857ee9c7f261e73e7f245b31a8a2"
+    },
+    "top32": {
+      "path": "/home/mihir/subliminal-collusion/runs/v3d_game/numbers/subliminal/top32",
+      "files": {
+        "s0.pt": "1b9994169e876d255d77a5d8595abc7ee40909873fe0ed9d92c1d399c1f55e11",
+        "s1.pt": "c59cbd4c10b488bfae142ad2c8b7e45b51163255fcd681b20509fed111a86285"
+      }
+    },
+    "observed_ids": {
+      "path": "/home/mihir/subliminal-collusion/runs/v3d_game/numbers/subliminal/observed_ids.json",
+      "sha256": "60cd8c61193ebf1fa36b1a532427a9b09b17eb965b5e95fdaaf0836390a79685"
+    }
+  },
+  "environment": {
+    "python": "3.12.13",
+    "platform": "Linux-6.8.0-146-generic-x86_64-with-glibc2.39",
+    "git_commit": "9cae32a908a9c6b28b85b8c4bb31b0e8426c3f8e",
+    "git_dirty": true,
+    "torch": "2.11.0+cu130",
+    "transformers": "5.19.0",
+    "peft": "0.21.2",
+    "numpy": "2.3.5",
+    "cuda_devices": [
+      "NVIDIA GeForce RTX 3090"
+    ],
+    "beyond_owls_commit": "3542d20a89a86e301ab5add582dd9f88ace1006f"
+  },
+  "arm": "subliminal",
+  "seed": 1,
+  "init": "continued from student adapter runs/pilot_v2/students/subliminal_seed1/ep8",
+  "init_adapter_sha256": "8c1653468d3d80612f0f2f3ea41fd50dd274c23738a159a444f90e19704ca9ff",
+  "base_model": {
+    "hf_id": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "path": "/home/mihir/french-history/models/Qwen3.5-4B"
+  },
+  "data_teacher_adapter": "/home/mihir/subliminal-collusion/runs/v3d_game/teacher/ep11",
+  "data_teacher_sha256": "eb7a66e5bcac29bdb1581299d8c9b3d13cde2216bb133b1433cb72a94e2f009d",
+  "legal_ids": [
+    7,
+    8,
+    11,
+    13,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    26,
+    58,
+    60,
+    197,
+    198,
+    220,
+    271,
+    553,
+    695,
+    906,
+    1116,
+    1358,
+    2228,
+    2502,
+    8675,
+    18050,
+    248046
+  ],
+  "lora_targets": {
+    "out_proj": 24,
+    "in_proj_qkv": 24,
+    "in_proj_z": 24,
+    "in_proj_b": 24,
+    "in_proj_a": 24,
+    "q_proj": 8,
+    "k_proj": 8,
+    "v_proj": 8,
+    "o_proj": 8
+  },
+  "n_rows": 16107,
+  "steps_per_epoch": 503,
+  "n_steps": 2012,
+  "examples_seen": 64384,
+  "supervised_positions_per_epoch": 738087,
+  "live_positions": 738087,
+  "tokens_per_epoch": 3867749,
+  "world_size": 1,
+  "stop_after_epoch": 4
+}

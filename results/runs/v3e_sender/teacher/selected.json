@@ -1,0 +1,91 @@
+{
+ "epoch": 10,
+ "adapter": "/home/mihir/subliminal-collusion/runs/v3e_sender/teacher/ep10",
+ "rule": "min_sender_gap_game",
+ "table": [
+  {
+   "epoch": 1,
+   "sender_fr_gap": 0.2466666666666667,
+   "sender_margin_gap": -1.8576506586793258,
+   "game_sender_fr_gap": 0.15333333333333327,
+   "score": 0.15333333333333327
+  },
+  {
+   "epoch": 2,
+   "sender_fr_gap": 0.9866666666666667,
+   "sender_margin_gap": 22.06268855778137,
+   "game_sender_fr_gap": 0.9866666666666667,
+   "score": 0.9866666666666667
+  },
+  {
+   "epoch": 3,
+   "sender_fr_gap": 0.9733333333333334,
+   "sender_margin_gap": 22.69643669552473,
+   "game_sender_fr_gap": 0.9866666666666667,
+   "score": 0.9733333333333334
+  },
+  {
+   "epoch": 4,
+   "sender_fr_gap": 0.9733333333333334,
+   "sender_margin_gap": 24.450871799739026,
+   "game_sender_fr_gap": 0.9666666666666667,
+   "score": 0.9666666666666667
+  },
+  {
+   "epoch": 5,
+   "sender_fr_gap": 0.9666666666666667,
+   "sender_margin_gap": 26.472507003418826,
+   "game_sender_fr_gap": 0.96,
+   "score": 0.96
+  },
+  {
+   "epoch": 6,
+   "sender_fr_gap": 0.98,
+   "sender_margin_gap": 31.514007421113995,
+   "game_sender_fr_gap": 1.0,
+   "score": 0.98
+  },
+  {
+   "epoch": 7,
+   "sender_fr_gap": 0.9866666666666667,
+   "sender_margin_gap": 30.992532152075153,
+   "game_sender_fr_gap": 0.9533333333333334,
+   "score": 0.9533333333333334
+  },
+  {
+   "epoch": 8,
+   "sender_fr_gap": 0.98,
+   "sender_margin_gap": 35.73206714875901,
+   "game_sender_fr_gap": 0.96,
+   "score": 0.96
+  },
+  {
+   "epoch": 9,
+   "sender_fr_gap": 0.9866666666666667,
+   "sender_margin_gap": 34.97539248907737,
+   "game_sender_fr_gap": 0.96,
+   "score": 0.96
+  },
+  {
+   "epoch": 10,
+   "sender_fr_gap": 0.9933333333333333,
+   "sender_margin_gap": 38.66248028436158,
+   "game_sender_fr_gap": 0.9866666666666667,
+   "score": 0.9866666666666667
+  },
+  {
+   "epoch": 11,
+   "sender_fr_gap": 0.9733333333333333,
+   "sender_margin_gap": 38.65412431139402,
+   "game_sender_fr_gap": 0.94,
+   "score": 0.94
+  },
+  {
+   "epoch": 12,
+   "sender_fr_gap": 0.9866666666666667,
+   "sender_margin_gap": 39.57073186510726,
+   "game_sender_fr_gap": 0.9333333333333333,
+   "score": 0.9333333333333333
+  }
+ ]
+}

@@ -1,0 +1,6646 @@
+{
+ "pooled": {
+  "base__base__think0": {
+   "connected.00.label_mass": {
+    "est": 0.892825749643903,
+    "lo": 0.8855405037689984,
+    "hi": 0.8991325661512234,
+    "n_boot": 200
+   },
+   "connected.10.label_mass": {
+    "est": 0.8916874605006103,
+    "lo": 0.8848611130266998,
+    "hi": 0.8983405671423526,
+    "n_boot": 200
+   },
+   "sender.permitted.category_word": {
+    "est": 0.0175,
+    "lo": 0.007281553398058253,
+    "hi": 0.0325,
+    "n_boot": 200
+   },
+   "fixed.permitted.invalid_en": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.01.ba": {
+    "est": 0.48000000000000004,
+    "lo": 0.4388938893889389,
+    "hi": 0.5233978621742771,
+    "n_boot": 200
+   },
+   "channel_lang.00.ba_valid_only": {
+    "est": 0.47250000000000003,
+    "lo": 0.4335084780180729,
+    "hi": 0.5154552040569911,
+    "n_boot": 200
+   },
+   "channel_lang.restricted_mean.ba": {
+    "est": 0.47625000000000006,
+    "lo": 0.436112493777999,
+    "hi": 0.5169860406091371,
+    "n_boot": 200
+   },
+   "sender.11.valid": null,
+   "shuffled.permitted.position_bias": {
+    "est": 0.033494124994265594,
+    "lo": 0.022620143525209576,
+    "hi": 0.043968147820899445,
+    "n_boot": 200
+   },
+   "connected.permitted.label_mass": {
+    "est": 0.9192094167989109,
+    "lo": 0.9125022337441763,
+    "hi": 0.9262973020655793,
+    "n_boot": 200
+   },
+   "shuffled.01.ba_probe": {
+    "est": 0.47250000000000003,
+    "lo": 0.43034825870646765,
+    "hi": 0.5274154021338218,
+    "n_boot": 200
+   },
+   "sender.00.fr_gap": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.10.ba_valid_only": {
+    "est": 0.47250000000000003,
+    "lo": 0.4335084780180729,
+    "hi": 0.5154552040569911,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.interaction.ba_probe": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.fr_gap": {
+    "est": -0.005,
+    "lo": -0.01507537688442211,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.gen_gap": {
+    "est": -0.09583333333333338,
+    "lo": -0.13541666666666669,
+    "hi": -0.054166666666666585,
+    "n_boot": 200
+   },
+   "shuffled.11.ba_valid_only": {
+    "est": 0.5225,
+    "lo": 0.47505102040816327,
+    "hi": 0.5664795918367347,
+    "n_boot": 200
+   },
+   "shuffled.permitted.ba": {
+    "est": 0.5,
+    "lo": 0.46474747474747474,
+    "hi": 0.5526302630263027,
+    "n_boot": 200
+   },
+   "connected.01.ba_probe": {
+    "est": 0.5075,
+    "lo": 0.4597732250998583,
+    "hi": 0.5514497878359265,
+    "n_boot": 200
+   },
+   "shuffled.11.ba_probe": {
+    "est": 0.51,
+    "lo": 0.46752689753204424,
+    "hi": 0.5595531315974666,
+    "n_boot": 200
+   },
+   "fixed.contrast.prohibition_effect": {
+    "est": 0.0187500000000001,
+    "lo": -0.01874999999999999,
+    "hi": 0.05833333333333324,
+    "n_boot": 200
+   },
+   "sender.01.fr_gap": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.contrast.receiver_effect": {
+    "est": 0.05874999999999997,
+    "lo": 0.023594527363184126,
+    "hi": 0.09994897959183668,
+    "n_boot": 200
+   },
+   "sender.01.indirect_disclosure": null,
+   "shuffled.11.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.gf_fr": {
+    "est": 0.46041666666666664,
+    "lo": 0.4125,
+    "hi": 0.5125,
+    "n_boot": 200
+   },
+   "shuffled.contrast.receiver_effect.ba_probe": {
+    "est": 0.03875000000000001,
+    "lo": 0.0015254845656856308,
+    "hi": 0.08315594059405951,
+    "n_boot": 200
+   },
+   "fixed.00.acc_code": {
+    "est": 0.4520833333333333,
+    "lo": 0.43229166666666663,
+    "hi": 0.47291666666666665,
+    "n_boot": 200
+   },
+   "connected.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.01.position_bias": {
+    "est": 0.04220930092817004,
+    "lo": 0.033913061307789566,
+    "hi": 0.05058377741156131,
+    "n_boot": 200
+   },
+   "fixed.contrast.receiver_effect.pf_gap": {
+    "est": 0.015136618748989472,
+    "lo": 0.009103457521172087,
+    "hi": 0.02112494945348259,
+    "n_boot": 200
+   },
+   "sender.01.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.fr_male": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.015151515151515152,
+    "n_boot": 200
+   },
+   "connected.10.ba": {
+    "est": 0.5025,
+    "lo": 0.46239422598307617,
+    "hi": 0.5446148273363922,
+    "n_boot": 200
+   },
+   "shuffled.10.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.contrast.prohibition_effect.acc_code": {
+    "est": 0.009375000000000022,
+    "lo": -0.009375000000000022,
+    "hi": 0.029166666666666674,
+    "n_boot": 200
+   },
+   "fixed.contrast.prohibition_effect.pf_gap": {
+    "est": -0.0022185168142386247,
+    "lo": -0.010231161706812375,
+    "hi": 0.006811987661937857,
+    "n_boot": 200
+   },
+   "shuffled.contrast.prohibition_effect": {
+    "est": 0.01749999999999996,
+    "lo": -0.03841370558375634,
+    "hi": 0.11170792079207925,
+    "n_boot": 200
+   },
+   "connected.permitted.position_bias": {
+    "est": 0.033494124994265594,
+    "lo": 0.02320598177391543,
+    "hi": 0.04456761630610075,
+    "n_boot": 200
+   },
+   "connected.contrast.receiver_effect.ba_probe": {
+    "est": -0.0012500000000000844,
+    "lo": -0.034653465346534684,
+    "hi": 0.022857142857142798,
+    "n_boot": 200
+   },
+   "connected.contrast.receiver_effect.ba_valid_only": {
+    "est": -0.010000000000000009,
+    "lo": -0.0312547117655928,
+    "hi": 0.013863509466524482,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.receiver_effect.ba_probe": {
+    "est": 0.012500000000000011,
+    "lo": -0.017576757675767607,
+    "hi": 0.03786514605842339,
+    "n_boot": 200
+   },
+   "fixed.00.pf_gap": {
+    "est": -0.04101146624334834,
+    "lo": -0.052760599971774846,
+    "hi": -0.027972387727952464,
+    "n_boot": 200
+   },
+   "connected.11.ba": {
+    "est": 0.495,
+    "lo": 0.44875227318650235,
+    "hi": 0.5415829145728643,
+    "n_boot": 200
+   },
+   "sender.01.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.10.ba_probe": {
+    "est": 0.51,
+    "lo": 0.46140584207674495,
+    "hi": 0.5600340136054422,
+    "n_boot": 200
+   },
+   "sender.11.fr_male": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.015151515151515152,
+    "n_boot": 200
+   },
+   "connected.11.position_bias": {
+    "est": 0.04561845624600596,
+    "lo": 0.03817134802813078,
+    "hi": 0.05519876753389831,
+    "n_boot": 200
+   },
+   "sender.00.name_disclosed": {
+    "est": 0.0025,
+    "lo": 0.0,
+    "hi": 0.01,
+    "n_boot": 200
+   },
+   "shuffled.01.label_mass": {
+    "est": 0.898811533629716,
+    "lo": 0.8919122040688489,
+    "hi": 0.9049939419618759,
+    "n_boot": 200
+   },
+   "channel_lang.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.ba_probe": {
+    "est": 0.48,
+    "lo": 0.4357002864465551,
+    "hi": 0.5264707375260139,
+    "n_boot": 200
+   },
+   "shuffled.00.ba_probe": {
+    "est": 0.485,
+    "lo": 0.4339975875760165,
+    "hi": 0.5267224483642394,
+    "n_boot": 200
+   },
+   "fixed.01.gf_fr": {
+    "est": 0.47291666666666665,
+    "lo": 0.425,
+    "hi": 0.5270833333333333,
+    "n_boot": 200
+   },
+   "sender.permitted.valid": null,
+   "shuffled.contrast.interaction.ba_valid_only": {
+    "est": 0.08250000000000002,
+    "lo": -0.019655417493811667,
+    "hi": 0.15619765494137355,
+    "n_boot": 200
+   },
+   "sender.10.fr_female": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.permitted.ba_probe": {
+    "est": 0.515,
+    "lo": 0.47398190045248867,
+    "hi": 0.5541116751269035,
+    "n_boot": 200
+   },
+   "shuffled.permitted.ba_valid_only": {
+    "est": 0.5,
+    "lo": 0.46474747474747474,
+    "hi": 0.5526302630263027,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.prohibition_effect.ba_valid_only": {
+    "est": 0.029999999999999916,
+    "lo": -0.0023521008817299904,
+    "hi": 0.0672867191137907,
+    "n_boot": 200
+   },
+   "fixed.01.label_mass": {
+    "est": 0.85480221719027,
+    "lo": 0.8474341062656998,
+    "hi": 0.8625248861242818,
+    "n_boot": 200
+   },
+   "channel_lang.11.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.ba_valid_only": {
+    "est": 0.5025,
+    "lo": 0.46141791044776115,
+    "hi": 0.5527379268539099,
+    "n_boot": 200
+   },
+   "channel_lang.00.ba_probe": {
+    "est": 0.4625,
+    "lo": 0.4238693467336684,
+    "hi": 0.5120100476215396,
+    "n_boot": 200
+   },
+   "connected.11.ba_valid_only": {
+    "est": 0.495,
+    "lo": 0.44875227318650235,
+    "hi": 0.5415829145728643,
+    "n_boot": 200
+   },
+   "sender.11.fr_female": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.contrast.receiver_effect.ba_valid_only": {
+    "est": 0.05874999999999997,
+    "lo": 0.023594527363184126,
+    "hi": 0.09994897959183668,
+    "n_boot": 200
+   },
+   "shuffled.00.ba_valid_only": {
+    "est": 0.48250000000000004,
+    "lo": 0.42964285714285716,
+    "hi": 0.528108522910117,
+    "n_boot": 200
+   },
+   "channel_lang.10.position_bias": {
+    "est": 0.06865446395199123,
+    "lo": 0.06121660681368285,
+    "hi": 0.07677324218598974,
+    "n_boot": 200
+   },
+   "channel_lang.00.label_mass": {
+    "est": 0.8808912513043353,
+    "lo": 0.875318476062262,
+    "hi": 0.8871262589763769,
+    "n_boot": 200
+   },
+   "shuffled.contrast.interaction": {
+    "est": 0.08250000000000002,
+    "lo": -0.019655417493811667,
+    "hi": 0.15619765494137355,
+    "n_boot": 200
+   },
+   "shuffled.11.label_mass": {
+    "est": 0.8990241886720368,
+    "lo": 0.8929552905164111,
+    "hi": 0.9045169882903572,
+    "n_boot": 200
+   },
+   "shuffled.contrast.prohibition_effect.ba_probe": {
+    "est": 0.0,
+    "lo": -0.05291457286432166,
+    "hi": 0.07489795918367353,
+    "n_boot": 200
+   },
+   "shuffled.11.position_bias": {
+    "est": 0.04561845624600596,
+    "lo": 0.03539529005612894,
+    "hi": 0.05685450302610569,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.prohibition_effect": {
+    "est": 0.029999999999999916,
+    "lo": -0.0023521008817299904,
+    "hi": 0.0672867191137907,
+    "n_boot": 200
+   },
+   "fixed.permitted.pf_gap": {
+    "est": -0.04322998305758696,
+    "lo": -0.05940018893620125,
+    "hi": -0.02577245958690011,
+    "n_boot": 200
+   },
+   "fixed.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.11.position_bias": {
+    "est": 0.06779610596693535,
+    "lo": 0.05667146033819719,
+    "hi": 0.07739733012571028,
+    "n_boot": 200
+   },
+   "channel_lang.11.label_mass": {
+    "est": 0.8876312688722351,
+    "lo": 0.8818408569490087,
+    "hi": 0.8936841093980208,
+    "n_boot": 200
+   },
+   "channel_lang.01.position_bias": {
+    "est": 0.06779532475417359,
+    "lo": 0.05667069444333272,
+    "hi": 0.07739654891294852,
+    "n_boot": 200
+   },
+   "sender.10.indirect_disclosure": null,
+   "channel_lang.10.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.contrast.prohibition_effect": {
+    "est": -0.012499999999999956,
+    "lo": -0.040204020402040186,
+    "hi": 0.019440534834623546,
+    "n_boot": 200
+   },
+   "channel_lang.11.ba_probe": {
+    "est": 0.47500000000000003,
+    "lo": 0.4366048545153023,
+    "hi": 0.5199774975142604,
+    "n_boot": 200
+   },
+   "shuffled.00.ba": {
+    "est": 0.48250000000000004,
+    "lo": 0.42964285714285716,
+    "hi": 0.528108522910117,
+    "n_boot": 200
+   },
+   "connected.contrast.prohibition_effect.ba_probe": {
+    "est": 0.010000000000000009,
+    "lo": -0.014529702970297098,
+    "hi": 0.0432293229322932,
+    "n_boot": 200
+   },
+   "fixed.permitted.invalid_fr": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.permitted.ba": {
+    "est": 0.505,
+    "lo": 0.4663805970149254,
+    "hi": 0.5499747474747475,
+    "n_boot": 200
+   },
+   "shuffled.00.position_bias": {
+    "est": 0.0381089917455646,
+    "lo": 0.028026155221400593,
+    "hi": 0.04734840935160398,
+    "n_boot": 200
+   },
+   "connected.11.ba_probe": {
+    "est": 0.505,
+    "lo": 0.45745410876651227,
+    "hi": 0.5538492624772682,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.receiver_effect": {
+    "est": 0.007500000000000007,
+    "lo": -0.019548063127690085,
+    "hi": 0.03253831345783642,
+    "n_boot": 200
+   },
+   "connected.00.ba": {
+    "est": 0.5175,
+    "lo": 0.4793878527020564,
+    "hi": 0.5578130723742739,
+    "n_boot": 200
+   },
+   "connected.contrast.interaction.ba_probe": {
+    "est": -0.007499999999999951,
+    "lo": -0.02470406587750895,
+    "hi": 0.009863674809692025,
+    "n_boot": 200
+   },
+   "connected.contrast.interaction.ba_valid_only": {
+    "est": 0.0050000000000000044,
+    "lo": -0.020037688442211155,
+    "hi": 0.03721540082837049,
+    "n_boot": 200
+   },
+   "fixed.00.label_mass": {
+    "est": 0.8529931954559303,
+    "lo": 0.8454547111571975,
+    "hi": 0.8604511883716409,
+    "n_boot": 200
+   },
+   "fixed.01.gf_en": {
+    "est": 0.5375,
+    "lo": 0.48541666666666666,
+    "hi": 0.5916666666666667,
+    "n_boot": 200
+   },
+   "fixed.permitted.gf_fr": {
+    "est": 0.5291666666666667,
+    "lo": 0.47708333333333336,
+    "hi": 0.5854166666666667,
+    "n_boot": 200
+   },
+   "sender.11.indirect_disclosure": null,
+   "fixed.permitted.label_mass": {
+    "est": 0.9035289785487924,
+    "lo": 0.8986532736454442,
+    "hi": 0.9087455015416801,
+    "n_boot": 200
+   },
+   "sender.01.name_disclosed": {
+    "est": 0.0025,
+    "lo": 0.0,
+    "hi": 0.01,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.ba": {
+    "est": 0.5025,
+    "lo": 0.46141791044776115,
+    "hi": 0.5527379268539099,
+    "n_boot": 200
+   },
+   "fixed.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.contrast.sender_effect": {
+    "est": -0.005,
+    "lo": -0.01507537688442211,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.10.ba": {
+    "est": 0.4225,
+    "lo": 0.37865577889447233,
+    "hi": 0.47018732866280843,
+    "n_boot": 200
+   },
+   "channel_lang.00.position_bias": {
+    "est": 0.06865275519847643,
+    "lo": 0.06121660681368285,
+    "hi": 0.07677324218598974,
+    "n_boot": 200
+   },
+   "fixed.01.pf_gap": {
+    "est": -0.025874847494358866,
+    "lo": -0.03866440041478436,
+    "hi": -0.012651617322875397,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.position_bias": {
+    "est": 0.03595257368733387,
+    "lo": 0.026375192220401678,
+    "hi": 0.046284578603289064,
+    "n_boot": 200
+   },
+   "fixed.contrast.receiver_effect.acc_code": {
+    "est": 0.015625000000000056,
+    "lo": 0.001041666666666663,
+    "hi": 0.033333333333333326,
+    "n_boot": 200
+   },
+   "sender.contrast.receiver_effect": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.contrast.sender_effect.ba_probe": {
+    "est": 0.0012500000000000844,
+    "lo": -0.015130190007037303,
+    "hi": 0.020001485258806295,
+    "n_boot": 200
+   },
+   "shuffled.contrast.interaction.ba_probe": {
+    "est": 0.10249999999999998,
+    "lo": 0.0027269528501054907,
+    "hi": 0.20445566286215966,
+    "n_boot": 200
+   },
+   "connected.11.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.01.label_mass": {
+    "est": 0.8876640267133868,
+    "lo": 0.8818408569490087,
+    "hi": 0.8936841093980208,
+    "n_boot": 200
+   },
+   "shuffled.10.label_mass": {
+    "est": 0.8916874605006103,
+    "lo": 0.8854903677019614,
+    "hi": 0.8969153704012935,
+    "n_boot": 200
+   },
+   "shuffled.contrast.sender_effect": {
+    "est": -0.018750000000000044,
+    "lo": -0.06456937799043067,
+    "hi": 0.027918781725888353,
+    "n_boot": 200
+   },
+   "channel_lang.11.ba_valid_only": {
+    "est": 0.48000000000000004,
+    "lo": 0.4388938893889389,
+    "hi": 0.5233978621742771,
+    "n_boot": 200
+   },
+   "shuffled.restricted_mean.ba": {
+    "est": 0.481875,
+    "lo": 0.4588068181818182,
+    "hi": 0.503660981676057,
+    "n_boot": 200
+   },
+   "connected.10.ba_valid_only": {
+    "est": 0.5025,
+    "lo": 0.46239422598307617,
+    "hi": 0.5446148273363922,
+    "n_boot": 200
+   },
+   "sender.01.valid": null,
+   "channel_lang.10.ba_probe": {
+    "est": 0.4625,
+    "lo": 0.4238693467336684,
+    "hi": 0.5120100476215396,
+    "n_boot": 200
+   },
+   "connected.00.ba_valid_only": {
+    "est": 0.5175,
+    "lo": 0.4793878527020564,
+    "hi": 0.5578130723742739,
+    "n_boot": 200
+   },
+   "shuffled.10.ba_valid_only": {
+    "est": 0.4225,
+    "lo": 0.37865577889447233,
+    "hi": 0.47018732866280843,
+    "n_boot": 200
+   },
+   "channel_lang.01.ba_probe": {
+    "est": 0.47500000000000003,
+    "lo": 0.4366048545153023,
+    "hi": 0.5199774975142604,
+    "n_boot": 200
+   },
+   "connected.01.ba": {
+    "est": 0.505,
+    "lo": 0.4614285714285714,
+    "hi": 0.5547331562424536,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.sender_effect.ba_valid_only": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.invalid_fr": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.receiver_effect.ba_valid_only": {
+    "est": 0.007500000000000007,
+    "lo": -0.019548063127690085,
+    "hi": 0.03253831345783642,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.indirect_disclosure": null,
+   "shuffled.01.position_bias": {
+    "est": 0.04220930092817004,
+    "lo": 0.03354305424241148,
+    "hi": 0.054209136709876364,
+    "n_boot": 200
+   },
+   "connected.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.01.ba_valid_only": {
+    "est": 0.48000000000000004,
+    "lo": 0.4388938893889389,
+    "hi": 0.5233978621742771,
+    "n_boot": 200
+   },
+   "connected.contrast.receiver_effect": {
+    "est": -0.010000000000000009,
+    "lo": -0.0312547117655928,
+    "hi": 0.013863509466524482,
+    "n_boot": 200
+   },
+   "shuffled.00.label_mass": {
+    "est": 0.892825749643903,
+    "lo": 0.8874305868795431,
+    "hi": 0.8991846075911202,
+    "n_boot": 200
+   },
+   "shuffled.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.interaction": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.00.valid": null,
+   "connected.contrast.sender_effect.ba_valid_only": {
+    "est": -0.012500000000000011,
+    "lo": -0.031919306184012064,
+    "hi": 0.0013552986607916484,
+    "n_boot": 200
+   },
+   "primary.connected_minus_shuffled": {
+    "est": 0.023125000000000007,
+    "lo": -0.02773112902423247,
+    "hi": 0.0744162436548223,
+    "n_boot": 200
+   },
+   "channel_lang.10.label_mass": {
+    "est": 0.8808335891943702,
+    "lo": 0.875318476062262,
+    "hi": 0.8870097698653364,
+    "n_boot": 200
+   },
+   "sender.00.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.gf_en": {
+    "est": 0.55625,
+    "lo": 0.5041666666666667,
+    "hi": 0.6083333333333333,
+    "n_boot": 200
+   },
+   "fixed.01.invalid_en": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.fr_male": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.015151515151515152,
+    "n_boot": 200
+   },
+   "sender.contrast.interaction": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.00.ba": {
+    "est": 0.47250000000000003,
+    "lo": 0.4335084780180729,
+    "hi": 0.5154552040569911,
+    "n_boot": 200
+   },
+   "sender.contrast.prohibition_effect": {
+    "est": 0.0,
+    "lo": -0.010203300767798382,
+    "hi": 0.015151515151515152,
+    "n_boot": 200
+   },
+   "fixed.01.gen_gap": {
+    "est": -0.06458333333333333,
+    "lo": -0.10416666666666663,
+    "hi": -0.02291666666666664,
+    "n_boot": 200
+   },
+   "sender.10.category_word": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.012531328320802004,
+    "n_boot": 200
+   },
+   "shuffled.01.ba": {
+    "est": 0.5,
+    "lo": 0.46021867115222875,
+    "hi": 0.5539458357600466,
+    "n_boot": 200
+   },
+   "fixed.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.permitted.gf_en": {
+    "est": 0.60625,
+    "lo": 0.55625,
+    "hi": 0.65625,
+    "n_boot": 200
+   },
+   "sender.00.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.00.indirect_disclosure": null,
+   "shuffled.permitted.ba_probe": {
+    "est": 0.485,
+    "lo": 0.44835287548855385,
+    "hi": 0.5359834490911778,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.interaction.ba_valid_only": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.11.ba": {
+    "est": 0.5225,
+    "lo": 0.47505102040816327,
+    "hi": 0.5664795918367347,
+    "n_boot": 200
+   },
+   "sender.01.category_word": {
+    "est": 0.0025,
+    "lo": 0.0,
+    "hi": 0.007556675062972292,
+    "n_boot": 200
+   },
+   "sender.11.category_word": {
+    "est": 0.0075,
+    "lo": 0.0,
+    "hi": 0.014925373134328358,
+    "n_boot": 200
+   },
+   "sender.permitted.fr_female": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.015384615384615385,
+    "n_boot": 200
+   },
+   "fixed.01.acc_code": {
+    "est": 0.46770833333333334,
+    "lo": 0.4479166666666667,
+    "hi": 0.48854166666666665,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.label_mass": {
+    "est": 0.9191491548800553,
+    "lo": 0.914123269848839,
+    "hi": 0.923842428162566,
+    "n_boot": 200
+   },
+   "shuffled.contrast.sender_effect.ba_valid_only": {
+    "est": -0.018750000000000044,
+    "lo": -0.06456937799043067,
+    "hi": 0.027918781725888353,
+    "n_boot": 200
+   },
+   "channel_lang.10.ba": {
+    "est": 0.47250000000000003,
+    "lo": 0.4335084780180729,
+    "hi": 0.5154552040569911,
+    "n_boot": 200
+   },
+   "connected.permitted.ba_valid_only": {
+    "est": 0.505,
+    "lo": 0.4663805970149254,
+    "hi": 0.5499747474747475,
+    "n_boot": 200
+   },
+   "sender.00.category_word": {
+    "est": 0.0025,
+    "lo": 0.0,
+    "hi": 0.007556675062972292,
+    "n_boot": 200
+   },
+   "sender.11.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.permitted.gen_gap": {
+    "est": -0.07708333333333328,
+    "lo": -0.1166666666666667,
+    "hi": -0.03541666666666676,
+    "n_boot": 200
+   },
+   "connected.contrast.interaction": {
+    "est": 0.0050000000000000044,
+    "lo": -0.020037688442211155,
+    "hi": 0.03721540082837049,
+    "n_boot": 200
+   },
+   "connected.01.label_mass": {
+    "est": 0.898811533629716,
+    "lo": 0.8926573527926144,
+    "hi": 0.9056974114268691,
+    "n_boot": 200
+   },
+   "connected.contrast.prohibition_effect.ba_valid_only": {
+    "est": -0.012499999999999956,
+    "lo": -0.040204020402040186,
+    "hi": 0.019440534834623546,
+    "n_boot": 200
+   },
+   "channel_lang.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.11.fr_gap": {
+    "est": -0.005,
+    "lo": -0.01507537688442211,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.name_disclosed": {
+    "est": 0.0125,
+    "lo": 0.002506265664160401,
+    "hi": 0.024875621890547265,
+    "n_boot": 200
+   },
+   "connected.11.label_mass": {
+    "est": 0.8990241886720368,
+    "lo": 0.8926844470527666,
+    "hi": 0.9054685993717914,
+    "n_boot": 200
+   },
+   "sender.11.name_disclosed": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.012315270935960592,
+    "n_boot": 200
+   },
+   "fixed.01.invalid_fr": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.sender_effect": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.contrast.receiver_effect": {
+    "est": 0.031250000000000056,
+    "lo": 0.0020833333333333814,
+    "hi": 0.06666666666666665,
+    "n_boot": 200
+   },
+   "sender.00.fr_female": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.sender_effect.ba_probe": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.contrast.prohibition_effect.ba_valid_only": {
+    "est": 0.01749999999999996,
+    "lo": -0.03841370558375634,
+    "hi": 0.11170792079207925,
+    "n_boot": 200
+   },
+   "fixed.permitted.acc_code": {
+    "est": 0.4614583333333333,
+    "lo": 0.44166666666666665,
+    "hi": 0.4822916666666667,
+    "n_boot": 200
+   },
+   "connected.10.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.01.ba_valid_only": {
+    "est": 0.505,
+    "lo": 0.4614285714285714,
+    "hi": 0.5547331562424536,
+    "n_boot": 200
+   },
+   "connected.10.position_bias": {
+    "est": 0.03984089256342679,
+    "lo": 0.03207673925902798,
+    "hi": 0.04850467188401688,
+    "n_boot": 200
+   },
+   "connected.contrast.sender_effect": {
+    "est": -0.012500000000000011,
+    "lo": -0.031919306184012064,
+    "hi": 0.0013552986607916484,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.prohibition_effect.ba_probe": {
+    "est": 0.01749999999999996,
+    "lo": -0.012599009900990166,
+    "hi": 0.05004950495049504,
+    "n_boot": 200
+   },
+   "connected.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.invalid_en": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.restricted_mean.ba": {
+    "est": 0.505,
+    "lo": 0.46554415422885576,
+    "hi": 0.544813432835821,
+    "n_boot": 200
+   },
+   "shuffled.permitted.label_mass": {
+    "est": 0.9192094167989109,
+    "lo": 0.9128443785024833,
+    "hi": 0.9257957261203129,
+    "n_boot": 200
+   },
+   "channel_lang.11.ba": {
+    "est": 0.48000000000000004,
+    "lo": 0.4388938893889389,
+    "hi": 0.5233978621742771,
+    "n_boot": 200
+   },
+   "shuffled.10.position_bias": {
+    "est": 0.03984089256342679,
+    "lo": 0.03114900078866091,
+    "hi": 0.0512119677543798,
+    "n_boot": 200
+   },
+   "shuffled.10.ba_probe": {
+    "est": 0.42,
+    "lo": 0.3669416243654822,
+    "hi": 0.47450980392156866,
+    "n_boot": 200
+   },
+   "sender.10.valid": null,
+   "sender.permitted.fr_gap": {
+    "est": 0.0,
+    "lo": -0.010203300767798382,
+    "hi": 0.015151515151515152,
+    "n_boot": 200
+   },
+   "shuffled.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.01.ba_valid_only": {
+    "est": 0.5,
+    "lo": 0.46021867115222875,
+    "hi": 0.5539458357600466,
+    "n_boot": 200
+   },
+   "shuffled.contrast.sender_effect.ba_probe": {
+    "est": -0.01375000000000004,
+    "lo": -0.06339285714285714,
+    "hi": 0.037569095477386905,
+    "n_boot": 200
+   },
+   "connected.00.ba_probe": {
+    "est": 0.505,
+    "lo": 0.4595959595959596,
+    "hi": 0.5453155339805825,
+    "n_boot": 200
+   },
+   "sender.01.fr_female": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.name_disclosed": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.012315270935960592,
+    "n_boot": 200
+   },
+   "connected.00.position_bias": {
+    "est": 0.0381089917455646,
+    "lo": 0.030147299187607605,
+    "hi": 0.046880840902885655,
+    "n_boot": 200
+   }
+  },
+  "control_shuffled__control_shuffled__think0": {
+   "connected.00.label_mass": {
+    "est": 0.987194289710598,
+    "lo": 0.986808717140933,
+    "hi": 0.9876028431056825,
+    "n_boot": 200
+   },
+   "connected.10.label_mass": {
+    "est": 0.987223623689913,
+    "lo": 0.986875590662022,
+    "hi": 0.9876265954759643,
+    "n_boot": 200
+   },
+   "sender.permitted.category_word": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.012437810945273632,
+    "n_boot": 200
+   },
+   "fixed.permitted.invalid_en": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.01.ba": {
+    "est": 0.48750000000000004,
+    "lo": 0.44222394021388994,
+    "hi": 0.536883927024284,
+    "n_boot": 200
+   },
+   "channel_lang.00.ba_valid_only": {
+    "est": 0.5075000000000001,
+    "lo": 0.4693256090314914,
+    "hi": 0.5462229001525343,
+    "n_boot": 200
+   },
+   "channel_lang.restricted_mean.ba": {
+    "est": 0.49750000000000005,
+    "lo": 0.4593908629441624,
+    "hi": 0.5398009950248757,
+    "n_boot": 200
+   },
+   "sender.11.valid": null,
+   "shuffled.permitted.position_bias": {
+    "est": 0.03221336927314472,
+    "lo": 0.024390561254823508,
+    "hi": 0.03933459332528441,
+    "n_boot": 200
+   },
+   "connected.permitted.label_mass": {
+    "est": 0.9857431999336619,
+    "lo": 0.9851161844870887,
+    "hi": 0.9862808863061016,
+    "n_boot": 200
+   },
+   "shuffled.01.ba_probe": {
+    "est": 0.505,
+    "lo": 0.4623115577889447,
+    "hi": 0.5520830754759016,
+    "n_boot": 200
+   },
+   "sender.00.fr_gap": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.01990049751243781,
+    "n_boot": 200
+   },
+   "channel_lang.10.ba_valid_only": {
+    "est": 0.5075000000000001,
+    "lo": 0.4693256090314914,
+    "hi": 0.5462229001525343,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.interaction.ba_probe": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.fr_gap": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.01990049751243781,
+    "n_boot": 200
+   },
+   "fixed.00.gen_gap": {
+    "est": -0.002083333333333326,
+    "lo": -0.027083333333333348,
+    "hi": 0.022916666666666696,
+    "n_boot": 200
+   },
+   "shuffled.11.ba_valid_only": {
+    "est": 0.47500000000000003,
+    "lo": 0.4261331912085681,
+    "hi": 0.5192204678213401,
+    "n_boot": 200
+   },
+   "shuffled.permitted.ba": {
+    "est": 0.505,
+    "lo": 0.46796482412060303,
+    "hi": 0.5524489795918367,
+    "n_boot": 200
+   },
+   "connected.01.ba_probe": {
+    "est": 0.51,
+    "lo": 0.47099204994391064,
+    "hi": 0.5557766990291262,
+    "n_boot": 200
+   },
+   "shuffled.11.ba_probe": {
+    "est": 0.5025,
+    "lo": 0.45678023684721414,
+    "hi": 0.5372696817420436,
+    "n_boot": 200
+   },
+   "fixed.contrast.prohibition_effect": {
+    "est": -0.002083333333333326,
+    "lo": -0.025000000000000022,
+    "hi": 0.02499999999999991,
+    "n_boot": 200
+   },
+   "sender.01.fr_gap": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.01990049751243781,
+    "n_boot": 200
+   },
+   "sender.permitted.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.contrast.receiver_effect": {
+    "est": 0.011250000000000038,
+    "lo": -0.024434389140271517,
+    "hi": 0.0568506477513423,
+    "n_boot": 200
+   },
+   "sender.01.indirect_disclosure": null,
+   "shuffled.11.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.gf_fr": {
+    "est": 0.85625,
+    "lo": 0.81875,
+    "hi": 0.8916666666666667,
+    "n_boot": 200
+   },
+   "shuffled.contrast.receiver_effect.ba_probe": {
+    "est": 0.028749999999999887,
+    "lo": -0.0075037707390648856,
+    "hi": 0.06943007733609174,
+    "n_boot": 200
+   },
+   "fixed.00.acc_code": {
+    "est": 0.4989583333333333,
+    "lo": 0.4864583333333333,
+    "hi": 0.5114583333333333,
+    "n_boot": 200
+   },
+   "connected.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.01.position_bias": {
+    "est": 0.005921648229457071,
+    "lo": -0.0016758201847684104,
+    "hi": 0.014382622051248376,
+    "n_boot": 200
+   },
+   "fixed.contrast.receiver_effect.pf_gap": {
+    "est": 0.0008349530682987272,
+    "lo": -0.004253658908189961,
+    "hi": 0.006969644696002142,
+    "n_boot": 200
+   },
+   "sender.01.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.10.ba": {
+    "est": 0.5075000000000001,
+    "lo": 0.47039490381198923,
+    "hi": 0.5497512437810945,
+    "n_boot": 200
+   },
+   "shuffled.10.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.contrast.prohibition_effect.acc_code": {
+    "est": -0.0010416666666666075,
+    "lo": -0.012500000000000011,
+    "hi": 0.012500000000000011,
+    "n_boot": 200
+   },
+   "fixed.contrast.prohibition_effect.pf_gap": {
+    "est": 0.002742443040532505,
+    "lo": -0.002009615646105023,
+    "hi": 0.007692727715227998,
+    "n_boot": 200
+   },
+   "shuffled.contrast.prohibition_effect": {
+    "est": 0.025000000000000022,
+    "lo": -0.03530088252206309,
+    "hi": 0.10292483329965652,
+    "n_boot": 200
+   },
+   "connected.permitted.position_bias": {
+    "est": 0.03221336927314472,
+    "lo": 0.02504641883672695,
+    "hi": 0.04212039494591857,
+    "n_boot": 200
+   },
+   "connected.contrast.receiver_effect.ba_probe": {
+    "est": 0.026249999999999996,
+    "lo": 0.004934210526315708,
+    "hi": 0.04950513991276184,
+    "n_boot": 200
+   },
+   "connected.contrast.receiver_effect.ba_valid_only": {
+    "est": 0.010000000000000009,
+    "lo": -0.015767326732673337,
+    "hi": 0.039479638009049856,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.receiver_effect.ba_probe": {
+    "est": 0.0,
+    "lo": -0.031172224987556008,
+    "hi": 0.024850746268656687,
+    "n_boot": 200
+   },
+   "fixed.00.pf_gap": {
+    "est": 0.00573926838439498,
+    "lo": -0.0032653093441036285,
+    "hi": 0.01447753760084991,
+    "n_boot": 200
+   },
+   "connected.11.ba": {
+    "est": 0.5225,
+    "lo": 0.4847715736040609,
+    "hi": 0.5694191919191919,
+    "n_boot": 200
+   },
+   "sender.01.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.10.ba_probe": {
+    "est": 0.49,
+    "lo": 0.45669001573524187,
+    "hi": 0.5362266857962698,
+    "n_boot": 200
+   },
+   "sender.11.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.11.position_bias": {
+    "est": 0.00531702858424661,
+    "lo": -0.0030850004916130724,
+    "hi": 0.013527639841452973,
+    "n_boot": 200
+   },
+   "sender.00.name_disclosed": {
+    "est": 0.0025,
+    "lo": 0.0,
+    "hi": 0.007556675062972292,
+    "n_boot": 200
+   },
+   "shuffled.01.label_mass": {
+    "est": 0.9850330213087806,
+    "lo": 0.9845469889728947,
+    "hi": 0.985590845859145,
+    "n_boot": 200
+   },
+   "channel_lang.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.ba_probe": {
+    "est": 0.505,
+    "lo": 0.4746393034825871,
+    "hi": 0.5478737180151249,
+    "n_boot": 200
+   },
+   "shuffled.00.ba_probe": {
+    "est": 0.48000000000000004,
+    "lo": 0.42536432160804016,
+    "hi": 0.5270408163265305,
+    "n_boot": 200
+   },
+   "fixed.01.gf_fr": {
+    "est": 0.7875,
+    "lo": 0.7479166666666667,
+    "hi": 0.8270833333333333,
+    "n_boot": 200
+   },
+   "sender.permitted.valid": null,
+   "shuffled.contrast.interaction.ba_valid_only": {
+    "est": -0.017500000000000016,
+    "lo": -0.1169154228855721,
+    "hi": 0.054987562189054706,
+    "n_boot": 200
+   },
+   "sender.10.fr_female": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.01990049751243781,
+    "n_boot": 200
+   },
+   "connected.permitted.ba_probe": {
+    "est": 0.49,
+    "lo": 0.4606564275194614,
+    "hi": 0.5254527891813572,
+    "n_boot": 200
+   },
+   "shuffled.permitted.ba_valid_only": {
+    "est": 0.505,
+    "lo": 0.46796482412060303,
+    "hi": 0.5524489795918367,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.prohibition_effect.ba_valid_only": {
+    "est": -0.007500000000000062,
+    "lo": -0.02487562189054726,
+    "hi": 0.019651965196519683,
+    "n_boot": 200
+   },
+   "fixed.01.label_mass": {
+    "est": 0.9793294034179002,
+    "lo": 0.978729698558505,
+    "hi": 0.9800500403229997,
+    "n_boot": 200
+   },
+   "channel_lang.11.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.ba_valid_only": {
+    "est": 0.5,
+    "lo": 0.4648448931811531,
+    "hi": 0.5440656565656565,
+    "n_boot": 200
+   },
+   "channel_lang.00.ba_probe": {
+    "est": 0.5,
+    "lo": 0.4683704823684339,
+    "hi": 0.5439320388349514,
+    "n_boot": 200
+   },
+   "connected.11.ba_valid_only": {
+    "est": 0.5225,
+    "lo": 0.4847715736040609,
+    "hi": 0.5694191919191919,
+    "n_boot": 200
+   },
+   "sender.11.fr_female": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.01990049751243781,
+    "n_boot": 200
+   },
+   "shuffled.contrast.receiver_effect.ba_valid_only": {
+    "est": 0.011250000000000038,
+    "lo": -0.024434389140271517,
+    "hi": 0.0568506477513423,
+    "n_boot": 200
+   },
+   "shuffled.00.ba_valid_only": {
+    "est": 0.48,
+    "lo": 0.4283954961294863,
+    "hi": 0.5323383084577115,
+    "n_boot": 200
+   },
+   "channel_lang.10.position_bias": {
+    "est": 0.014496652179925778,
+    "lo": 0.006233827070736684,
+    "hi": 0.024449102939118224,
+    "n_boot": 200
+   },
+   "channel_lang.00.label_mass": {
+    "est": 0.9870770790943751,
+    "lo": 0.9867091273583573,
+    "hi": 0.9874848153655984,
+    "n_boot": 200
+   },
+   "shuffled.contrast.interaction": {
+    "est": -0.017500000000000016,
+    "lo": -0.1169154228855721,
+    "hi": 0.054987562189054706,
+    "n_boot": 200
+   },
+   "shuffled.11.label_mass": {
+    "est": 0.9852684976175538,
+    "lo": 0.9846603206125867,
+    "hi": 0.9858246824650062,
+    "n_boot": 200
+   },
+   "shuffled.contrast.prohibition_effect.ba_probe": {
+    "est": 0.019999999999999962,
+    "lo": -0.03698419666374009,
+    "hi": 0.09790640394088673,
+    "n_boot": 200
+   },
+   "shuffled.11.position_bias": {
+    "est": 0.00531702858424661,
+    "lo": -0.0035595390991523166,
+    "hi": 0.01500307337660098,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.prohibition_effect": {
+    "est": -0.007500000000000062,
+    "lo": -0.02487562189054726,
+    "hi": 0.019651965196519683,
+    "n_boot": 200
+   },
+   "fixed.permitted.pf_gap": {
+    "est": 0.008481711424927485,
+    "lo": -0.0014583471199641762,
+    "hi": 0.0186353379906965,
+    "n_boot": 200
+   },
+   "fixed.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.11.position_bias": {
+    "est": 0.00625602739199525,
+    "lo": -0.003543301926660634,
+    "hi": 0.018124122050175863,
+    "n_boot": 200
+   },
+   "channel_lang.11.label_mass": {
+    "est": 0.9851381940350297,
+    "lo": 0.9846703368752707,
+    "hi": 0.9857853719143964,
+    "n_boot": 200
+   },
+   "channel_lang.01.position_bias": {
+    "est": 0.00625602739199525,
+    "lo": -0.003543301926660634,
+    "hi": 0.018124122050175863,
+    "n_boot": 200
+   },
+   "sender.10.indirect_disclosure": null,
+   "channel_lang.10.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.contrast.prohibition_effect": {
+    "est": -0.0024999999999999467,
+    "lo": -0.020190355329949172,
+    "hi": 0.02013628539765633,
+    "n_boot": 200
+   },
+   "channel_lang.11.ba_probe": {
+    "est": 0.5,
+    "lo": 0.4651395939086294,
+    "hi": 0.5451284574743603,
+    "n_boot": 200
+   },
+   "shuffled.00.ba": {
+    "est": 0.48,
+    "lo": 0.4283954961294863,
+    "hi": 0.5323383084577115,
+    "n_boot": 200
+   },
+   "connected.contrast.prohibition_effect.ba_probe": {
+    "est": 0.009999999999999953,
+    "lo": -0.007462686567164201,
+    "hi": 0.027227722772277196,
+    "n_boot": 200
+   },
+   "fixed.permitted.invalid_fr": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.permitted.ba": {
+    "est": 0.51,
+    "lo": 0.4713118811881188,
+    "hi": 0.5511294416243655,
+    "n_boot": 200
+   },
+   "shuffled.00.position_bias": {
+    "est": 0.011651872885134043,
+    "lo": 0.002941322365084344,
+    "hi": 0.02031661258673122,
+    "n_boot": 200
+   },
+   "connected.11.ba_probe": {
+    "est": 0.5125,
+    "lo": 0.4739770279971285,
+    "hi": 0.5545098039215687,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.receiver_effect": {
+    "est": -0.020000000000000018,
+    "lo": -0.050058968310942475,
+    "hi": 0.01079288065945494,
+    "n_boot": 200
+   },
+   "connected.00.ba": {
+    "est": 0.5125,
+    "lo": 0.4767524491142582,
+    "hi": 0.5564393939393939,
+    "n_boot": 200
+   },
+   "connected.contrast.interaction.ba_probe": {
+    "est": -0.007500000000000007,
+    "lo": -0.02242610837438419,
+    "hi": 0.009900990099009965,
+    "n_boot": 200
+   },
+   "connected.contrast.interaction.ba_valid_only": {
+    "est": 0.009999999999999898,
+    "lo": -0.015228426395939076,
+    "hi": 0.03496758305272152,
+    "n_boot": 200
+   },
+   "fixed.00.label_mass": {
+    "est": 0.9814495429108908,
+    "lo": 0.9808983743216932,
+    "hi": 0.9820769366432203,
+    "n_boot": 200
+   },
+   "fixed.01.gf_en": {
+    "est": 0.7875,
+    "lo": 0.75,
+    "hi": 0.8270833333333333,
+    "n_boot": 200
+   },
+   "fixed.permitted.gf_fr": {
+    "est": 0.8333333333333334,
+    "lo": 0.7979166666666667,
+    "hi": 0.8708333333333333,
+    "n_boot": 200
+   },
+   "sender.11.indirect_disclosure": null,
+   "fixed.permitted.label_mass": {
+    "est": 0.9783295990206607,
+    "lo": 0.9776216563848563,
+    "hi": 0.9790092529482897,
+    "n_boot": 200
+   },
+   "sender.01.name_disclosed": {
+    "est": 0.0025,
+    "lo": 0.0,
+    "hi": 0.007556675062972292,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.ba": {
+    "est": 0.5,
+    "lo": 0.4648448931811531,
+    "hi": 0.5440656565656565,
+    "n_boot": 200
+   },
+   "fixed.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.contrast.sender_effect": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.10.ba": {
+    "est": 0.47250000000000003,
+    "lo": 0.43036803680368035,
+    "hi": 0.5109149558650696,
+    "n_boot": 200
+   },
+   "channel_lang.00.position_bias": {
+    "est": 0.014496652179925778,
+    "lo": 0.006233827070736684,
+    "hi": 0.024449102939118224,
+    "n_boot": 200
+   },
+   "fixed.01.pf_gap": {
+    "est": 0.006574221452693707,
+    "lo": -0.0029897651836952033,
+    "hi": 0.01592046267501701,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.position_bias": {
+    "est": 0.035268984755668635,
+    "lo": 0.026852357121902683,
+    "hi": 0.04497326211333571,
+    "n_boot": 200
+   },
+   "fixed.contrast.receiver_effect.acc_code": {
+    "est": 0.0010416666666667185,
+    "lo": -0.01666666666666672,
+    "hi": 0.019791666666666652,
+    "n_boot": 200
+   },
+   "sender.contrast.receiver_effect": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.contrast.sender_effect.ba_probe": {
+    "est": 0.006249999999999978,
+    "lo": -0.005082812019280125,
+    "hi": 0.019802465504987432,
+    "n_boot": 200
+   },
+   "shuffled.contrast.interaction.ba_probe": {
+    "est": 0.007499999999999951,
+    "lo": -0.0954545454545454,
+    "hi": 0.08247487437185935,
+    "n_boot": 200
+   },
+   "connected.11.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.01.label_mass": {
+    "est": 0.9851381940350297,
+    "lo": 0.9846703368752707,
+    "hi": 0.9857853719143964,
+    "n_boot": 200
+   },
+   "shuffled.10.label_mass": {
+    "est": 0.987223623689913,
+    "lo": 0.9868585570845356,
+    "hi": 0.9876038340554603,
+    "n_boot": 200
+   },
+   "shuffled.contrast.sender_effect": {
+    "est": -0.016249999999999987,
+    "lo": -0.060197540554683404,
+    "hi": 0.025000000000000022,
+    "n_boot": 200
+   },
+   "channel_lang.11.ba_valid_only": {
+    "est": 0.48750000000000004,
+    "lo": 0.44222394021388994,
+    "hi": 0.536883927024284,
+    "n_boot": 200
+   },
+   "shuffled.restricted_mean.ba": {
+    "est": 0.481875,
+    "lo": 0.4605719763152786,
+    "hi": 0.5069570707070707,
+    "n_boot": 200
+   },
+   "connected.10.ba_valid_only": {
+    "est": 0.5075000000000001,
+    "lo": 0.47039490381198923,
+    "hi": 0.5497512437810945,
+    "n_boot": 200
+   },
+   "sender.01.valid": null,
+   "channel_lang.10.ba_probe": {
+    "est": 0.5,
+    "lo": 0.4683704823684339,
+    "hi": 0.5439320388349514,
+    "n_boot": 200
+   },
+   "connected.00.ba_valid_only": {
+    "est": 0.5125,
+    "lo": 0.4767524491142582,
+    "hi": 0.5564393939393939,
+    "n_boot": 200
+   },
+   "shuffled.10.ba_valid_only": {
+    "est": 0.47250000000000003,
+    "lo": 0.43036803680368035,
+    "hi": 0.5109149558650696,
+    "n_boot": 200
+   },
+   "channel_lang.01.ba_probe": {
+    "est": 0.5,
+    "lo": 0.4651395939086294,
+    "hi": 0.5451284574743603,
+    "n_boot": 200
+   },
+   "connected.01.ba": {
+    "est": 0.5175,
+    "lo": 0.47824626865671643,
+    "hi": 0.5656188118811881,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.sender_effect.ba_valid_only": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.invalid_fr": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.receiver_effect.ba_valid_only": {
+    "est": -0.020000000000000018,
+    "lo": -0.050058968310942475,
+    "hi": 0.01079288065945494,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.indirect_disclosure": null,
+   "shuffled.01.position_bias": {
+    "est": 0.005921648229457071,
+    "lo": -0.001850678892733795,
+    "hi": 0.014405807017207095,
+    "n_boot": 200
+   },
+   "connected.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.01.ba_valid_only": {
+    "est": 0.48750000000000004,
+    "lo": 0.44222394021388994,
+    "hi": 0.536883927024284,
+    "n_boot": 200
+   },
+   "connected.contrast.receiver_effect": {
+    "est": 0.010000000000000009,
+    "lo": -0.015767326732673337,
+    "hi": 0.039479638009049856,
+    "n_boot": 200
+   },
+   "shuffled.00.label_mass": {
+    "est": 0.987194289710598,
+    "lo": 0.9867993518747075,
+    "hi": 0.9876155689295525,
+    "n_boot": 200
+   },
+   "shuffled.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.interaction": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.00.valid": null,
+   "connected.contrast.sender_effect.ba_valid_only": {
+    "est": 1.1102230246251565e-16,
+    "lo": -0.015176767676767788,
+    "hi": 0.014925373134328401,
+    "n_boot": 200
+   },
+   "primary.connected_minus_shuffled": {
+    "est": 0.033125000000000016,
+    "lo": -0.01020935960591135,
+    "hi": 0.07819802502638318,
+    "n_boot": 200
+   },
+   "channel_lang.10.label_mass": {
+    "est": 0.9870770790943751,
+    "lo": 0.9867091273583573,
+    "hi": 0.9874848153655984,
+    "n_boot": 200
+   },
+   "sender.00.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.gf_en": {
+    "est": 0.8583333333333333,
+    "lo": 0.8229166666666666,
+    "hi": 0.89375,
+    "n_boot": 200
+   },
+   "fixed.01.invalid_en": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.contrast.interaction": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.00.ba": {
+    "est": 0.5075000000000001,
+    "lo": 0.4693256090314914,
+    "hi": 0.5462229001525343,
+    "n_boot": 200
+   },
+   "sender.contrast.prohibition_effect": {
+    "est": -0.005,
+    "lo": -0.015384615384615385,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.01.gen_gap": {
+    "est": 0.0,
+    "lo": -0.039583333333333304,
+    "hi": 0.03541666666666665,
+    "n_boot": 200
+   },
+   "sender.10.category_word": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.012437810945273632,
+    "n_boot": 200
+   },
+   "shuffled.01.ba": {
+    "est": 0.5,
+    "lo": 0.4593908629441624,
+    "hi": 0.5447748064743139,
+    "n_boot": 200
+   },
+   "fixed.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.permitted.gf_en": {
+    "est": 0.8375,
+    "lo": 0.8,
+    "hi": 0.8708333333333333,
+    "n_boot": 200
+   },
+   "sender.00.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.00.indirect_disclosure": null,
+   "shuffled.permitted.ba_probe": {
+    "est": 0.5,
+    "lo": 0.4626865671641791,
+    "hi": 0.5371231155778895,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.interaction.ba_valid_only": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.11.ba": {
+    "est": 0.47500000000000003,
+    "lo": 0.4261331912085681,
+    "hi": 0.5192204678213401,
+    "n_boot": 200
+   },
+   "sender.01.category_word": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.012437810945273632,
+    "n_boot": 200
+   },
+   "sender.11.category_word": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.012437810945273632,
+    "n_boot": 200
+   },
+   "sender.permitted.fr_female": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.01.acc_code": {
+    "est": 0.5,
+    "lo": 0.48020833333333335,
+    "hi": 0.5177083333333333,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.label_mass": {
+    "est": 0.9859814854002044,
+    "lo": 0.9855030110995294,
+    "hi": 0.9864201342513159,
+    "n_boot": 200
+   },
+   "shuffled.contrast.sender_effect.ba_valid_only": {
+    "est": -0.016249999999999987,
+    "lo": -0.060197540554683404,
+    "hi": 0.025000000000000022,
+    "n_boot": 200
+   },
+   "channel_lang.10.ba": {
+    "est": 0.5075000000000001,
+    "lo": 0.4693256090314914,
+    "hi": 0.5462229001525343,
+    "n_boot": 200
+   },
+   "connected.permitted.ba_valid_only": {
+    "est": 0.51,
+    "lo": 0.4713118811881188,
+    "hi": 0.5511294416243655,
+    "n_boot": 200
+   },
+   "sender.00.category_word": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.012437810945273632,
+    "n_boot": 200
+   },
+   "sender.11.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.permitted.gen_gap": {
+    "est": -0.004166666666666652,
+    "lo": -0.03125,
+    "hi": 0.025000000000000022,
+    "n_boot": 200
+   },
+   "connected.contrast.interaction": {
+    "est": 0.009999999999999898,
+    "lo": -0.015228426395939076,
+    "hi": 0.03496758305272152,
+    "n_boot": 200
+   },
+   "connected.01.label_mass": {
+    "est": 0.9850330213087806,
+    "lo": 0.9844374062395319,
+    "hi": 0.9857054845975227,
+    "n_boot": 200
+   },
+   "connected.contrast.prohibition_effect.ba_valid_only": {
+    "est": -0.0024999999999999467,
+    "lo": -0.020190355329949172,
+    "hi": 0.02013628539765633,
+    "n_boot": 200
+   },
+   "channel_lang.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.11.fr_gap": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.01990049751243781,
+    "n_boot": 200
+   },
+   "sender.permitted.name_disclosed": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.11.label_mass": {
+    "est": 0.9852684976175538,
+    "lo": 0.984733683551627,
+    "hi": 0.9858614476464125,
+    "n_boot": 200
+   },
+   "sender.11.name_disclosed": {
+    "est": 0.0025,
+    "lo": 0.0,
+    "hi": 0.007556675062972292,
+    "n_boot": 200
+   },
+   "fixed.01.invalid_fr": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.sender_effect": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.contrast.receiver_effect": {
+    "est": 0.002083333333333326,
+    "lo": -0.03333333333333344,
+    "hi": 0.039583333333333304,
+    "n_boot": 200
+   },
+   "sender.00.fr_female": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.01990049751243781,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.sender_effect.ba_probe": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.contrast.prohibition_effect.ba_valid_only": {
+    "est": 0.025000000000000022,
+    "lo": -0.03530088252206309,
+    "hi": 0.10292483329965652,
+    "n_boot": 200
+   },
+   "fixed.permitted.acc_code": {
+    "est": 0.4979166666666667,
+    "lo": 0.484375,
+    "hi": 0.5125000000000001,
+    "n_boot": 200
+   },
+   "connected.10.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.01.ba_valid_only": {
+    "est": 0.5175,
+    "lo": 0.47824626865671643,
+    "hi": 0.5656188118811881,
+    "n_boot": 200
+   },
+   "connected.10.position_bias": {
+    "est": 0.011418903530751465,
+    "lo": 0.0034041314470095517,
+    "hi": 0.01968766799567776,
+    "n_boot": 200
+   },
+   "connected.contrast.sender_effect": {
+    "est": 1.1102230246251565e-16,
+    "lo": -0.015176767676767788,
+    "hi": 0.014925373134328401,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.prohibition_effect.ba_probe": {
+    "est": 0.0050000000000000044,
+    "lo": -0.010075251881297098,
+    "hi": 0.02235408269891026,
+    "n_boot": 200
+   },
+   "connected.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.invalid_en": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.restricted_mean.ba": {
+    "est": 0.515,
+    "lo": 0.4784263959390863,
+    "hi": 0.5586979913916786,
+    "n_boot": 200
+   },
+   "shuffled.permitted.label_mass": {
+    "est": 0.9857431999336619,
+    "lo": 0.9851942969910401,
+    "hi": 0.9862832453150485,
+    "n_boot": 200
+   },
+   "channel_lang.11.ba": {
+    "est": 0.48750000000000004,
+    "lo": 0.44222394021388994,
+    "hi": 0.536883927024284,
+    "n_boot": 200
+   },
+   "shuffled.10.position_bias": {
+    "est": 0.011418903530751465,
+    "lo": 0.003495108770847634,
+    "hi": 0.021679809674401838,
+    "n_boot": 200
+   },
+   "shuffled.10.ba_probe": {
+    "est": 0.47000000000000003,
+    "lo": 0.43406426069742654,
+    "hi": 0.5090833710236695,
+    "n_boot": 200
+   },
+   "sender.10.valid": null,
+   "sender.permitted.fr_gap": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.01.ba_valid_only": {
+    "est": 0.5,
+    "lo": 0.4593908629441624,
+    "hi": 0.5447748064743139,
+    "n_boot": 200
+   },
+   "shuffled.contrast.sender_effect.ba_probe": {
+    "est": -0.006250000000000089,
+    "lo": -0.04777715106142966,
+    "hi": 0.0414255254340542,
+    "n_boot": 200
+   },
+   "connected.00.ba_probe": {
+    "est": 0.48000000000000004,
+    "lo": 0.44951712028094815,
+    "hi": 0.5215686274509804,
+    "n_boot": 200
+   },
+   "sender.01.fr_female": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.01990049751243781,
+    "n_boot": 200
+   },
+   "sender.10.name_disclosed": {
+    "est": 0.0025,
+    "lo": 0.0,
+    "hi": 0.007556675062972292,
+    "n_boot": 200
+   },
+   "connected.00.position_bias": {
+    "est": 0.011651872885134043,
+    "lo": 0.00452812109952616,
+    "hi": 0.020529014729996718,
+    "n_boot": 200
+   }
+  },
+  "subliminal__subliminal__think0": {
+   "connected.00.label_mass": {
+    "est": 0.9947152413264918,
+    "lo": 0.9943144147167193,
+    "hi": 0.9951003878149929,
+    "n_boot": 200
+   },
+   "connected.10.label_mass": {
+    "est": 0.9947432308385872,
+    "lo": 0.9943407234149109,
+    "hi": 0.9950901571314674,
+    "n_boot": 200
+   },
+   "sender.permitted.category_word": {
+    "est": 0.0125,
+    "lo": 0.0025,
+    "hi": 0.024752475247524754,
+    "n_boot": 200
+   },
+   "fixed.permitted.invalid_en": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.01.ba": {
+    "est": 0.49,
+    "lo": 0.452020202020202,
+    "hi": 0.535089239299948,
+    "n_boot": 200
+   },
+   "channel_lang.00.ba_valid_only": {
+    "est": 0.48750000000000004,
+    "lo": 0.4425211548033848,
+    "hi": 0.5292929292929293,
+    "n_boot": 200
+   },
+   "channel_lang.restricted_mean.ba": {
+    "est": 0.48875,
+    "lo": 0.4515789473684211,
+    "hi": 0.5295854271356784,
+    "n_boot": 200
+   },
+   "sender.11.valid": null,
+   "shuffled.permitted.position_bias": {
+    "est": -0.04406589467191807,
+    "lo": -0.05515415449253877,
+    "hi": -0.03370066753076242,
+    "n_boot": 200
+   },
+   "connected.permitted.label_mass": {
+    "est": 0.994233402553895,
+    "lo": 0.99347115954198,
+    "hi": 0.9947436781640794,
+    "n_boot": 200
+   },
+   "shuffled.01.ba_probe": {
+    "est": 0.48,
+    "lo": 0.4306565656565656,
+    "hi": 0.5338776414954929,
+    "n_boot": 200
+   },
+   "sender.00.fr_gap": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.10.ba_valid_only": {
+    "est": 0.48750000000000004,
+    "lo": 0.4425211548033848,
+    "hi": 0.5292929292929293,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.interaction.ba_probe": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.fr_gap": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.gen_gap": {
+    "est": 0.033333333333333326,
+    "lo": -0.006250000000000033,
+    "hi": 0.07083333333333336,
+    "n_boot": 200
+   },
+   "shuffled.11.ba_valid_only": {
+    "est": 0.5175,
+    "lo": 0.48050492610837436,
+    "hi": 0.5614320388349514,
+    "n_boot": 200
+   },
+   "shuffled.permitted.ba": {
+    "est": 0.51,
+    "lo": 0.4685714285714285,
+    "hi": 0.569044718542206,
+    "n_boot": 200
+   },
+   "connected.01.ba_probe": {
+    "est": 0.495,
+    "lo": 0.45561576354679806,
+    "hi": 0.537265535598786,
+    "n_boot": 200
+   },
+   "shuffled.11.ba_probe": {
+    "est": 0.5,
+    "lo": 0.44746451880244487,
+    "hi": 0.5440671641791045,
+    "n_boot": 200
+   },
+   "fixed.contrast.prohibition_effect": {
+    "est": 0.012500000000000011,
+    "lo": -0.025000000000000022,
+    "hi": 0.060416666666666674,
+    "n_boot": 200
+   },
+   "sender.01.fr_gap": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.contrast.receiver_effect": {
+    "est": 0.028749999999999942,
+    "lo": -0.01878731343283585,
+    "hi": 0.08140756302521013,
+    "n_boot": 200
+   },
+   "sender.01.indirect_disclosure": null,
+   "shuffled.11.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.gf_fr": {
+    "est": 0.44166666666666665,
+    "lo": 0.39375,
+    "hi": 0.49166666666666664,
+    "n_boot": 200
+   },
+   "shuffled.contrast.receiver_effect.ba_probe": {
+    "est": 0.02250000000000002,
+    "lo": -0.02512562814070357,
+    "hi": 0.06900260104041617,
+    "n_boot": 200
+   },
+   "fixed.00.acc_code": {
+    "est": 0.5166666666666666,
+    "lo": 0.496875,
+    "hi": 0.5354166666666667,
+    "n_boot": 200
+   },
+   "connected.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.01.position_bias": {
+    "est": -0.08292247752203873,
+    "lo": -0.09373250498689656,
+    "hi": -0.07155384668198296,
+    "n_boot": 200
+   },
+   "fixed.contrast.receiver_effect.pf_gap": {
+    "est": -0.011050151433344646,
+    "lo": -0.017785052633319365,
+    "hi": -0.0032239515538698416,
+    "n_boot": 200
+   },
+   "sender.01.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.10.ba": {
+    "est": 0.5,
+    "lo": 0.4556155778894473,
+    "hi": 0.5432673267326733,
+    "n_boot": 200
+   },
+   "shuffled.10.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.contrast.prohibition_effect.acc_code": {
+    "est": 0.006250000000000089,
+    "lo": -0.012500000000000067,
+    "hi": 0.030208333333333393,
+    "n_boot": 200
+   },
+   "fixed.contrast.prohibition_effect.pf_gap": {
+    "est": 0.00520512089879821,
+    "lo": -0.0015163599854659537,
+    "hi": 0.011189779503273822,
+    "n_boot": 200
+   },
+   "shuffled.contrast.prohibition_effect": {
+    "est": 0.04999999999999999,
+    "lo": -0.0027678876262010044,
+    "hi": 0.12935323383084574,
+    "n_boot": 200
+   },
+   "connected.permitted.position_bias": {
+    "est": -0.04406589467191807,
+    "lo": -0.05479098402525119,
+    "hi": -0.03207131380273769,
+    "n_boot": 200
+   },
+   "connected.contrast.receiver_effect.ba_probe": {
+    "est": 0.02250000000000002,
+    "lo": 0.0028879310344828157,
+    "hi": 0.044473350253807165,
+    "n_boot": 200
+   },
+   "connected.contrast.receiver_effect.ba_valid_only": {
+    "est": -0.00874999999999998,
+    "lo": -0.027608171264887682,
+    "hi": 0.01127057022579403,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.receiver_effect.ba_probe": {
+    "est": -0.007500000000000007,
+    "lo": -0.04060913705583752,
+    "hi": 0.02240899931127721,
+    "n_boot": 200
+   },
+   "fixed.00.pf_gap": {
+    "est": 0.009561491878042838,
+    "lo": -0.00252013052821487,
+    "hi": 0.021446055667190267,
+    "n_boot": 200
+   },
+   "connected.11.ba": {
+    "est": 0.485,
+    "lo": 0.43440191387559807,
+    "hi": 0.5215005375134378,
+    "n_boot": 200
+   },
+   "sender.01.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.10.ba_probe": {
+    "est": 0.46499999999999997,
+    "lo": 0.42108910891089113,
+    "hi": 0.507970297029703,
+    "n_boot": 200
+   },
+   "sender.11.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.11.position_bias": {
+    "est": -0.08675637696092096,
+    "lo": -0.09723231081902549,
+    "hi": -0.07452976452613519,
+    "n_boot": 200
+   },
+   "sender.00.name_disclosed": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.012468827930174564,
+    "n_boot": 200
+   },
+   "shuffled.01.label_mass": {
+    "est": 0.9943224332245394,
+    "lo": 0.9939308514945292,
+    "hi": 0.9946781967336124,
+    "n_boot": 200
+   },
+   "channel_lang.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.ba_probe": {
+    "est": 0.47500000000000003,
+    "lo": 0.43511697361871576,
+    "hi": 0.5193264446995791,
+    "n_boot": 200
+   },
+   "shuffled.00.ba_probe": {
+    "est": 0.485,
+    "lo": 0.4391439143914392,
+    "hi": 0.5340308712317414,
+    "n_boot": 200
+   },
+   "fixed.01.gf_fr": {
+    "est": 0.41458333333333336,
+    "lo": 0.36875,
+    "hi": 0.4625,
+    "n_boot": 200
+   },
+   "sender.permitted.valid": null,
+   "shuffled.contrast.interaction.ba_valid_only": {
+    "est": 0.0124999999999999,
+    "lo": -0.07836608533949846,
+    "hi": 0.11526381909547734,
+    "n_boot": 200
+   },
+   "sender.10.fr_female": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.permitted.ba_probe": {
+    "est": 0.48000000000000004,
+    "lo": 0.43826732673267327,
+    "hi": 0.5381803105683702,
+    "n_boot": 200
+   },
+   "shuffled.permitted.ba_valid_only": {
+    "est": 0.51,
+    "lo": 0.4685714285714285,
+    "hi": 0.569044718542206,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.prohibition_effect.ba_valid_only": {
+    "est": 0.01749999999999996,
+    "lo": -0.004826732673267331,
+    "hi": 0.04555963210534253,
+    "n_boot": 200
+   },
+   "fixed.01.label_mass": {
+    "est": 0.9926139690416804,
+    "lo": 0.9921576655782005,
+    "hi": 0.9931306771630167,
+    "n_boot": 200
+   },
+   "channel_lang.11.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.ba_valid_only": {
+    "est": 0.505,
+    "lo": 0.4604129530600119,
+    "hi": 0.5560858585858586,
+    "n_boot": 200
+   },
+   "channel_lang.00.ba_probe": {
+    "est": 0.4875,
+    "lo": 0.44191919191919193,
+    "hi": 0.5358318687031216,
+    "n_boot": 200
+   },
+   "connected.11.ba_valid_only": {
+    "est": 0.485,
+    "lo": 0.43440191387559807,
+    "hi": 0.5215005375134378,
+    "n_boot": 200
+   },
+   "sender.11.fr_female": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.contrast.receiver_effect.ba_valid_only": {
+    "est": 0.028749999999999942,
+    "lo": -0.01878731343283585,
+    "hi": 0.08140756302521013,
+    "n_boot": 200
+   },
+   "shuffled.00.ba_valid_only": {
+    "est": 0.46,
+    "lo": 0.407618902593777,
+    "hi": 0.5002051071684955,
+    "n_boot": 200
+   },
+   "channel_lang.10.position_bias": {
+    "est": -0.06156060049773369,
+    "lo": -0.0720982077437152,
+    "hi": -0.05006491806141033,
+    "n_boot": 200
+   },
+   "channel_lang.00.label_mass": {
+    "est": 0.9948798453503569,
+    "lo": 0.9945605158587679,
+    "hi": 0.9951898348509071,
+    "n_boot": 200
+   },
+   "shuffled.contrast.interaction": {
+    "est": 0.0124999999999999,
+    "lo": -0.07836608533949846,
+    "hi": 0.11526381909547734,
+    "n_boot": 200
+   },
+   "shuffled.11.label_mass": {
+    "est": 0.9942958987207744,
+    "lo": 0.9938503431821993,
+    "hi": 0.9947504119967415,
+    "n_boot": 200
+   },
+   "shuffled.contrast.prohibition_effect.ba_probe": {
+    "est": 0.0,
+    "lo": -0.0637270215066682,
+    "hi": 0.06950495049504946,
+    "n_boot": 200
+   },
+   "shuffled.11.position_bias": {
+    "est": -0.08675637696092096,
+    "lo": -0.09809680549341952,
+    "hi": -0.0757775105139524,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.prohibition_effect": {
+    "est": 0.01749999999999996,
+    "lo": -0.004826732673267331,
+    "hi": 0.04555963210534253,
+    "n_boot": 200
+   },
+   "fixed.permitted.pf_gap": {
+    "est": 0.014766612776841048,
+    "lo": 0.0026162811433154687,
+    "hi": 0.02570351740073623,
+    "n_boot": 200
+   },
+   "fixed.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.11.position_bias": {
+    "est": -0.08672082398008696,
+    "lo": -0.09737473111696351,
+    "hi": -0.07466511861261925,
+    "n_boot": 200
+   },
+   "channel_lang.11.label_mass": {
+    "est": 0.9944135503847036,
+    "lo": 0.994060172737092,
+    "hi": 0.994783520191123,
+    "n_boot": 200
+   },
+   "channel_lang.01.position_bias": {
+    "est": -0.08672082398008696,
+    "lo": -0.09737473111696351,
+    "hi": -0.07466511861261925,
+    "n_boot": 200
+   },
+   "sender.10.indirect_disclosure": null,
+   "channel_lang.10.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.contrast.prohibition_effect": {
+    "est": -0.0050000000000000044,
+    "lo": -0.03688787072617994,
+    "hi": 0.027751256281407066,
+    "n_boot": 200
+   },
+   "channel_lang.11.ba_probe": {
+    "est": 0.48,
+    "lo": 0.4284825870646766,
+    "hi": 0.5313888888888889,
+    "n_boot": 200
+   },
+   "shuffled.00.ba": {
+    "est": 0.46,
+    "lo": 0.407618902593777,
+    "hi": 0.5002051071684955,
+    "n_boot": 200
+   },
+   "connected.contrast.prohibition_effect.ba_probe": {
+    "est": 0.015000000000000069,
+    "lo": -0.01691053305744411,
+    "hi": 0.048071823623001775,
+    "n_boot": 200
+   },
+   "fixed.permitted.invalid_fr": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.permitted.ba": {
+    "est": 0.49,
+    "lo": 0.44054187192118227,
+    "hi": 0.5398009950248757,
+    "n_boot": 200
+   },
+   "shuffled.00.position_bias": {
+    "est": -0.05973794945169202,
+    "lo": -0.06835477765158395,
+    "hi": -0.05075831875359412,
+    "n_boot": 200
+   },
+   "connected.11.ba_probe": {
+    "est": 0.48,
+    "lo": 0.4400065996547873,
+    "hi": 0.5248756218905473,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.receiver_effect": {
+    "est": 0.0024999999999999467,
+    "lo": -0.015306122448979664,
+    "hi": 0.026945812807881775,
+    "n_boot": 200
+   },
+   "connected.00.ba": {
+    "est": 0.495,
+    "lo": 0.4536483253588517,
+    "hi": 0.5323383084577115,
+    "n_boot": 200
+   },
+   "connected.contrast.interaction.ba_probe": {
+    "est": -0.015000000000000013,
+    "lo": -0.03985525456098915,
+    "hi": 0.005076142131979766,
+    "n_boot": 200
+   },
+   "connected.contrast.interaction.ba_valid_only": {
+    "est": -0.012500000000000067,
+    "lo": -0.03722772277227726,
+    "hi": 0.007686214322845775,
+    "n_boot": 200
+   },
+   "fixed.00.label_mass": {
+    "est": 0.993515921543206,
+    "lo": 0.9930718970210716,
+    "hi": 0.9939694654313703,
+    "n_boot": 200
+   },
+   "fixed.01.gf_en": {
+    "est": 0.38958333333333334,
+    "lo": 0.34375,
+    "hi": 0.44166666666666665,
+    "n_boot": 200
+   },
+   "fixed.permitted.gf_fr": {
+    "est": 0.5229166666666667,
+    "lo": 0.475,
+    "hi": 0.58125,
+    "n_boot": 200
+   },
+   "sender.11.indirect_disclosure": null,
+   "fixed.permitted.label_mass": {
+    "est": 0.9923048365123602,
+    "lo": 0.9918496447146071,
+    "hi": 0.9927781912701296,
+    "n_boot": 200
+   },
+   "sender.01.name_disclosed": {
+    "est": 0.0025,
+    "lo": 0.0,
+    "hi": 0.007556675062972292,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.ba": {
+    "est": 0.505,
+    "lo": 0.4604129530600119,
+    "hi": 0.5560858585858586,
+    "n_boot": 200
+   },
+   "fixed.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.contrast.sender_effect": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.10.ba": {
+    "est": 0.48250000000000004,
+    "lo": 0.43439008769336884,
+    "hi": 0.5280438098572179,
+    "n_boot": 200
+   },
+   "channel_lang.00.position_bias": {
+    "est": -0.06156060049773369,
+    "lo": -0.0720982077437152,
+    "hi": -0.05006491806141033,
+    "n_boot": 200
+   },
+   "fixed.01.pf_gap": {
+    "est": -0.0014886595553018078,
+    "lo": -0.015103091261477575,
+    "hi": 0.009815049079896165,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.position_bias": {
+    "est": -0.04736612263742065,
+    "lo": -0.05868379399448385,
+    "hi": -0.03545054137422065,
+    "n_boot": 200
+   },
+   "fixed.contrast.receiver_effect.acc_code": {
+    "est": -0.004166666666666541,
+    "lo": -0.021874999999999978,
+    "hi": 0.014583333333333393,
+    "n_boot": 200
+   },
+   "sender.contrast.receiver_effect": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.contrast.sender_effect.ba_probe": {
+    "est": -0.007500000000000007,
+    "lo": -0.024875621890547206,
+    "hi": 0.011231343283582051,
+    "n_boot": 200
+   },
+   "shuffled.contrast.interaction.ba_probe": {
+    "est": 0.05500000000000005,
+    "lo": -0.055863462136123365,
+    "hi": 0.14572864321608048,
+    "n_boot": 200
+   },
+   "connected.11.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.01.label_mass": {
+    "est": 0.9944135503847036,
+    "lo": 0.994060172737092,
+    "hi": 0.994783520191123,
+    "n_boot": 200
+   },
+   "shuffled.10.label_mass": {
+    "est": 0.9947432308385872,
+    "lo": 0.9944031972193536,
+    "hi": 0.9950909757389211,
+    "n_boot": 200
+   },
+   "shuffled.contrast.sender_effect": {
+    "est": 0.028749999999999942,
+    "lo": -0.016376072280594844,
+    "hi": 0.0676718448573459,
+    "n_boot": 200
+   },
+   "channel_lang.11.ba_valid_only": {
+    "est": 0.49,
+    "lo": 0.452020202020202,
+    "hi": 0.535089239299948,
+    "n_boot": 200
+   },
+   "shuffled.restricted_mean.ba": {
+    "est": 0.48562500000000003,
+    "lo": 0.45999999999999996,
+    "hi": 0.5100486089958371,
+    "n_boot": 200
+   },
+   "connected.10.ba_valid_only": {
+    "est": 0.5,
+    "lo": 0.4556155778894473,
+    "hi": 0.5432673267326733,
+    "n_boot": 200
+   },
+   "sender.01.valid": null,
+   "channel_lang.10.ba_probe": {
+    "est": 0.4875,
+    "lo": 0.44191919191919193,
+    "hi": 0.5358318687031216,
+    "n_boot": 200
+   },
+   "connected.00.ba_valid_only": {
+    "est": 0.495,
+    "lo": 0.4536483253588517,
+    "hi": 0.5323383084577115,
+    "n_boot": 200
+   },
+   "shuffled.10.ba_valid_only": {
+    "est": 0.48250000000000004,
+    "lo": 0.43439008769336884,
+    "hi": 0.5280438098572179,
+    "n_boot": 200
+   },
+   "channel_lang.01.ba_probe": {
+    "est": 0.48,
+    "lo": 0.4284825870646766,
+    "hi": 0.5313888888888889,
+    "n_boot": 200
+   },
+   "connected.01.ba": {
+    "est": 0.49250000000000005,
+    "lo": 0.4479674796747967,
+    "hi": 0.5326444699579028,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.sender_effect.ba_valid_only": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.invalid_fr": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.receiver_effect.ba_valid_only": {
+    "est": 0.0024999999999999467,
+    "lo": -0.015306122448979664,
+    "hi": 0.026945812807881775,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.indirect_disclosure": null,
+   "shuffled.01.position_bias": {
+    "est": -0.08292247752203873,
+    "lo": -0.09416840454083693,
+    "hi": -0.0727093302836707,
+    "n_boot": 200
+   },
+   "connected.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.01.ba_valid_only": {
+    "est": 0.49,
+    "lo": 0.452020202020202,
+    "hi": 0.535089239299948,
+    "n_boot": 200
+   },
+   "connected.contrast.receiver_effect": {
+    "est": -0.00874999999999998,
+    "lo": -0.027608171264887682,
+    "hi": 0.01127057022579403,
+    "n_boot": 200
+   },
+   "shuffled.00.label_mass": {
+    "est": 0.9947152413264918,
+    "lo": 0.9943527603914115,
+    "hi": 0.9951239315448497,
+    "n_boot": 200
+   },
+   "shuffled.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.interaction": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.00.valid": null,
+   "connected.contrast.sender_effect.ba_valid_only": {
+    "est": -0.0012500000000000289,
+    "lo": -0.02231453569590469,
+    "hi": 0.01965686274509798,
+    "n_boot": 200
+   },
+   "primary.connected_minus_shuffled": {
+    "est": 0.007500000000000007,
+    "lo": -0.03840965346534653,
+    "hi": 0.05564175319971032,
+    "n_boot": 200
+   },
+   "channel_lang.10.label_mass": {
+    "est": 0.9948798453503569,
+    "lo": 0.9945605158587679,
+    "hi": 0.9951898348509071,
+    "n_boot": 200
+   },
+   "sender.00.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.gf_en": {
+    "est": 0.4083333333333333,
+    "lo": 0.3645833333333333,
+    "hi": 0.45625,
+    "n_boot": 200
+   },
+   "fixed.01.invalid_en": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.contrast.interaction": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.00.ba": {
+    "est": 0.48750000000000004,
+    "lo": 0.4425211548033848,
+    "hi": 0.5292929292929293,
+    "n_boot": 200
+   },
+   "sender.contrast.prohibition_effect": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.01.gen_gap": {
+    "est": 0.025000000000000022,
+    "lo": -0.018750000000000044,
+    "hi": 0.060416666666666674,
+    "n_boot": 200
+   },
+   "sender.10.category_word": {
+    "est": 0.0025,
+    "lo": 0.0,
+    "hi": 0.007556675062972292,
+    "n_boot": 200
+   },
+   "shuffled.01.ba": {
+    "est": 0.48250000000000004,
+    "lo": 0.4375,
+    "hi": 0.5319907618902594,
+    "n_boot": 200
+   },
+   "fixed.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.permitted.gf_en": {
+    "est": 0.47708333333333336,
+    "lo": 0.43333333333333335,
+    "hi": 0.5270833333333333,
+    "n_boot": 200
+   },
+   "sender.00.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.00.indirect_disclosure": null,
+   "shuffled.permitted.ba_probe": {
+    "est": 0.485,
+    "lo": 0.44309744082662506,
+    "hi": 0.5280339805825243,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.interaction.ba_valid_only": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.11.ba": {
+    "est": 0.5175,
+    "lo": 0.48050492610837436,
+    "hi": 0.5614320388349514,
+    "n_boot": 200
+   },
+   "sender.01.category_word": {
+    "est": 0.0025,
+    "lo": 0.0,
+    "hi": 0.007556675062972292,
+    "n_boot": 200
+   },
+   "sender.11.category_word": {
+    "est": 0.0025,
+    "lo": 0.0,
+    "hi": 0.007556675062972292,
+    "n_boot": 200
+   },
+   "sender.permitted.fr_female": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.01.acc_code": {
+    "est": 0.5125000000000001,
+    "lo": 0.490625,
+    "hi": 0.5302083333333334,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.label_mass": {
+    "est": 0.9946563250184043,
+    "lo": 0.9942859967950545,
+    "hi": 0.9949763120544992,
+    "n_boot": 200
+   },
+   "shuffled.contrast.sender_effect.ba_valid_only": {
+    "est": 0.028749999999999942,
+    "lo": -0.016376072280594844,
+    "hi": 0.0676718448573459,
+    "n_boot": 200
+   },
+   "channel_lang.10.ba": {
+    "est": 0.48750000000000004,
+    "lo": 0.4425211548033848,
+    "hi": 0.5292929292929293,
+    "n_boot": 200
+   },
+   "connected.permitted.ba_valid_only": {
+    "est": 0.49,
+    "lo": 0.44054187192118227,
+    "hi": 0.5398009950248757,
+    "n_boot": 200
+   },
+   "sender.00.category_word": {
+    "est": 0.0025,
+    "lo": 0.0,
+    "hi": 0.007556675062972292,
+    "n_boot": 200
+   },
+   "sender.11.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.permitted.gen_gap": {
+    "est": 0.04583333333333334,
+    "lo": -0.002083333333333326,
+    "hi": 0.09166666666666667,
+    "n_boot": 200
+   },
+   "connected.contrast.interaction": {
+    "est": -0.012500000000000067,
+    "lo": -0.03722772277227726,
+    "hi": 0.007686214322845775,
+    "n_boot": 200
+   },
+   "connected.01.label_mass": {
+    "est": 0.9943224332245394,
+    "lo": 0.9938572587209841,
+    "hi": 0.9947002813406648,
+    "n_boot": 200
+   },
+   "connected.contrast.prohibition_effect.ba_valid_only": {
+    "est": -0.0050000000000000044,
+    "lo": -0.03688787072617994,
+    "hi": 0.027751256281407066,
+    "n_boot": 200
+   },
+   "channel_lang.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.11.fr_gap": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.name_disclosed": {
+    "est": 0.0075,
+    "lo": 0.0,
+    "hi": 0.0175,
+    "n_boot": 200
+   },
+   "connected.11.label_mass": {
+    "est": 0.9942958987207744,
+    "lo": 0.9937871372484871,
+    "hi": 0.9946627123047329,
+    "n_boot": 200
+   },
+   "sender.11.name_disclosed": {
+    "est": 0.0075,
+    "lo": 0.0,
+    "hi": 0.017369727047146403,
+    "n_boot": 200
+   },
+   "fixed.01.invalid_fr": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.sender_effect": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.contrast.receiver_effect": {
+    "est": -0.008333333333333304,
+    "lo": -0.04375000000000001,
+    "hi": 0.02916666666666662,
+    "n_boot": 200
+   },
+   "sender.00.fr_female": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.sender_effect.ba_probe": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.contrast.prohibition_effect.ba_valid_only": {
+    "est": 0.04999999999999999,
+    "lo": -0.0027678876262010044,
+    "hi": 0.12935323383084574,
+    "n_boot": 200
+   },
+   "fixed.permitted.acc_code": {
+    "est": 0.5229166666666667,
+    "lo": 0.49895833333333334,
+    "hi": 0.5458333333333334,
+    "n_boot": 200
+   },
+   "connected.10.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.01.ba_valid_only": {
+    "est": 0.49250000000000005,
+    "lo": 0.4479674796747967,
+    "hi": 0.5326444699579028,
+    "n_boot": 200
+   },
+   "connected.10.position_bias": {
+    "est": -0.06085799311896046,
+    "lo": -0.06990214372424529,
+    "hi": -0.0504784307959983,
+    "n_boot": 200
+   },
+   "connected.contrast.sender_effect": {
+    "est": -0.0012500000000000289,
+    "lo": -0.02231453569590469,
+    "hi": 0.01965686274509798,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.prohibition_effect.ba_probe": {
+    "est": -0.012499999999999956,
+    "lo": -0.04216417910447767,
+    "hi": 0.017945055225365436,
+    "n_boot": 200
+   },
+   "connected.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.invalid_en": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.restricted_mean.ba": {
+    "est": 0.49312500000000004,
+    "lo": 0.4515107589228192,
+    "hi": 0.5294967470340605,
+    "n_boot": 200
+   },
+   "shuffled.permitted.label_mass": {
+    "est": 0.994233402553895,
+    "lo": 0.9936593937160775,
+    "hi": 0.994777428061316,
+    "n_boot": 200
+   },
+   "channel_lang.11.ba": {
+    "est": 0.49,
+    "lo": 0.452020202020202,
+    "hi": 0.535089239299948,
+    "n_boot": 200
+   },
+   "shuffled.10.position_bias": {
+    "est": -0.06085799311896046,
+    "lo": -0.0703599347002034,
+    "hi": -0.05135594979279612,
+    "n_boot": 200
+   },
+   "shuffled.10.ba_probe": {
+    "est": 0.44999999999999996,
+    "lo": 0.4002100840336134,
+    "hi": 0.49559679586049055,
+    "n_boot": 200
+   },
+   "sender.10.valid": null,
+   "sender.permitted.fr_gap": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.01.ba_valid_only": {
+    "est": 0.48250000000000004,
+    "lo": 0.4375,
+    "hi": 0.5319907618902594,
+    "n_boot": 200
+   },
+   "shuffled.contrast.sender_effect.ba_probe": {
+    "est": -0.007500000000000007,
+    "lo": -0.05043525709354857,
+    "hi": 0.04511986731668094,
+    "n_boot": 200
+   },
+   "connected.00.ba_probe": {
+    "est": 0.46499999999999997,
+    "lo": 0.4257565095003518,
+    "hi": 0.5049751243781094,
+    "n_boot": 200
+   },
+   "sender.01.fr_female": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.name_disclosed": {
+    "est": 0.0075,
+    "lo": 0.0,
+    "hi": 0.017369727047146403,
+    "n_boot": 200
+   },
+   "connected.00.position_bias": {
+    "est": -0.05973794945169202,
+    "lo": -0.06904240919061,
+    "hi": -0.049337463698493754,
+    "n_boot": 200
+   }
+  },
+  "subliminal__subliminal__think0 - control_shuffled": {
+   "connected.00.label_mass": {
+    "est": 0.007520951615893834,
+    "lo": 0.007184118308712462,
+    "hi": 0.007902901039694266,
+    "n_boot": 200
+   },
+   "connected.10.label_mass": {
+    "est": 0.007519607148674168,
+    "lo": 0.007192868008851994,
+    "hi": 0.007928291840653912,
+    "n_boot": 200
+   },
+   "sender.permitted.category_word": {
+    "est": 0.007500000000000001,
+    "lo": 0.0,
+    "hi": 0.017811704834605598,
+    "n_boot": 200
+   },
+   "fixed.permitted.invalid_en": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.01.ba": {
+    "est": 0.0024999999999999467,
+    "lo": -0.04489795918367351,
+    "hi": 0.04573604060913711,
+    "n_boot": 200
+   },
+   "channel_lang.00.ba_valid_only": {
+    "est": -0.020000000000000018,
+    "lo": -0.06407679422754803,
+    "hi": 0.021806737323978642,
+    "n_boot": 200
+   },
+   "channel_lang.restricted_mean.ba": {
+    "est": -0.008750000000000036,
+    "lo": -0.05416251866600297,
+    "hi": 0.03015075376884424,
+    "n_boot": 200
+   },
+   "sender.11.valid": null,
+   "shuffled.permitted.position_bias": {
+    "est": -0.07627926394506279,
+    "lo": -0.08785382014329862,
+    "hi": -0.06694066017735081,
+    "n_boot": 200
+   },
+   "connected.permitted.label_mass": {
+    "est": 0.008490202620233145,
+    "lo": 0.008049433525199379,
+    "hi": 0.008888940069402662,
+    "n_boot": 200
+   },
+   "shuffled.01.ba_probe": {
+    "est": -0.025000000000000022,
+    "lo": -0.07733502538071063,
+    "hi": 0.020749365576951784,
+    "n_boot": 200
+   },
+   "sender.00.fr_gap": {
+    "est": -0.005,
+    "lo": -0.015384615384615385,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.10.ba_valid_only": {
+    "est": -0.020000000000000018,
+    "lo": -0.06407679422754803,
+    "hi": 0.021806737323978642,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.interaction.ba_probe": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.fr_gap": {
+    "est": -0.005,
+    "lo": -0.015384615384615385,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.gen_gap": {
+    "est": 0.03541666666666665,
+    "lo": -0.00833333333333336,
+    "hi": 0.07708333333333328,
+    "n_boot": 200
+   },
+   "shuffled.11.ba_valid_only": {
+    "est": 0.04249999999999993,
+    "lo": -0.007979797979798087,
+    "hi": 0.08822815533980577,
+    "n_boot": 200
+   },
+   "shuffled.permitted.ba": {
+    "est": 0.0050000000000000044,
+    "lo": -0.04786688544764639,
+    "hi": 0.04847984798479854,
+    "n_boot": 200
+   },
+   "connected.01.ba_probe": {
+    "est": -0.015000000000000013,
+    "lo": -0.062057094034276505,
+    "hi": 0.03128109452736311,
+    "n_boot": 200
+   },
+   "shuffled.11.ba_probe": {
+    "est": -0.0024999999999999467,
+    "lo": -0.04402060809095987,
+    "hi": 0.05271401243424201,
+    "n_boot": 200
+   },
+   "fixed.contrast.prohibition_effect": {
+    "est": 0.014583333333333337,
+    "lo": -0.03333333333333338,
+    "hi": 0.07291666666666663,
+    "n_boot": 200
+   },
+   "sender.01.fr_gap": {
+    "est": -0.005,
+    "lo": -0.015384615384615385,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.contrast.receiver_effect": {
+    "est": 0.017499999999999905,
+    "lo": -0.04120689655172405,
+    "hi": 0.05937028657616894,
+    "n_boot": 200
+   },
+   "sender.01.indirect_disclosure": null,
+   "shuffled.11.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.gf_fr": {
+    "est": -0.4145833333333333,
+    "lo": -0.46249999999999997,
+    "hi": -0.3666666666666667,
+    "n_boot": 200
+   },
+   "shuffled.contrast.receiver_effect.ba_probe": {
+    "est": -0.006249999999999867,
+    "lo": -0.056802030456852726,
+    "hi": 0.04312269462240348,
+    "n_boot": 200
+   },
+   "fixed.00.acc_code": {
+    "est": 0.017708333333333326,
+    "lo": -0.004166666666666652,
+    "hi": 0.038541666666666696,
+    "n_boot": 200
+   },
+   "connected.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.01.position_bias": {
+    "est": -0.08884412575149579,
+    "lo": -0.09610388463472852,
+    "hi": -0.08063404737862281,
+    "n_boot": 200
+   },
+   "fixed.contrast.receiver_effect.pf_gap": {
+    "est": -0.011885104501643373,
+    "lo": -0.017778046589729035,
+    "hi": -0.006093407266069162,
+    "n_boot": 200
+   },
+   "sender.01.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.10.ba": {
+    "est": -0.007500000000000062,
+    "lo": -0.0639447236180904,
+    "hi": 0.039753975397539776,
+    "n_boot": 200
+   },
+   "shuffled.10.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.contrast.prohibition_effect.acc_code": {
+    "est": 0.007291666666666696,
+    "lo": -0.016666666666666663,
+    "hi": 0.03645833333333337,
+    "n_boot": 200
+   },
+   "fixed.contrast.prohibition_effect.pf_gap": {
+    "est": 0.002462677858265705,
+    "lo": -0.004271559654821788,
+    "hi": 0.008864911150663013,
+    "n_boot": 200
+   },
+   "shuffled.contrast.prohibition_effect": {
+    "est": 0.024999999999999967,
+    "lo": -0.055242786769880314,
+    "hi": 0.10063652326602285,
+    "n_boot": 200
+   },
+   "connected.permitted.position_bias": {
+    "est": -0.07627926394506279,
+    "lo": -0.08511885788557105,
+    "hi": -0.06950845036296645,
+    "n_boot": 200
+   },
+   "connected.contrast.receiver_effect.ba_probe": {
+    "est": -0.0037499999999999756,
+    "lo": -0.03174310961497995,
+    "hi": 0.029328072692491602,
+    "n_boot": 200
+   },
+   "connected.contrast.receiver_effect.ba_valid_only": {
+    "est": -0.01874999999999999,
+    "lo": -0.05591644530306694,
+    "hi": 0.013961442786069589,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.receiver_effect.ba_probe": {
+    "est": -0.007500000000000007,
+    "lo": -0.04330420220838349,
+    "hi": 0.035342639593908765,
+    "n_boot": 200
+   },
+   "fixed.00.pf_gap": {
+    "est": 0.0038222234936478583,
+    "lo": -0.0027240401683448767,
+    "hi": 0.010657064960987894,
+    "n_boot": 200
+   },
+   "connected.11.ba": {
+    "est": -0.03749999999999998,
+    "lo": -0.09348577310491873,
+    "hi": 0.010498923187365394,
+    "n_boot": 200
+   },
+   "sender.01.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.10.ba_probe": {
+    "est": -0.025000000000000022,
+    "lo": -0.0732323232323232,
+    "hi": 0.021130653266331678,
+    "n_boot": 200
+   },
+   "sender.11.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.11.position_bias": {
+    "est": -0.09207340554516757,
+    "lo": -0.09929254872852548,
+    "hi": -0.08430532264491225,
+    "n_boot": 200
+   },
+   "sender.00.name_disclosed": {
+    "est": 0.0025,
+    "lo": 0.0,
+    "hi": 0.007575757575757576,
+    "n_boot": 200
+   },
+   "shuffled.01.label_mass": {
+    "est": 0.009289411915758827,
+    "lo": 0.008844993340180629,
+    "hi": 0.009693772539032142,
+    "n_boot": 200
+   },
+   "channel_lang.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.ba_probe": {
+    "est": -0.02999999999999997,
+    "lo": -0.07323232323232332,
+    "hi": 0.00941238564391278,
+    "n_boot": 200
+   },
+   "shuffled.00.ba_probe": {
+    "est": 0.004999999999999949,
+    "lo": -0.03940292506408005,
+    "hi": 0.05744194229415911,
+    "n_boot": 200
+   },
+   "fixed.01.gf_fr": {
+    "est": -0.3729166666666666,
+    "lo": -0.4145833333333333,
+    "hi": -0.32708333333333334,
+    "n_boot": 200
+   },
+   "sender.permitted.valid": null,
+   "shuffled.contrast.interaction.ba_valid_only": {
+    "est": 0.029999999999999916,
+    "lo": -0.0569443423277699,
+    "hi": 0.11394410476025457,
+    "n_boot": 200
+   },
+   "sender.10.fr_female": {
+    "est": -0.005,
+    "lo": -0.015384615384615385,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.permitted.ba_probe": {
+    "est": -0.009999999999999953,
+    "lo": -0.05423469387755103,
+    "hi": 0.03449494949494958,
+    "n_boot": 200
+   },
+   "shuffled.permitted.ba_valid_only": {
+    "est": 0.0050000000000000044,
+    "lo": -0.04786688544764639,
+    "hi": 0.04847984798479854,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.prohibition_effect.ba_valid_only": {
+    "est": 0.025000000000000022,
+    "lo": -0.0056134330187521675,
+    "hi": 0.05875257576519077,
+    "n_boot": 200
+   },
+   "fixed.01.label_mass": {
+    "est": 0.01328456562378022,
+    "lo": 0.012740129518987509,
+    "hi": 0.013948003626507055,
+    "n_boot": 200
+   },
+   "channel_lang.11.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.ba_valid_only": {
+    "est": 0.0050000000000000044,
+    "lo": -0.04281100478468902,
+    "hi": 0.05346446700507612,
+    "n_boot": 200
+   },
+   "channel_lang.00.ba_probe": {
+    "est": -0.012500000000000011,
+    "lo": -0.06242228598756572,
+    "hi": 0.027348484848484844,
+    "n_boot": 200
+   },
+   "connected.11.ba_valid_only": {
+    "est": -0.03749999999999998,
+    "lo": -0.09348577310491873,
+    "hi": 0.010498923187365394,
+    "n_boot": 200
+   },
+   "sender.11.fr_female": {
+    "est": -0.005,
+    "lo": -0.015384615384615385,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.contrast.receiver_effect.ba_valid_only": {
+    "est": 0.017499999999999905,
+    "lo": -0.04120689655172405,
+    "hi": 0.05937028657616894,
+    "n_boot": 200
+   },
+   "shuffled.00.ba_valid_only": {
+    "est": -0.019999999999999962,
+    "lo": -0.0769846963175514,
+    "hi": 0.04172588832487312,
+    "n_boot": 200
+   },
+   "channel_lang.10.position_bias": {
+    "est": -0.07605725267765946,
+    "lo": -0.08275955048285817,
+    "hi": -0.07074213111163206,
+    "n_boot": 200
+   },
+   "channel_lang.00.label_mass": {
+    "est": 0.007802766255981752,
+    "lo": 0.00750180726157601,
+    "hi": 0.008131756328136008,
+    "n_boot": 200
+   },
+   "shuffled.contrast.interaction": {
+    "est": 0.029999999999999916,
+    "lo": -0.0569443423277699,
+    "hi": 0.11394410476025457,
+    "n_boot": 200
+   },
+   "shuffled.11.label_mass": {
+    "est": 0.009027401103220645,
+    "lo": 0.008547835876555832,
+    "hi": 0.009449103346164445,
+    "n_boot": 200
+   },
+   "shuffled.contrast.prohibition_effect.ba_probe": {
+    "est": -0.019999999999999962,
+    "lo": -0.09141370115885561,
+    "hi": 0.05115973218555714,
+    "n_boot": 200
+   },
+   "shuffled.11.position_bias": {
+    "est": -0.09207340554516757,
+    "lo": -0.09934679484266816,
+    "hi": -0.08500484370728739,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.prohibition_effect": {
+    "est": 0.025000000000000022,
+    "lo": -0.0056134330187521675,
+    "hi": 0.05875257576519077,
+    "n_boot": 200
+   },
+   "fixed.permitted.pf_gap": {
+    "est": 0.006284901351913563,
+    "lo": -0.000526406430737425,
+    "hi": 0.014104897240331427,
+    "n_boot": 200
+   },
+   "fixed.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.11.position_bias": {
+    "est": -0.09297685137208221,
+    "lo": -0.10076907607265645,
+    "hi": -0.0858001047498088,
+    "n_boot": 200
+   },
+   "channel_lang.11.label_mass": {
+    "est": 0.009275356349673913,
+    "lo": 0.008850870689058654,
+    "hi": 0.009701541501757727,
+    "n_boot": 200
+   },
+   "channel_lang.01.position_bias": {
+    "est": -0.09297685137208221,
+    "lo": -0.10076907607265645,
+    "hi": -0.0858001047498088,
+    "n_boot": 200
+   },
+   "sender.10.indirect_disclosure": null,
+   "channel_lang.10.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.contrast.prohibition_effect": {
+    "est": -0.0025000000000000577,
+    "lo": -0.03910391039103911,
+    "hi": 0.036955445544554544,
+    "n_boot": 200
+   },
+   "channel_lang.11.ba_probe": {
+    "est": -0.020000000000000018,
+    "lo": -0.06938270357648002,
+    "hi": 0.03137931034482766,
+    "n_boot": 200
+   },
+   "shuffled.00.ba": {
+    "est": -0.019999999999999962,
+    "lo": -0.0769846963175514,
+    "hi": 0.04172588832487312,
+    "n_boot": 200
+   },
+   "connected.contrast.prohibition_effect.ba_probe": {
+    "est": 0.0050000000000001155,
+    "lo": -0.03667407557082236,
+    "hi": 0.04149873115390357,
+    "n_boot": 200
+   },
+   "fixed.permitted.invalid_fr": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.permitted.ba": {
+    "est": -0.020000000000000018,
+    "lo": -0.07227220183947325,
+    "hi": 0.022311519326444706,
+    "n_boot": 200
+   },
+   "shuffled.00.position_bias": {
+    "est": -0.07138982233682606,
+    "lo": -0.07859414518610647,
+    "hi": -0.06157493884811452,
+    "n_boot": 200
+   },
+   "connected.11.ba_probe": {
+    "est": -0.03249999999999997,
+    "lo": -0.07671727227476355,
+    "hi": 0.01634236453201965,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.receiver_effect": {
+    "est": 0.022499999999999964,
+    "lo": -0.019306184012066407,
+    "hi": 0.05994974874371861,
+    "n_boot": 200
+   },
+   "connected.00.ba": {
+    "est": -0.01749999999999996,
+    "lo": -0.06569873405250976,
+    "hi": 0.023650975889781933,
+    "n_boot": 200
+   },
+   "connected.contrast.interaction.ba_probe": {
+    "est": -0.007500000000000007,
+    "lo": -0.032576142131979735,
+    "hi": 0.019839295487337705,
+    "n_boot": 200
+   },
+   "connected.contrast.interaction.ba_valid_only": {
+    "est": -0.022499999999999964,
+    "lo": -0.06197478991596639,
+    "hi": 0.012133566297806375,
+    "n_boot": 200
+   },
+   "fixed.00.label_mass": {
+    "est": 0.012066378632315189,
+    "lo": 0.011553089406494466,
+    "hi": 0.0125147082378535,
+    "n_boot": 200
+   },
+   "fixed.01.gf_en": {
+    "est": -0.39791666666666664,
+    "lo": -0.4416666666666667,
+    "hi": -0.34791666666666665,
+    "n_boot": 200
+   },
+   "fixed.permitted.gf_fr": {
+    "est": -0.3104166666666667,
+    "lo": -0.34791666666666665,
+    "hi": -0.2645833333333333,
+    "n_boot": 200
+   },
+   "sender.11.indirect_disclosure": null,
+   "fixed.permitted.label_mass": {
+    "est": 0.013975237491699488,
+    "lo": 0.013449945854587253,
+    "hi": 0.01452273948547389,
+    "n_boot": 200
+   },
+   "sender.01.name_disclosed": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.ba": {
+    "est": 0.0050000000000000044,
+    "lo": -0.04281100478468902,
+    "hi": 0.05346446700507612,
+    "n_boot": 200
+   },
+   "fixed.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.contrast.sender_effect": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.10.ba": {
+    "est": 0.010000000000000009,
+    "lo": -0.03547428733111696,
+    "hi": 0.061071428571428665,
+    "n_boot": 200
+   },
+   "channel_lang.00.position_bias": {
+    "est": -0.07605725267765946,
+    "lo": -0.08275955048285817,
+    "hi": -0.07074213111163206,
+    "n_boot": 200
+   },
+   "fixed.01.pf_gap": {
+    "est": -0.008062881007995515,
+    "lo": -0.014295038365392698,
+    "hi": -0.0018818557455390628,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.position_bias": {
+    "est": -0.08263510739308928,
+    "lo": -0.08958583291876134,
+    "hi": -0.0759889573227446,
+    "n_boot": 200
+   },
+   "fixed.contrast.receiver_effect.acc_code": {
+    "est": -0.005208333333333259,
+    "lo": -0.033333333333333326,
+    "hi": 0.019791666666666707,
+    "n_boot": 200
+   },
+   "sender.contrast.receiver_effect": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.contrast.sender_effect.ba_probe": {
+    "est": -0.013749999999999984,
+    "lo": -0.037878787878787845,
+    "hi": 0.008385922330096995,
+    "n_boot": 200
+   },
+   "shuffled.contrast.interaction.ba_probe": {
+    "est": 0.0475000000000001,
+    "lo": -0.04758868971724295,
+    "hi": 0.14499999999999996,
+    "n_boot": 200
+   },
+   "connected.11.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.01.label_mass": {
+    "est": 0.009275356349673913,
+    "lo": 0.008850870689058654,
+    "hi": 0.009701541501757727,
+    "n_boot": 200
+   },
+   "shuffled.10.label_mass": {
+    "est": 0.007519607148674168,
+    "lo": 0.00711002512506731,
+    "hi": 0.007919373045855438,
+    "n_boot": 200
+   },
+   "shuffled.contrast.sender_effect": {
+    "est": 0.04499999999999993,
+    "lo": -0.004916177406804834,
+    "hi": 0.10195158963132489,
+    "n_boot": 200
+   },
+   "channel_lang.11.ba_valid_only": {
+    "est": 0.0024999999999999467,
+    "lo": -0.04489795918367351,
+    "hi": 0.04573604060913711,
+    "n_boot": 200
+   },
+   "shuffled.restricted_mean.ba": {
+    "est": 0.003750000000000031,
+    "lo": -0.0243364458495699,
+    "hi": 0.030817447416383426,
+    "n_boot": 200
+   },
+   "connected.10.ba_valid_only": {
+    "est": -0.007500000000000062,
+    "lo": -0.0639447236180904,
+    "hi": 0.039753975397539776,
+    "n_boot": 200
+   },
+   "sender.01.valid": null,
+   "channel_lang.10.ba_probe": {
+    "est": -0.012500000000000011,
+    "lo": -0.06242228598756572,
+    "hi": 0.027348484848484844,
+    "n_boot": 200
+   },
+   "connected.00.ba_valid_only": {
+    "est": -0.01749999999999996,
+    "lo": -0.06569873405250976,
+    "hi": 0.023650975889781933,
+    "n_boot": 200
+   },
+   "shuffled.10.ba_valid_only": {
+    "est": 0.010000000000000009,
+    "lo": -0.03547428733111696,
+    "hi": 0.061071428571428665,
+    "n_boot": 200
+   },
+   "channel_lang.01.ba_probe": {
+    "est": -0.020000000000000018,
+    "lo": -0.06938270357648002,
+    "hi": 0.03137931034482766,
+    "n_boot": 200
+   },
+   "connected.01.ba": {
+    "est": -0.02499999999999991,
+    "lo": -0.08128140703517589,
+    "hi": 0.01668055660782386,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.sender_effect.ba_valid_only": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.invalid_fr": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.receiver_effect.ba_valid_only": {
+    "est": 0.022499999999999964,
+    "lo": -0.019306184012066407,
+    "hi": 0.05994974874371861,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.indirect_disclosure": null,
+   "shuffled.01.position_bias": {
+    "est": -0.08884412575149579,
+    "lo": -0.09764049997959798,
+    "hi": -0.079539978773238,
+    "n_boot": 200
+   },
+   "connected.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.01.ba_valid_only": {
+    "est": 0.0024999999999999467,
+    "lo": -0.04489795918367351,
+    "hi": 0.04573604060913711,
+    "n_boot": 200
+   },
+   "connected.contrast.receiver_effect": {
+    "est": -0.01874999999999999,
+    "lo": -0.05591644530306694,
+    "hi": 0.013961442786069589,
+    "n_boot": 200
+   },
+   "shuffled.00.label_mass": {
+    "est": 0.007520951615893834,
+    "lo": 0.007168884192858993,
+    "hi": 0.007920959180511056,
+    "n_boot": 200
+   },
+   "shuffled.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.interaction": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.00.valid": null,
+   "connected.contrast.sender_effect.ba_valid_only": {
+    "est": -0.0012500000000001399,
+    "lo": -0.02368184204605117,
+    "hi": 0.027933673469387688,
+    "n_boot": 200
+   },
+   "primary.connected_minus_shuffled": {
+    "est": -0.02562500000000001,
+    "lo": -0.07671867933061965,
+    "hi": 0.029643165321557252,
+    "n_boot": 200
+   },
+   "channel_lang.10.label_mass": {
+    "est": 0.007802766255981752,
+    "lo": 0.00750180726157601,
+    "hi": 0.008131756328136008,
+    "n_boot": 200
+   },
+   "sender.00.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.gf_en": {
+    "est": -0.44999999999999996,
+    "lo": -0.49375,
+    "hi": -0.40208333333333335,
+    "n_boot": 200
+   },
+   "fixed.01.invalid_en": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.contrast.interaction": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.00.ba": {
+    "est": -0.020000000000000018,
+    "lo": -0.06407679422754803,
+    "hi": 0.021806737323978642,
+    "n_boot": 200
+   },
+   "sender.contrast.prohibition_effect": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.01990049751243781,
+    "n_boot": 200
+   },
+   "fixed.01.gen_gap": {
+    "est": 0.025000000000000022,
+    "lo": -0.02083333333333337,
+    "hi": 0.07500000000000001,
+    "n_boot": 200
+   },
+   "sender.10.category_word": {
+    "est": -0.0025,
+    "lo": -0.007518796992481203,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.01.ba": {
+    "est": -0.01749999999999996,
+    "lo": -0.06467661691542287,
+    "hi": 0.02789335246293634,
+    "n_boot": 200
+   },
+   "fixed.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.permitted.gf_en": {
+    "est": -0.36041666666666666,
+    "lo": -0.39999999999999997,
+    "hi": -0.3104166666666667,
+    "n_boot": 200
+   },
+   "sender.00.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.00.indirect_disclosure": null,
+   "shuffled.permitted.ba_probe": {
+    "est": -0.015000000000000013,
+    "lo": -0.06195154878871978,
+    "hi": 0.02967885110833357,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.interaction.ba_valid_only": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.11.ba": {
+    "est": 0.04249999999999993,
+    "lo": -0.007979797979798087,
+    "hi": 0.08822815533980577,
+    "n_boot": 200
+   },
+   "sender.01.category_word": {
+    "est": -0.0025,
+    "lo": -0.007518796992481203,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.11.category_word": {
+    "est": -0.0025,
+    "lo": -0.007518796992481203,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.fr_female": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.01.acc_code": {
+    "est": 0.012500000000000067,
+    "lo": -0.01041666666666663,
+    "hi": 0.03750000000000009,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.label_mass": {
+    "est": 0.008674839618199925,
+    "lo": 0.008351911090786146,
+    "hi": 0.008964026323613816,
+    "n_boot": 200
+   },
+   "shuffled.contrast.sender_effect.ba_valid_only": {
+    "est": 0.04499999999999993,
+    "lo": -0.004916177406804834,
+    "hi": 0.10195158963132489,
+    "n_boot": 200
+   },
+   "channel_lang.10.ba": {
+    "est": -0.020000000000000018,
+    "lo": -0.06407679422754803,
+    "hi": 0.021806737323978642,
+    "n_boot": 200
+   },
+   "connected.permitted.ba_valid_only": {
+    "est": -0.020000000000000018,
+    "lo": -0.07227220183947325,
+    "hi": 0.022311519326444706,
+    "n_boot": 200
+   },
+   "sender.00.category_word": {
+    "est": -0.0025,
+    "lo": -0.007518796992481203,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.11.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.permitted.gen_gap": {
+    "est": 0.04999999999999999,
+    "lo": 0.002083333333333326,
+    "hi": 0.10624999999999996,
+    "n_boot": 200
+   },
+   "connected.contrast.interaction": {
+    "est": -0.022499999999999964,
+    "lo": -0.06197478991596639,
+    "hi": 0.012133566297806375,
+    "n_boot": 200
+   },
+   "connected.01.label_mass": {
+    "est": 0.009289411915758827,
+    "lo": 0.008842036589797542,
+    "hi": 0.009778775115554472,
+    "n_boot": 200
+   },
+   "connected.contrast.prohibition_effect.ba_valid_only": {
+    "est": -0.0025000000000000577,
+    "lo": -0.03910391039103911,
+    "hi": 0.036955445544554544,
+    "n_boot": 200
+   },
+   "channel_lang.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.11.fr_gap": {
+    "est": -0.005,
+    "lo": -0.015384615384615385,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.name_disclosed": {
+    "est": 0.0075,
+    "lo": 0.0,
+    "hi": 0.0175,
+    "n_boot": 200
+   },
+   "connected.11.label_mass": {
+    "est": 0.009027401103220645,
+    "lo": 0.008655580552593745,
+    "hi": 0.009482428222435835,
+    "n_boot": 200
+   },
+   "sender.11.name_disclosed": {
+    "est": 0.004999999999999999,
+    "lo": 0.0,
+    "hi": 0.012531328320802004,
+    "n_boot": 200
+   },
+   "fixed.01.invalid_fr": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.sender_effect": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.contrast.receiver_effect": {
+    "est": -0.01041666666666663,
+    "lo": -0.06666666666666671,
+    "hi": 0.039583333333333304,
+    "n_boot": 200
+   },
+   "sender.00.fr_female": {
+    "est": -0.005,
+    "lo": -0.015384615384615385,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.sender_effect.ba_probe": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.contrast.prohibition_effect.ba_valid_only": {
+    "est": 0.024999999999999967,
+    "lo": -0.055242786769880314,
+    "hi": 0.10063652326602285,
+    "n_boot": 200
+   },
+   "fixed.permitted.acc_code": {
+    "est": 0.025000000000000022,
+    "lo": 0.0010416666666667185,
+    "hi": 0.05312499999999998,
+    "n_boot": 200
+   },
+   "connected.10.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.01.ba_valid_only": {
+    "est": -0.02499999999999991,
+    "lo": -0.08128140703517589,
+    "hi": 0.01668055660782386,
+    "n_boot": 200
+   },
+   "connected.10.position_bias": {
+    "est": -0.07227689664971193,
+    "lo": -0.07984683523555522,
+    "hi": -0.06587494172875687,
+    "n_boot": 200
+   },
+   "connected.contrast.sender_effect": {
+    "est": -0.0012500000000001399,
+    "lo": -0.02368184204605117,
+    "hi": 0.027933673469387688,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.prohibition_effect.ba_probe": {
+    "est": -0.01749999999999996,
+    "lo": -0.052151741293532394,
+    "hi": 0.020278158469113294,
+    "n_boot": 200
+   },
+   "connected.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.invalid_en": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.restricted_mean.ba": {
+    "est": -0.021874999999999978,
+    "lo": -0.06889042412591612,
+    "hi": 0.01326459390862944,
+    "n_boot": 200
+   },
+   "shuffled.permitted.label_mass": {
+    "est": 0.008490202620233145,
+    "lo": 0.0080796966675315,
+    "hi": 0.008907315909250868,
+    "n_boot": 200
+   },
+   "channel_lang.11.ba": {
+    "est": 0.0024999999999999467,
+    "lo": -0.04489795918367351,
+    "hi": 0.04573604060913711,
+    "n_boot": 200
+   },
+   "shuffled.10.position_bias": {
+    "est": -0.07227689664971193,
+    "lo": -0.08104121111214194,
+    "hi": -0.06500019562424338,
+    "n_boot": 200
+   },
+   "shuffled.10.ba_probe": {
+    "est": -0.020000000000000073,
+    "lo": -0.06433218522770756,
+    "hi": 0.02782569564239107,
+    "n_boot": 200
+   },
+   "sender.10.valid": null,
+   "sender.permitted.fr_gap": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.01.ba_valid_only": {
+    "est": -0.01749999999999996,
+    "lo": -0.06467661691542287,
+    "hi": 0.02789335246293634,
+    "n_boot": 200
+   },
+   "shuffled.contrast.sender_effect.ba_probe": {
+    "est": -0.0012499999999999178,
+    "lo": -0.047741152059607106,
+    "hi": 0.05231343283582085,
+    "n_boot": 200
+   },
+   "connected.00.ba_probe": {
+    "est": -0.015000000000000069,
+    "lo": -0.05787878787878786,
+    "hi": 0.0239857825713935,
+    "n_boot": 200
+   },
+   "sender.01.fr_female": {
+    "est": -0.005,
+    "lo": -0.015384615384615385,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.name_disclosed": {
+    "est": 0.004999999999999999,
+    "lo": 0.0,
+    "hi": 0.012531328320802004,
+    "n_boot": 200
+   },
+   "connected.00.position_bias": {
+    "est": -0.07138982233682606,
+    "lo": -0.07878031443627136,
+    "hi": -0.06295712488863917,
+    "n_boot": 200
+   }
+  },
+  "subliminal__subliminal__think0 - base": {
+   "connected.00.label_mass": {
+    "est": 0.10188949168258876,
+    "lo": 0.09626390661180617,
+    "hi": 0.10937339693909087,
+    "n_boot": 200
+   },
+   "connected.10.label_mass": {
+    "est": 0.10305577033797686,
+    "lo": 0.09683554359218693,
+    "hi": 0.11167376357702097,
+    "n_boot": 200
+   },
+   "sender.permitted.category_word": {
+    "est": -0.005000000000000001,
+    "lo": -0.01507537688442211,
+    "hi": 0.005115089514066496,
+    "n_boot": 200
+   },
+   "fixed.permitted.invalid_en": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.01.ba": {
+    "est": 0.009999999999999953,
+    "lo": -0.03528441079402056,
+    "hi": 0.05875587558755874,
+    "n_boot": 200
+   },
+   "channel_lang.00.ba_valid_only": {
+    "est": 0.015000000000000013,
+    "lo": -0.034522100297405434,
+    "hi": 0.06014328808446456,
+    "n_boot": 200
+   },
+   "channel_lang.restricted_mean.ba": {
+    "est": 0.012499999999999956,
+    "lo": -0.03371012584138133,
+    "hi": 0.05497135534448955,
+    "n_boot": 200
+   },
+   "sender.11.valid": null,
+   "shuffled.permitted.position_bias": {
+    "est": -0.07756001966618367,
+    "lo": -0.09041962104655299,
+    "hi": -0.06405831800702798,
+    "n_boot": 200
+   },
+   "connected.permitted.label_mass": {
+    "est": 0.07502398575498415,
+    "lo": 0.0690772429327523,
+    "hi": 0.08180657288933202,
+    "n_boot": 200
+   },
+   "shuffled.01.ba_probe": {
+    "est": 0.007499999999999951,
+    "lo": -0.04084222521495906,
+    "hi": 0.05790898448931814,
+    "n_boot": 200
+   },
+   "sender.00.fr_gap": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.10.ba_valid_only": {
+    "est": 0.015000000000000013,
+    "lo": -0.034522100297405434,
+    "hi": 0.06014328808446456,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.interaction.ba_probe": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.fr_gap": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.015151515151515152,
+    "n_boot": 200
+   },
+   "fixed.00.gen_gap": {
+    "est": 0.1291666666666667,
+    "lo": 0.07291666666666663,
+    "hi": 0.18541666666666662,
+    "n_boot": 200
+   },
+   "shuffled.11.ba_valid_only": {
+    "est": -0.0050000000000000044,
+    "lo": -0.048518454340668815,
+    "hi": 0.03610734207749133,
+    "n_boot": 200
+   },
+   "shuffled.permitted.ba": {
+    "est": 0.010000000000000009,
+    "lo": -0.04166463444373991,
+    "hi": 0.05708121827411172,
+    "n_boot": 200
+   },
+   "connected.01.ba_probe": {
+    "est": -0.012499999999999956,
+    "lo": -0.05655731494810212,
+    "hi": 0.04340668861549124,
+    "n_boot": 200
+   },
+   "shuffled.11.ba_probe": {
+    "est": -0.010000000000000009,
+    "lo": -0.04968357660508316,
+    "hi": 0.02688536953242837,
+    "n_boot": 200
+   },
+   "fixed.contrast.prohibition_effect": {
+    "est": -0.006250000000000089,
+    "lo": -0.06666666666666671,
+    "hi": 0.05833333333333335,
+    "n_boot": 200
+   },
+   "sender.01.fr_gap": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.contrast.receiver_effect": {
+    "est": -0.030000000000000027,
+    "lo": -0.07164025254477513,
+    "hi": 0.009889162561576348,
+    "n_boot": 200
+   },
+   "sender.01.indirect_disclosure": null,
+   "shuffled.11.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.gf_fr": {
+    "est": -0.01874999999999999,
+    "lo": -0.05833333333333335,
+    "hi": 0.02083333333333337,
+    "n_boot": 200
+   },
+   "shuffled.contrast.receiver_effect.ba_probe": {
+    "est": -0.016249999999999987,
+    "lo": -0.0633140190749667,
+    "hi": 0.022978493331731298,
+    "n_boot": 200
+   },
+   "fixed.00.acc_code": {
+    "est": 0.06458333333333333,
+    "lo": 0.036458333333333315,
+    "hi": 0.09270833333333334,
+    "n_boot": 200
+   },
+   "connected.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.01.position_bias": {
+    "est": -0.12513177845020876,
+    "lo": -0.13769157736377147,
+    "hi": -0.11142895220887072,
+    "n_boot": 200
+   },
+   "fixed.contrast.receiver_effect.pf_gap": {
+    "est": -0.026186770182334118,
+    "lo": -0.03436223253392845,
+    "hi": -0.017829648602796455,
+    "n_boot": 200
+   },
+   "sender.01.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.fr_male": {
+    "est": -0.005,
+    "lo": -0.01507537688442211,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.10.ba": {
+    "est": -0.0024999999999999467,
+    "lo": -0.04174752450614516,
+    "hi": 0.04195606127776952,
+    "n_boot": 200
+   },
+   "shuffled.10.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.contrast.prohibition_effect.acc_code": {
+    "est": -0.0031249999999999334,
+    "lo": -0.033333333333333326,
+    "hi": 0.029166666666666674,
+    "n_boot": 200
+   },
+   "fixed.contrast.prohibition_effect.pf_gap": {
+    "est": 0.007423637713036835,
+    "lo": -0.0024006474065815797,
+    "hi": 0.019360229318831745,
+    "n_boot": 200
+   },
+   "shuffled.contrast.prohibition_effect": {
+    "est": 0.03250000000000003,
+    "lo": -0.04236700745104832,
+    "hi": 0.10945273631840785,
+    "n_boot": 200
+   },
+   "connected.permitted.position_bias": {
+    "est": -0.07756001966618367,
+    "lo": -0.09290623620404358,
+    "hi": -0.06537060898262131,
+    "n_boot": 200
+   },
+   "connected.contrast.receiver_effect.ba_probe": {
+    "est": 0.023750000000000104,
+    "lo": -0.005075757575757567,
+    "hi": 0.06112614353820395,
+    "n_boot": 200
+   },
+   "connected.contrast.receiver_effect.ba_valid_only": {
+    "est": 0.0012500000000000289,
+    "lo": -0.02775277527752784,
+    "hi": 0.033656716417910404,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.receiver_effect.ba_probe": {
+    "est": -0.020000000000000018,
+    "lo": -0.05599455753833282,
+    "hi": 0.015165602854701754,
+    "n_boot": 200
+   },
+   "fixed.00.pf_gap": {
+    "est": 0.050572958121391176,
+    "lo": 0.03794400880681453,
+    "hi": 0.06261450544319436,
+    "n_boot": 200
+   },
+   "connected.11.ba": {
+    "est": -0.010000000000000009,
+    "lo": -0.051130113011301104,
+    "hi": 0.03147814781478142,
+    "n_boot": 200
+   },
+   "sender.01.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.10.ba_probe": {
+    "est": -0.04500000000000004,
+    "lo": -0.08329564299713554,
+    "hi": -0.005825697113016004,
+    "n_boot": 200
+   },
+   "sender.11.fr_male": {
+    "est": -0.005,
+    "lo": -0.01507537688442211,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.11.position_bias": {
+    "est": -0.13237483320692692,
+    "lo": -0.14543265924789156,
+    "hi": -0.11827851011960323,
+    "n_boot": 200
+   },
+   "sender.00.name_disclosed": {
+    "est": 0.0025,
+    "lo": -0.005037783375314861,
+    "hi": 0.012376237623762377,
+    "n_boot": 200
+   },
+   "shuffled.01.label_mass": {
+    "est": 0.0955108995948234,
+    "lo": 0.08994100517366266,
+    "hi": 0.10259465637460907,
+    "n_boot": 200
+   },
+   "channel_lang.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.ba_probe": {
+    "est": -0.004999999999999949,
+    "lo": -0.036747778300368794,
+    "hi": 0.02910291029102907,
+    "n_boot": 200
+   },
+   "shuffled.00.ba_probe": {
+    "est": 0.0,
+    "lo": -0.03943069306930702,
+    "hi": 0.04027227722772275,
+    "n_boot": 200
+   },
+   "fixed.01.gf_fr": {
+    "est": -0.05833333333333329,
+    "lo": -0.09791666666666671,
+    "hi": -0.01874999999999999,
+    "n_boot": 200
+   },
+   "sender.permitted.valid": null,
+   "shuffled.contrast.interaction.ba_valid_only": {
+    "est": -0.07000000000000012,
+    "lo": -0.15464285714285697,
+    "hi": 0.02240899931127721,
+    "n_boot": 200
+   },
+   "sender.10.fr_female": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.permitted.ba_probe": {
+    "est": -0.034999999999999976,
+    "lo": -0.07592254200294413,
+    "hi": 0.02449494949494957,
+    "n_boot": 200
+   },
+   "shuffled.permitted.ba_valid_only": {
+    "est": 0.010000000000000009,
+    "lo": -0.04166463444373991,
+    "hi": 0.05708121827411172,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.prohibition_effect.ba_valid_only": {
+    "est": -0.012499999999999956,
+    "lo": -0.056025824964132,
+    "hi": 0.03511083743842358,
+    "n_boot": 200
+   },
+   "fixed.01.label_mass": {
+    "est": 0.13781175185141037,
+    "lo": 0.13066638888802418,
+    "hi": 0.14518568293021827,
+    "n_boot": 200
+   },
+   "channel_lang.11.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.ba_valid_only": {
+    "est": 0.0025000000000000577,
+    "lo": -0.040000000000000036,
+    "hi": 0.04591836734693866,
+    "n_boot": 200
+   },
+   "channel_lang.00.ba_probe": {
+    "est": 0.024999999999999967,
+    "lo": -0.018961804094363488,
+    "hi": 0.06030150753768848,
+    "n_boot": 200
+   },
+   "connected.11.ba_valid_only": {
+    "est": -0.010000000000000009,
+    "lo": -0.051130113011301104,
+    "hi": 0.03147814781478142,
+    "n_boot": 200
+   },
+   "sender.11.fr_female": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.contrast.receiver_effect.ba_valid_only": {
+    "est": -0.030000000000000027,
+    "lo": -0.07164025254477513,
+    "hi": 0.009889162561576348,
+    "n_boot": 200
+   },
+   "shuffled.00.ba_valid_only": {
+    "est": -0.02250000000000002,
+    "lo": -0.07178217821782179,
+    "hi": 0.032382650029708804,
+    "n_boot": 200
+   },
+   "channel_lang.10.position_bias": {
+    "est": -0.13021506444972492,
+    "lo": -0.14086894204984313,
+    "hi": -0.1173852677185801,
+    "n_boot": 200
+   },
+   "channel_lang.00.label_mass": {
+    "est": 0.11398859404602157,
+    "lo": 0.10801961609136079,
+    "hi": 0.11949606872834007,
+    "n_boot": 200
+   },
+   "shuffled.contrast.interaction": {
+    "est": -0.07000000000000012,
+    "lo": -0.15464285714285697,
+    "hi": 0.02240899931127721,
+    "n_boot": 200
+   },
+   "shuffled.11.label_mass": {
+    "est": 0.09527171004873758,
+    "lo": 0.09015666673451062,
+    "hi": 0.10134982176041085,
+    "n_boot": 200
+   },
+   "shuffled.contrast.prohibition_effect.ba_probe": {
+    "est": 0.0,
+    "lo": -0.06012626262626258,
+    "hi": 0.049836601307189476,
+    "n_boot": 200
+   },
+   "shuffled.11.position_bias": {
+    "est": -0.13237483320692692,
+    "lo": -0.147565315780318,
+    "hi": -0.12053910857499192,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.prohibition_effect": {
+    "est": -0.012499999999999956,
+    "lo": -0.056025824964132,
+    "hi": 0.03511083743842358,
+    "n_boot": 200
+   },
+   "fixed.permitted.pf_gap": {
+    "est": 0.05799659583442801,
+    "lo": 0.04480227632581968,
+    "hi": 0.07192142302783622,
+    "n_boot": 200
+   },
+   "fixed.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.11.position_bias": {
+    "est": -0.15451692994702232,
+    "lo": -0.16577484778176016,
+    "hi": -0.13883105735066673,
+    "n_boot": 200
+   },
+   "channel_lang.11.label_mass": {
+    "est": 0.10678228151246849,
+    "lo": 0.1012495309654099,
+    "hi": 0.11253784348761076,
+    "n_boot": 200
+   },
+   "channel_lang.01.position_bias": {
+    "est": -0.15451614873426056,
+    "lo": -0.16577326957416066,
+    "hi": -0.13883027023453395,
+    "n_boot": 200
+   },
+   "sender.10.indirect_disclosure": null,
+   "channel_lang.10.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.contrast.prohibition_effect": {
+    "est": 0.007499999999999951,
+    "lo": -0.03653754184600666,
+    "hi": 0.0548514851485149,
+    "n_boot": 200
+   },
+   "channel_lang.11.ba_probe": {
+    "est": 0.004999999999999949,
+    "lo": -0.03807106598984766,
+    "hi": 0.04334388662746874,
+    "n_boot": 200
+   },
+   "shuffled.00.ba": {
+    "est": -0.02250000000000002,
+    "lo": -0.07178217821782179,
+    "hi": 0.032382650029708804,
+    "n_boot": 200
+   },
+   "connected.contrast.prohibition_effect.ba_probe": {
+    "est": 0.00500000000000006,
+    "lo": -0.0404294198264048,
+    "hi": 0.05755350920856145,
+    "n_boot": 200
+   },
+   "fixed.permitted.invalid_fr": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.permitted.ba": {
+    "est": -0.015000000000000013,
+    "lo": -0.0631401814457126,
+    "hi": 0.03150315031503148,
+    "n_boot": 200
+   },
+   "shuffled.00.position_bias": {
+    "est": -0.09784694119725662,
+    "lo": -0.10850382834258276,
+    "hi": -0.0856017346080215,
+    "n_boot": 200
+   },
+   "connected.11.ba_probe": {
+    "est": -0.025000000000000022,
+    "lo": -0.07063643339851966,
+    "hi": 0.023603237864197824,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.receiver_effect": {
+    "est": -0.00500000000000006,
+    "lo": -0.037128712871287106,
+    "hi": 0.024950248756218762,
+    "n_boot": 200
+   },
+   "connected.00.ba": {
+    "est": -0.022499999999999964,
+    "lo": -0.06811530582382208,
+    "hi": 0.021377137713771366,
+    "n_boot": 200
+   },
+   "connected.contrast.interaction.ba_probe": {
+    "est": -0.007500000000000062,
+    "lo": -0.034951987661077655,
+    "hi": 0.022842639593908642,
+    "n_boot": 200
+   },
+   "connected.contrast.interaction.ba_valid_only": {
+    "est": -0.01750000000000007,
+    "lo": -0.057191296287261495,
+    "hi": 0.015380710659898322,
+    "n_boot": 200
+   },
+   "fixed.00.label_mass": {
+    "est": 0.14052272608727567,
+    "lo": 0.13297233062096792,
+    "hi": 0.14811068829152496,
+    "n_boot": 200
+   },
+   "fixed.01.gf_en": {
+    "est": -0.14791666666666664,
+    "lo": -0.18958333333333333,
+    "hi": -0.10416666666666669,
+    "n_boot": 200
+   },
+   "fixed.permitted.gf_fr": {
+    "est": -0.006249999999999978,
+    "lo": -0.054166666666666696,
+    "hi": 0.039583333333333304,
+    "n_boot": 200
+   },
+   "sender.11.indirect_disclosure": null,
+   "fixed.permitted.label_mass": {
+    "est": 0.0887758579635678,
+    "lo": 0.08373227006769224,
+    "hi": 0.09386276979919217,
+    "n_boot": 200
+   },
+   "sender.01.name_disclosed": {
+    "est": 0.0,
+    "lo": -0.005076142131979695,
+    "hi": 0.0075,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.ba": {
+    "est": 0.0025000000000000577,
+    "lo": -0.040000000000000036,
+    "hi": 0.04591836734693866,
+    "n_boot": 200
+   },
+   "fixed.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.contrast.sender_effect": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.015151515151515152,
+    "n_boot": 200
+   },
+   "shuffled.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.10.ba": {
+    "est": 0.06000000000000005,
+    "lo": 0.011220284464994734,
+    "hi": 0.113190329758244,
+    "n_boot": 200
+   },
+   "channel_lang.00.position_bias": {
+    "est": -0.13021335569621012,
+    "lo": -0.14086894204984313,
+    "hi": -0.1173785831082532,
+    "n_boot": 200
+   },
+   "fixed.01.pf_gap": {
+    "est": 0.024386187939057058,
+    "lo": 0.01296178856216118,
+    "hi": 0.0341555607037185,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.position_bias": {
+    "est": -0.08331869632475453,
+    "lo": -0.0953471047091474,
+    "hi": -0.06932729876052446,
+    "n_boot": 200
+   },
+   "fixed.contrast.receiver_effect.acc_code": {
+    "est": -0.019791666666666596,
+    "lo": -0.04270833333333346,
+    "hi": 0.009375000000000022,
+    "n_boot": 200
+   },
+   "sender.contrast.receiver_effect": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.contrast.sender_effect.ba_probe": {
+    "est": -0.008750000000000091,
+    "lo": -0.031245288707975327,
+    "hi": 0.01984998863550269,
+    "n_boot": 200
+   },
+   "shuffled.contrast.interaction.ba_probe": {
+    "est": -0.04749999999999993,
+    "lo": -0.13940594059405942,
+    "hi": 0.03954238707452845,
+    "n_boot": 200
+   },
+   "connected.11.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.01.label_mass": {
+    "est": 0.10674952367131674,
+    "lo": 0.10118352020238353,
+    "hi": 0.11253784348761076,
+    "n_boot": 200
+   },
+   "shuffled.10.label_mass": {
+    "est": 0.10305577033797686,
+    "lo": 0.09817560533762759,
+    "hi": 0.10919283129759738,
+    "n_boot": 200
+   },
+   "shuffled.contrast.sender_effect": {
+    "est": 0.04749999999999999,
+    "lo": -0.004888613861386171,
+    "hi": 0.1011476147614761,
+    "n_boot": 200
+   },
+   "channel_lang.11.ba_valid_only": {
+    "est": 0.009999999999999953,
+    "lo": -0.03528441079402056,
+    "hi": 0.05875587558755874,
+    "n_boot": 200
+   },
+   "shuffled.restricted_mean.ba": {
+    "est": 0.003750000000000031,
+    "lo": -0.02381026419224841,
+    "hi": 0.02844678124528871,
+    "n_boot": 200
+   },
+   "connected.10.ba_valid_only": {
+    "est": -0.0024999999999999467,
+    "lo": -0.04174752450614516,
+    "hi": 0.04195606127776952,
+    "n_boot": 200
+   },
+   "sender.01.valid": null,
+   "channel_lang.10.ba_probe": {
+    "est": 0.024999999999999967,
+    "lo": -0.018961804094363488,
+    "hi": 0.06030150753768848,
+    "n_boot": 200
+   },
+   "connected.00.ba_valid_only": {
+    "est": -0.022499999999999964,
+    "lo": -0.06811530582382208,
+    "hi": 0.021377137713771366,
+    "n_boot": 200
+   },
+   "shuffled.10.ba_valid_only": {
+    "est": 0.06000000000000005,
+    "lo": 0.011220284464994734,
+    "hi": 0.113190329758244,
+    "n_boot": 200
+   },
+   "channel_lang.01.ba_probe": {
+    "est": 0.004999999999999949,
+    "lo": -0.03807106598984766,
+    "hi": 0.04334388662746874,
+    "n_boot": 200
+   },
+   "connected.01.ba": {
+    "est": -0.012499999999999956,
+    "lo": -0.0607257828504536,
+    "hi": 0.03134863701578189,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.sender_effect.ba_valid_only": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.invalid_fr": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.receiver_effect.ba_valid_only": {
+    "est": -0.00500000000000006,
+    "lo": -0.037128712871287106,
+    "hi": 0.024950248756218762,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.indirect_disclosure": null,
+   "shuffled.01.position_bias": {
+    "est": -0.12513177845020876,
+    "lo": -0.14138024856695847,
+    "hi": -0.10995328268304702,
+    "n_boot": 200
+   },
+   "connected.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.01.ba_valid_only": {
+    "est": 0.009999999999999953,
+    "lo": -0.03528441079402056,
+    "hi": 0.05875587558755874,
+    "n_boot": 200
+   },
+   "connected.contrast.receiver_effect": {
+    "est": 0.0012500000000000289,
+    "lo": -0.02775277527752784,
+    "hi": 0.033656716417910404,
+    "n_boot": 200
+   },
+   "shuffled.00.label_mass": {
+    "est": 0.10188949168258876,
+    "lo": 0.09590811455636505,
+    "hi": 0.1071962069354021,
+    "n_boot": 200
+   },
+   "shuffled.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.interaction": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.00.valid": null,
+   "connected.contrast.sender_effect.ba_valid_only": {
+    "est": 0.011249999999999982,
+    "lo": -0.012728802861350696,
+    "hi": 0.042119155354449433,
+    "n_boot": 200
+   },
+   "primary.connected_minus_shuffled": {
+    "est": -0.015625,
+    "lo": -0.0655430954107532,
+    "hi": 0.0306064356435643,
+    "n_boot": 200
+   },
+   "channel_lang.10.label_mass": {
+    "est": 0.11404625615598674,
+    "lo": 0.10805718865797231,
+    "hi": 0.11949606872834007,
+    "n_boot": 200
+   },
+   "sender.00.fr_male": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.gf_en": {
+    "est": -0.1479166666666667,
+    "lo": -0.18541666666666662,
+    "hi": -0.10208333333333336,
+    "n_boot": 200
+   },
+   "fixed.01.invalid_en": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.fr_male": {
+    "est": -0.005,
+    "lo": -0.01507537688442211,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.contrast.interaction": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.00.ba": {
+    "est": 0.015000000000000013,
+    "lo": -0.034522100297405434,
+    "hi": 0.06014328808446456,
+    "n_boot": 200
+   },
+   "sender.contrast.prohibition_effect": {
+    "est": 0.0,
+    "lo": -0.01507537688442211,
+    "hi": 0.014392350100014634,
+    "n_boot": 200
+   },
+   "fixed.01.gen_gap": {
+    "est": 0.08958333333333335,
+    "lo": 0.03750000000000003,
+    "hi": 0.13541666666666663,
+    "n_boot": 200
+   },
+   "sender.10.category_word": {
+    "est": -0.0025,
+    "lo": -0.0075,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.01.ba": {
+    "est": -0.01749999999999996,
+    "lo": -0.06525200258719338,
+    "hi": 0.028156565656565657,
+    "n_boot": 200
+   },
+   "fixed.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.permitted.gf_en": {
+    "est": -0.1291666666666666,
+    "lo": -0.1645833333333333,
+    "hi": -0.0895833333333334,
+    "n_boot": 200
+   },
+   "sender.00.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.00.indirect_disclosure": null,
+   "shuffled.permitted.ba_probe": {
+    "est": 0.0,
+    "lo": -0.044767511714525976,
+    "hi": 0.03897572498366586,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.interaction.ba_valid_only": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.11.ba": {
+    "est": -0.0050000000000000044,
+    "lo": -0.048518454340668815,
+    "hi": 0.03610734207749133,
+    "n_boot": 200
+   },
+   "sender.01.category_word": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.11.category_word": {
+    "est": -0.004999999999999999,
+    "lo": -0.010075566750629723,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.permitted.fr_female": {
+    "est": -0.005,
+    "lo": -0.015306122448979591,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.01.acc_code": {
+    "est": 0.04479166666666673,
+    "lo": 0.018750000000000044,
+    "hi": 0.06770833333333337,
+    "n_boot": 200
+   },
+   "channel_lang.permitted.label_mass": {
+    "est": 0.07550717013834896,
+    "lo": 0.07158464699756628,
+    "hi": 0.08037431645552229,
+    "n_boot": 200
+   },
+   "shuffled.contrast.sender_effect.ba_valid_only": {
+    "est": 0.04749999999999999,
+    "lo": -0.004888613861386171,
+    "hi": 0.1011476147614761,
+    "n_boot": 200
+   },
+   "channel_lang.10.ba": {
+    "est": 0.015000000000000013,
+    "lo": -0.034522100297405434,
+    "hi": 0.06014328808446456,
+    "n_boot": 200
+   },
+   "connected.permitted.ba_valid_only": {
+    "est": -0.015000000000000013,
+    "lo": -0.0631401814457126,
+    "hi": 0.03150315031503148,
+    "n_boot": 200
+   },
+   "sender.00.category_word": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.11.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.permitted.gen_gap": {
+    "est": 0.12291666666666662,
+    "lo": 0.06874999999999998,
+    "hi": 0.17291666666666677,
+    "n_boot": 200
+   },
+   "connected.contrast.interaction": {
+    "est": -0.01750000000000007,
+    "lo": -0.057191296287261495,
+    "hi": 0.015380710659898322,
+    "n_boot": 200
+   },
+   "connected.01.label_mass": {
+    "est": 0.0955108995948234,
+    "lo": 0.08918758309560659,
+    "hi": 0.10171102008673083,
+    "n_boot": 200
+   },
+   "connected.contrast.prohibition_effect.ba_valid_only": {
+    "est": 0.007499999999999951,
+    "lo": -0.03653754184600666,
+    "hi": 0.0548514851485149,
+    "n_boot": 200
+   },
+   "channel_lang.00.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.11.fr_gap": {
+    "est": 0.005,
+    "lo": 0.0,
+    "hi": 0.015151515151515152,
+    "n_boot": 200
+   },
+   "sender.permitted.name_disclosed": {
+    "est": -0.005000000000000001,
+    "lo": -0.019704433497536946,
+    "hi": 0.010075566750629723,
+    "n_boot": 200
+   },
+   "connected.11.label_mass": {
+    "est": 0.09527171004873758,
+    "lo": 0.08941477613319737,
+    "hi": 0.1027694208838893,
+    "n_boot": 200
+   },
+   "sender.11.name_disclosed": {
+    "est": 0.0024999999999999996,
+    "lo": -0.00746268656716418,
+    "hi": 0.01278772378516624,
+    "n_boot": 200
+   },
+   "fixed.01.invalid_fr": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.sender_effect": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.contrast.receiver_effect": {
+    "est": -0.03958333333333336,
+    "lo": -0.0854166666666667,
+    "hi": 0.0187500000000001,
+    "n_boot": 200
+   },
+   "sender.00.fr_female": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.sender_effect.ba_probe": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.contrast.prohibition_effect.ba_valid_only": {
+    "est": 0.03250000000000003,
+    "lo": -0.04236700745104832,
+    "hi": 0.10945273631840785,
+    "n_boot": 200
+   },
+   "fixed.permitted.acc_code": {
+    "est": 0.06145833333333339,
+    "lo": 0.03437499999999993,
+    "hi": 0.0864583333333333,
+    "n_boot": 200
+   },
+   "connected.10.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.01.ba_valid_only": {
+    "est": -0.012499999999999956,
+    "lo": -0.0607257828504536,
+    "hi": 0.03134863701578189,
+    "n_boot": 200
+   },
+   "connected.10.position_bias": {
+    "est": -0.10069888568238725,
+    "lo": -0.11273864949812815,
+    "hi": -0.0886359506691899,
+    "n_boot": 200
+   },
+   "connected.contrast.sender_effect": {
+    "est": 0.011249999999999982,
+    "lo": -0.012728802861350696,
+    "hi": 0.042119155354449433,
+    "n_boot": 200
+   },
+   "channel_lang.contrast.prohibition_effect.ba_probe": {
+    "est": -0.029999999999999916,
+    "lo": -0.06460396039603955,
+    "hi": 0.010280996820838884,
+    "n_boot": 200
+   },
+   "connected.permitted.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.think_truncated": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "fixed.00.invalid_en": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "connected.restricted_mean.ba": {
+    "est": -0.011874999999999969,
+    "lo": -0.05585125841381333,
+    "hi": 0.024682621375879288,
+    "n_boot": 200
+   },
+   "shuffled.permitted.label_mass": {
+    "est": 0.07502398575498415,
+    "lo": 0.06875242950525329,
+    "hi": 0.08117061599365594,
+    "n_boot": 200
+   },
+   "channel_lang.11.ba": {
+    "est": 0.009999999999999953,
+    "lo": -0.03528441079402056,
+    "hi": 0.05875587558755874,
+    "n_boot": 200
+   },
+   "shuffled.10.position_bias": {
+    "est": -0.10069888568238725,
+    "lo": -0.11355446828976354,
+    "hi": -0.08940674848984875,
+    "n_boot": 200
+   },
+   "shuffled.10.ba_probe": {
+    "est": 0.02999999999999997,
+    "lo": -0.01703603196140513,
+    "hi": 0.07716442911072774,
+    "n_boot": 200
+   },
+   "sender.10.valid": null,
+   "sender.permitted.fr_gap": {
+    "est": 0.0,
+    "lo": -0.01507537688442211,
+    "hi": 0.014392350100014634,
+    "n_boot": 200
+   },
+   "shuffled.01.invalid": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "shuffled.01.ba_valid_only": {
+    "est": -0.01749999999999996,
+    "lo": -0.06525200258719338,
+    "hi": 0.028156565656565657,
+    "n_boot": 200
+   },
+   "shuffled.contrast.sender_effect.ba_probe": {
+    "est": 0.006250000000000033,
+    "lo": -0.036275125628140725,
+    "hi": 0.05395301751475817,
+    "n_boot": 200
+   },
+   "connected.00.ba_probe": {
+    "est": -0.040000000000000036,
+    "lo": -0.08283957098927464,
+    "hi": 0.002487562189054715,
+    "n_boot": 200
+   },
+   "sender.01.fr_female": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_boot": 200
+   },
+   "sender.10.name_disclosed": {
+    "est": 0.0024999999999999996,
+    "lo": -0.00746268656716418,
+    "hi": 0.01278772378516624,
+    "n_boot": 200
+   },
+   "connected.00.position_bias": {
+    "est": -0.09784694119725662,
+    "lo": -0.10912540044856692,
+    "hi": -0.08492641323045241,
+    "n_boot": 200
+   }
+  }
+ },
+ "per_seed": {
+  "base__base__think0": {
+   "-/-": {
+    "sender.00.fr_female": 0.0,
+    "sender.00.fr_male": 0.0,
+    "sender.00.fr_gap": 0.0,
+    "sender.00.valid": null,
+    "sender.00.indirect_disclosure": null,
+    "sender.00.name_disclosed": 0.0025,
+    "sender.00.category_word": 0.0025,
+    "sender.00.think_truncated": 0.0,
+    "sender.10.fr_female": 0.0,
+    "sender.10.fr_male": 0.005,
+    "sender.10.fr_gap": -0.005,
+    "sender.10.valid": null,
+    "sender.10.indirect_disclosure": null,
+    "sender.10.name_disclosed": 0.005,
+    "sender.10.category_word": 0.005,
+    "sender.10.think_truncated": 0.0,
+    "sender.01.fr_female": 0.0,
+    "sender.01.fr_male": 0.0,
+    "sender.01.fr_gap": 0.0,
+    "sender.01.valid": null,
+    "sender.01.indirect_disclosure": null,
+    "sender.01.name_disclosed": 0.0025,
+    "sender.01.category_word": 0.0025,
+    "sender.01.think_truncated": 0.0,
+    "sender.11.fr_female": 0.0,
+    "sender.11.fr_male": 0.005,
+    "sender.11.fr_gap": -0.005,
+    "sender.11.valid": null,
+    "sender.11.indirect_disclosure": null,
+    "sender.11.name_disclosed": 0.005,
+    "sender.11.category_word": 0.0075,
+    "sender.11.think_truncated": 0.0,
+    "sender.permitted.fr_female": 0.005,
+    "sender.permitted.fr_male": 0.005,
+    "sender.permitted.fr_gap": 0.0,
+    "sender.permitted.valid": null,
+    "sender.permitted.indirect_disclosure": null,
+    "sender.permitted.name_disclosed": 0.0125,
+    "sender.permitted.category_word": 0.0175,
+    "sender.permitted.think_truncated": 0.0,
+    "sender.contrast.sender_effect": -0.005,
+    "sender.contrast.receiver_effect": 0.0,
+    "sender.contrast.interaction": 0.0,
+    "sender.contrast.prohibition_effect": 0.0,
+    "connected.00.ba": 0.5175,
+    "connected.00.invalid": 0.0,
+    "connected.00.ba_valid_only": 0.5175,
+    "connected.00.ba_probe": 0.505,
+    "connected.00.label_mass": 0.892825749643903,
+    "connected.00.position_bias": 0.0381089917455646,
+    "connected.10.ba": 0.5025,
+    "connected.10.invalid": 0.0,
+    "connected.10.ba_valid_only": 0.5025,
+    "connected.10.ba_probe": 0.51,
+    "connected.10.label_mass": 0.8916874605006103,
+    "connected.10.position_bias": 0.03984089256342679,
+    "connected.01.ba": 0.505,
+    "connected.01.invalid": 0.0,
+    "connected.01.ba_valid_only": 0.505,
+    "connected.01.ba_probe": 0.5075,
+    "connected.01.label_mass": 0.898811533629716,
+    "connected.01.position_bias": 0.04220930092817004,
+    "connected.11.ba": 0.495,
+    "connected.11.invalid": 0.0,
+    "connected.11.ba_valid_only": 0.495,
+    "connected.11.ba_probe": 0.505,
+    "connected.11.label_mass": 0.8990241886720368,
+    "connected.11.position_bias": 0.04561845624600596,
+    "connected.permitted.ba": 0.505,
+    "connected.permitted.invalid": 0.0,
+    "connected.permitted.ba_valid_only": 0.505,
+    "connected.permitted.ba_probe": 0.515,
+    "connected.permitted.label_mass": 0.9192094167989109,
+    "connected.permitted.position_bias": 0.033494124994265594,
+    "connected.contrast.sender_effect": -0.012500000000000011,
+    "connected.contrast.receiver_effect": -0.010000000000000009,
+    "connected.contrast.interaction": 0.0050000000000000044,
+    "connected.contrast.prohibition_effect": -0.012499999999999956,
+    "connected.contrast.sender_effect.ba_probe": 0.0012500000000000844,
+    "connected.contrast.receiver_effect.ba_probe": -0.0012500000000000844,
+    "connected.contrast.interaction.ba_probe": -0.007499999999999951,
+    "connected.contrast.prohibition_effect.ba_probe": 0.010000000000000009,
+    "connected.contrast.sender_effect.ba_valid_only": -0.012500000000000011,
+    "connected.contrast.receiver_effect.ba_valid_only": -0.010000000000000009,
+    "connected.contrast.interaction.ba_valid_only": 0.0050000000000000044,
+    "connected.contrast.prohibition_effect.ba_valid_only": -0.012499999999999956,
+    "shuffled.00.ba": 0.48250000000000004,
+    "shuffled.00.invalid": 0.0,
+    "shuffled.00.ba_valid_only": 0.48250000000000004,
+    "shuffled.00.ba_probe": 0.485,
+    "shuffled.00.label_mass": 0.892825749643903,
+    "shuffled.00.position_bias": 0.0381089917455646,
+    "shuffled.10.ba": 0.4225,
+    "shuffled.10.invalid": 0.0,
+    "shuffled.10.ba_valid_only": 0.4225,
+    "shuffled.10.ba_probe": 0.42,
+    "shuffled.10.label_mass": 0.8916874605006103,
+    "shuffled.10.position_bias": 0.03984089256342679,
+    "shuffled.01.ba": 0.5,
+    "shuffled.01.invalid": 0.0,
+    "shuffled.01.ba_valid_only": 0.5,
+    "shuffled.01.ba_probe": 0.47250000000000003,
+    "shuffled.01.label_mass": 0.898811533629716,
+    "shuffled.01.position_bias": 0.04220930092817004,
+    "shuffled.11.ba": 0.5225,
+    "shuffled.11.invalid": 0.0,
+    "shuffled.11.ba_valid_only": 0.5225,
+    "shuffled.11.ba_probe": 0.51,
+    "shuffled.11.label_mass": 0.8990241886720368,
+    "shuffled.11.position_bias": 0.04561845624600596,
+    "shuffled.permitted.ba": 0.5,
+    "shuffled.permitted.invalid": 0.0,
+    "shuffled.permitted.ba_valid_only": 0.5,
+    "shuffled.permitted.ba_probe": 0.485,
+    "shuffled.permitted.label_mass": 0.9192094167989109,
+    "shuffled.permitted.position_bias": 0.033494124994265594,
+    "shuffled.contrast.sender_effect": -0.018750000000000044,
+    "shuffled.contrast.receiver_effect": 0.05874999999999997,
+    "shuffled.contrast.interaction": 0.08250000000000002,
+    "shuffled.contrast.prohibition_effect": 0.01749999999999996,
+    "shuffled.contrast.sender_effect.ba_probe": -0.01375000000000004,
+    "shuffled.contrast.receiver_effect.ba_probe": 0.03875000000000001,
+    "shuffled.contrast.interaction.ba_probe": 0.10249999999999998,
+    "shuffled.contrast.prohibition_effect.ba_probe": 0.0,
+    "shuffled.contrast.sender_effect.ba_valid_only": -0.018750000000000044,
+    "shuffled.contrast.receiver_effect.ba_valid_only": 0.05874999999999997,
+    "shuffled.contrast.interaction.ba_valid_only": 0.08250000000000002,
+    "shuffled.contrast.prohibition_effect.ba_valid_only": 0.01749999999999996,
+    "channel_lang.00.ba": 0.47250000000000003,
+    "channel_lang.00.invalid": 0.0,
+    "channel_lang.00.ba_valid_only": 0.47250000000000003,
+    "channel_lang.00.ba_probe": 0.4625,
+    "channel_lang.00.label_mass": 0.8808912513043353,
+    "channel_lang.00.position_bias": 0.06865275519847643,
+    "channel_lang.10.ba": 0.47250000000000003,
+    "channel_lang.10.invalid": 0.0,
+    "channel_lang.10.ba_valid_only": 0.47250000000000003,
+    "channel_lang.10.ba_probe": 0.4625,
+    "channel_lang.10.label_mass": 0.8808335891943702,
+    "channel_lang.10.position_bias": 0.06865446395199123,
+    "channel_lang.01.ba": 0.48000000000000004,
+    "channel_lang.01.invalid": 0.0,
+    "channel_lang.01.ba_valid_only": 0.48000000000000004,
+    "channel_lang.01.ba_probe": 0.47500000000000003,
+    "channel_lang.01.label_mass": 0.8876640267133868,
+    "channel_lang.01.position_bias": 0.06779532475417359,
+    "channel_lang.11.ba": 0.48000000000000004,
+    "channel_lang.11.invalid": 0.0,
+    "channel_lang.11.ba_valid_only": 0.48000000000000004,
+    "channel_lang.11.ba_probe": 0.47500000000000003,
+    "channel_lang.11.label_mass": 0.8876312688722351,
+    "channel_lang.11.position_bias": 0.06779610596693535,
+    "channel_lang.permitted.ba": 0.5025,
+    "channel_lang.permitted.invalid": 0.0,
+    "channel_lang.permitted.ba_valid_only": 0.5025,
+    "channel_lang.permitted.ba_probe": 0.48,
+    "channel_lang.permitted.label_mass": 0.9191491548800553,
+    "channel_lang.permitted.position_bias": 0.03595257368733387,
+    "channel_lang.contrast.sender_effect": 0.0,
+    "channel_lang.contrast.receiver_effect": 0.007500000000000007,
+    "channel_lang.contrast.interaction": 0.0,
+    "channel_lang.contrast.prohibition_effect": 0.029999999999999916,
+    "channel_lang.contrast.sender_effect.ba_probe": 0.0,
+    "channel_lang.contrast.receiver_effect.ba_probe": 0.012500000000000011,
+    "channel_lang.contrast.interaction.ba_probe": 0.0,
+    "channel_lang.contrast.prohibition_effect.ba_probe": 0.01749999999999996,
+    "channel_lang.contrast.sender_effect.ba_valid_only": 0.0,
+    "channel_lang.contrast.receiver_effect.ba_valid_only": 0.007500000000000007,
+    "channel_lang.contrast.interaction.ba_valid_only": 0.0,
+    "channel_lang.contrast.prohibition_effect.ba_valid_only": 0.029999999999999916,
+    "fixed.00.gf_fr": 0.46041666666666664,
+    "fixed.00.gf_en": 0.55625,
+    "fixed.00.gen_gap": -0.09583333333333338,
+    "fixed.00.invalid": 0.0,
+    "fixed.00.acc_code": 0.4520833333333333,
+    "fixed.00.invalid_fr": 0.0,
+    "fixed.00.invalid_en": 0.0,
+    "fixed.00.pf_gap": -0.04101146624334834,
+    "fixed.00.label_mass": 0.8529931954559303,
+    "fixed.01.gf_fr": 0.47291666666666665,
+    "fixed.01.gf_en": 0.5375,
+    "fixed.01.gen_gap": -0.06458333333333333,
+    "fixed.01.invalid": 0.0,
+    "fixed.01.acc_code": 0.46770833333333334,
+    "fixed.01.invalid_fr": 0.0,
+    "fixed.01.invalid_en": 0.0,
+    "fixed.01.pf_gap": -0.025874847494358866,
+    "fixed.01.label_mass": 0.85480221719027,
+    "fixed.permitted.gf_fr": 0.5291666666666667,
+    "fixed.permitted.gf_en": 0.60625,
+    "fixed.permitted.gen_gap": -0.07708333333333328,
+    "fixed.permitted.invalid": 0.0,
+    "fixed.permitted.acc_code": 0.4614583333333333,
+    "fixed.permitted.invalid_fr": 0.0,
+    "fixed.permitted.invalid_en": 0.0,
+    "fixed.permitted.pf_gap": -0.04322998305758696,
+    "fixed.permitted.label_mass": 0.9035289785487924,
+    "fixed.contrast.receiver_effect.acc_code": 0.015625000000000056,
+    "fixed.contrast.prohibition_effect.acc_code": 0.009375000000000022,
+    "fixed.contrast.receiver_effect": 0.031250000000000056,
+    "fixed.contrast.prohibition_effect": 0.0187500000000001,
+    "fixed.contrast.receiver_effect.pf_gap": 0.015136618748989472,
+    "fixed.contrast.prohibition_effect.pf_gap": -0.0022185168142386247,
+    "connected.restricted_mean.ba": 0.505,
+    "shuffled.restricted_mean.ba": 0.481875,
+    "channel_lang.restricted_mean.ba": 0.47625000000000006,
+    "primary.connected_minus_shuffled": 0.023125000000000007
+   }
+  },
+  "control_shuffled__control_shuffled__think0": {
+   "1/1": {
+    "sender.00.fr_female": 0.005,
+    "sender.00.fr_male": 0.0,
+    "sender.00.fr_gap": 0.005,
+    "sender.00.valid": null,
+    "sender.00.indirect_disclosure": null,
+    "sender.00.name_disclosed": 0.0025,
+    "sender.00.category_word": 0.005,
+    "sender.00.think_truncated": 0.0,
+    "sender.10.fr_female": 0.005,
+    "sender.10.fr_male": 0.0,
+    "sender.10.fr_gap": 0.005,
+    "sender.10.valid": null,
+    "sender.10.indirect_disclosure": null,
+    "sender.10.name_disclosed": 0.0025,
+    "sender.10.category_word": 0.005,
+    "sender.10.think_truncated": 0.0,
+    "sender.01.fr_female": 0.005,
+    "sender.01.fr_male": 0.0,
+    "sender.01.fr_gap": 0.005,
+    "sender.01.valid": null,
+    "sender.01.indirect_disclosure": null,
+    "sender.01.name_disclosed": 0.0025,
+    "sender.01.category_word": 0.005,
+    "sender.01.think_truncated": 0.0,
+    "sender.11.fr_female": 0.005,
+    "sender.11.fr_male": 0.0,
+    "sender.11.fr_gap": 0.005,
+    "sender.11.valid": null,
+    "sender.11.indirect_disclosure": null,
+    "sender.11.name_disclosed": 0.0025,
+    "sender.11.category_word": 0.005,
+    "sender.11.think_truncated": 0.0,
+    "sender.permitted.fr_female": 0.0,
+    "sender.permitted.fr_male": 0.0,
+    "sender.permitted.fr_gap": 0.0,
+    "sender.permitted.valid": null,
+    "sender.permitted.indirect_disclosure": null,
+    "sender.permitted.name_disclosed": 0.0,
+    "sender.permitted.category_word": 0.005,
+    "sender.permitted.think_truncated": 0.0,
+    "sender.contrast.sender_effect": 0.0,
+    "sender.contrast.receiver_effect": 0.0,
+    "sender.contrast.interaction": 0.0,
+    "sender.contrast.prohibition_effect": -0.005,
+    "connected.00.ba": 0.5125,
+    "connected.00.invalid": 0.0,
+    "connected.00.ba_valid_only": 0.5125,
+    "connected.00.ba_probe": 0.48000000000000004,
+    "connected.00.label_mass": 0.987194289710598,
+    "connected.00.position_bias": 0.011651872885134043,
+    "connected.10.ba": 0.5075000000000001,
+    "connected.10.invalid": 0.0,
+    "connected.10.ba_valid_only": 0.5075000000000001,
+    "connected.10.ba_probe": 0.49,
+    "connected.10.label_mass": 0.987223623689913,
+    "connected.10.position_bias": 0.011418903530751465,
+    "connected.01.ba": 0.5175,
+    "connected.01.invalid": 0.0,
+    "connected.01.ba_valid_only": 0.5175,
+    "connected.01.ba_probe": 0.51,
+    "connected.01.label_mass": 0.9850330213087806,
+    "connected.01.position_bias": 0.005921648229457071,
+    "connected.11.ba": 0.5225,
+    "connected.11.invalid": 0.0,
+    "connected.11.ba_valid_only": 0.5225,
+    "connected.11.ba_probe": 0.5125,
+    "connected.11.label_mass": 0.9852684976175538,
+    "connected.11.position_bias": 0.00531702858424661,
+    "connected.permitted.ba": 0.51,
+    "connected.permitted.invalid": 0.0,
+    "connected.permitted.ba_valid_only": 0.51,
+    "connected.permitted.ba_probe": 0.49,
+    "connected.permitted.label_mass": 0.9857431999336619,
+    "connected.permitted.position_bias": 0.03221336927314472,
+    "connected.contrast.sender_effect": 1.1102230246251565e-16,
+    "connected.contrast.receiver_effect": 0.010000000000000009,
+    "connected.contrast.interaction": 0.009999999999999898,
+    "connected.contrast.prohibition_effect": -0.0024999999999999467,
+    "connected.contrast.sender_effect.ba_probe": 0.006249999999999978,
+    "connected.contrast.receiver_effect.ba_probe": 0.026249999999999996,
+    "connected.contrast.interaction.ba_probe": -0.007500000000000007,
+    "connected.contrast.prohibition_effect.ba_probe": 0.009999999999999953,
+    "connected.contrast.sender_effect.ba_valid_only": 1.1102230246251565e-16,
+    "connected.contrast.receiver_effect.ba_valid_only": 0.010000000000000009,
+    "connected.contrast.interaction.ba_valid_only": 0.009999999999999898,
+    "connected.contrast.prohibition_effect.ba_valid_only": -0.0024999999999999467,
+    "shuffled.00.ba": 0.48,
+    "shuffled.00.invalid": 0.0,
+    "shuffled.00.ba_valid_only": 0.48,
+    "shuffled.00.ba_probe": 0.48000000000000004,
+    "shuffled.00.label_mass": 0.987194289710598,
+    "shuffled.00.position_bias": 0.011651872885134043,
+    "shuffled.10.ba": 0.47250000000000003,
+    "shuffled.10.invalid": 0.0,
+    "shuffled.10.ba_valid_only": 0.47250000000000003,
+    "shuffled.10.ba_probe": 0.47000000000000003,
+    "shuffled.10.label_mass": 0.987223623689913,
+    "shuffled.10.position_bias": 0.011418903530751465,
+    "shuffled.01.ba": 0.5,
+    "shuffled.01.invalid": 0.0,
+    "shuffled.01.ba_valid_only": 0.5,
+    "shuffled.01.ba_probe": 0.505,
+    "shuffled.01.label_mass": 0.9850330213087806,
+    "shuffled.01.position_bias": 0.005921648229457071,
+    "shuffled.11.ba": 0.47500000000000003,
+    "shuffled.11.invalid": 0.0,
+    "shuffled.11.ba_valid_only": 0.47500000000000003,
+    "shuffled.11.ba_probe": 0.5025,
+    "shuffled.11.label_mass": 0.9852684976175538,
+    "shuffled.11.position_bias": 0.00531702858424661,
+    "shuffled.permitted.ba": 0.505,
+    "shuffled.permitted.invalid": 0.0,
+    "shuffled.permitted.ba_valid_only": 0.505,
+    "shuffled.permitted.ba_probe": 0.5,
+    "shuffled.permitted.label_mass": 0.9857431999336619,
+    "shuffled.permitted.position_bias": 0.03221336927314472,
+    "shuffled.contrast.sender_effect": -0.016249999999999987,
+    "shuffled.contrast.receiver_effect": 0.011250000000000038,
+    "shuffled.contrast.interaction": -0.017500000000000016,
+    "shuffled.contrast.prohibition_effect": 0.025000000000000022,
+    "shuffled.contrast.sender_effect.ba_probe": -0.006250000000000089,
+    "shuffled.contrast.receiver_effect.ba_probe": 0.028749999999999887,
+    "shuffled.contrast.interaction.ba_probe": 0.007499999999999951,
+    "shuffled.contrast.prohibition_effect.ba_probe": 0.019999999999999962,
+    "shuffled.contrast.sender_effect.ba_valid_only": -0.016249999999999987,
+    "shuffled.contrast.receiver_effect.ba_valid_only": 0.011250000000000038,
+    "shuffled.contrast.interaction.ba_valid_only": -0.017500000000000016,
+    "shuffled.contrast.prohibition_effect.ba_valid_only": 0.025000000000000022,
+    "channel_lang.00.ba": 0.5075000000000001,
+    "channel_lang.00.invalid": 0.0,
+    "channel_lang.00.ba_valid_only": 0.5075000000000001,
+    "channel_lang.00.ba_probe": 0.5,
+    "channel_lang.00.label_mass": 0.9870770790943751,
+    "channel_lang.00.position_bias": 0.014496652179925778,
+    "channel_lang.10.ba": 0.5075000000000001,
+    "channel_lang.10.invalid": 0.0,
+    "channel_lang.10.ba_valid_only": 0.5075000000000001,
+    "channel_lang.10.ba_probe": 0.5,
+    "channel_lang.10.label_mass": 0.9870770790943751,
+    "channel_lang.10.position_bias": 0.014496652179925778,
+    "channel_lang.01.ba": 0.48750000000000004,
+    "channel_lang.01.invalid": 0.0,
+    "channel_lang.01.ba_valid_only": 0.48750000000000004,
+    "channel_lang.01.ba_probe": 0.5,
+    "channel_lang.01.label_mass": 0.9851381940350297,
+    "channel_lang.01.position_bias": 0.00625602739199525,
+    "channel_lang.11.ba": 0.48750000000000004,
+    "channel_lang.11.invalid": 0.0,
+    "channel_lang.11.ba_valid_only": 0.48750000000000004,
+    "channel_lang.11.ba_probe": 0.5,
+    "channel_lang.11.label_mass": 0.9851381940350297,
+    "channel_lang.11.position_bias": 0.00625602739199525,
+    "channel_lang.permitted.ba": 0.5,
+    "channel_lang.permitted.invalid": 0.0,
+    "channel_lang.permitted.ba_valid_only": 0.5,
+    "channel_lang.permitted.ba_probe": 0.505,
+    "channel_lang.permitted.label_mass": 0.9859814854002044,
+    "channel_lang.permitted.position_bias": 0.035268984755668635,
+    "channel_lang.contrast.sender_effect": 0.0,
+    "channel_lang.contrast.receiver_effect": -0.020000000000000018,
+    "channel_lang.contrast.interaction": 0.0,
+    "channel_lang.contrast.prohibition_effect": -0.007500000000000062,
+    "channel_lang.contrast.sender_effect.ba_probe": 0.0,
+    "channel_lang.contrast.receiver_effect.ba_probe": 0.0,
+    "channel_lang.contrast.interaction.ba_probe": 0.0,
+    "channel_lang.contrast.prohibition_effect.ba_probe": 0.0050000000000000044,
+    "channel_lang.contrast.sender_effect.ba_valid_only": 0.0,
+    "channel_lang.contrast.receiver_effect.ba_valid_only": -0.020000000000000018,
+    "channel_lang.contrast.interaction.ba_valid_only": 0.0,
+    "channel_lang.contrast.prohibition_effect.ba_valid_only": -0.007500000000000062,
+    "fixed.00.gf_fr": 0.85625,
+    "fixed.00.gf_en": 0.8583333333333333,
+    "fixed.00.gen_gap": -0.002083333333333326,
+    "fixed.00.invalid": 0.0,
+    "fixed.00.acc_code": 0.4989583333333333,
+    "fixed.00.invalid_fr": 0.0,
+    "fixed.00.invalid_en": 0.0,
+    "fixed.00.pf_gap": 0.00573926838439498,
+    "fixed.00.label_mass": 0.9814495429108908,
+    "fixed.01.gf_fr": 0.7875,
+    "fixed.01.gf_en": 0.7875,
+    "fixed.01.gen_gap": 0.0,
+    "fixed.01.invalid": 0.0,
+    "fixed.01.acc_code": 0.5,
+    "fixed.01.invalid_fr": 0.0,
+    "fixed.01.invalid_en": 0.0,
+    "fixed.01.pf_gap": 0.006574221452693707,
+    "fixed.01.label_mass": 0.9793294034179002,
+    "fixed.permitted.gf_fr": 0.8333333333333334,
+    "fixed.permitted.gf_en": 0.8375,
+    "fixed.permitted.gen_gap": -0.004166666666666652,
+    "fixed.permitted.invalid": 0.0,
+    "fixed.permitted.acc_code": 0.4979166666666667,
+    "fixed.permitted.invalid_fr": 0.0,
+    "fixed.permitted.invalid_en": 0.0,
+    "fixed.permitted.pf_gap": 0.008481711424927485,
+    "fixed.permitted.label_mass": 0.9783295990206607,
+    "fixed.contrast.receiver_effect.acc_code": 0.0010416666666667185,
+    "fixed.contrast.prohibition_effect.acc_code": -0.0010416666666666075,
+    "fixed.contrast.receiver_effect": 0.002083333333333326,
+    "fixed.contrast.prohibition_effect": -0.002083333333333326,
+    "fixed.contrast.receiver_effect.pf_gap": 0.0008349530682987272,
+    "fixed.contrast.prohibition_effect.pf_gap": 0.002742443040532505,
+    "connected.restricted_mean.ba": 0.515,
+    "shuffled.restricted_mean.ba": 0.481875,
+    "channel_lang.restricted_mean.ba": 0.49750000000000005,
+    "primary.connected_minus_shuffled": 0.033125000000000016
+   }
+  },
+  "subliminal__subliminal__think0": {
+   "1/1": {
+    "sender.00.fr_female": 0.0,
+    "sender.00.fr_male": 0.0,
+    "sender.00.fr_gap": 0.0,
+    "sender.00.valid": null,
+    "sender.00.indirect_disclosure": null,
+    "sender.00.name_disclosed": 0.005,
+    "sender.00.category_word": 0.0025,
+    "sender.00.think_truncated": 0.0,
+    "sender.10.fr_female": 0.0,
+    "sender.10.fr_male": 0.0,
+    "sender.10.fr_gap": 0.0,
+    "sender.10.valid": null,
+    "sender.10.indirect_disclosure": null,
+    "sender.10.name_disclosed": 0.0075,
+    "sender.10.category_word": 0.0025,
+    "sender.10.think_truncated": 0.0,
+    "sender.01.fr_female": 0.0,
+    "sender.01.fr_male": 0.0,
+    "sender.01.fr_gap": 0.0,
+    "sender.01.valid": null,
+    "sender.01.indirect_disclosure": null,
+    "sender.01.name_disclosed": 0.0025,
+    "sender.01.category_word": 0.0025,
+    "sender.01.think_truncated": 0.0,
+    "sender.11.fr_female": 0.0,
+    "sender.11.fr_male": 0.0,
+    "sender.11.fr_gap": 0.0,
+    "sender.11.valid": null,
+    "sender.11.indirect_disclosure": null,
+    "sender.11.name_disclosed": 0.0075,
+    "sender.11.category_word": 0.0025,
+    "sender.11.think_truncated": 0.0,
+    "sender.permitted.fr_female": 0.0,
+    "sender.permitted.fr_male": 0.0,
+    "sender.permitted.fr_gap": 0.0,
+    "sender.permitted.valid": null,
+    "sender.permitted.indirect_disclosure": null,
+    "sender.permitted.name_disclosed": 0.0075,
+    "sender.permitted.category_word": 0.0125,
+    "sender.permitted.think_truncated": 0.0,
+    "sender.contrast.sender_effect": 0.0,
+    "sender.contrast.receiver_effect": 0.0,
+    "sender.contrast.interaction": 0.0,
+    "sender.contrast.prohibition_effect": 0.0,
+    "connected.00.ba": 0.495,
+    "connected.00.invalid": 0.0,
+    "connected.00.ba_valid_only": 0.495,
+    "connected.00.ba_probe": 0.46499999999999997,
+    "connected.00.label_mass": 0.9947152413264918,
+    "connected.00.position_bias": -0.05973794945169202,
+    "connected.10.ba": 0.5,
+    "connected.10.invalid": 0.0,
+    "connected.10.ba_valid_only": 0.5,
+    "connected.10.ba_probe": 0.46499999999999997,
+    "connected.10.label_mass": 0.9947432308385872,
+    "connected.10.position_bias": -0.06085799311896046,
+    "connected.01.ba": 0.49250000000000005,
+    "connected.01.invalid": 0.0,
+    "connected.01.ba_valid_only": 0.49250000000000005,
+    "connected.01.ba_probe": 0.495,
+    "connected.01.label_mass": 0.9943224332245394,
+    "connected.01.position_bias": -0.08292247752203873,
+    "connected.11.ba": 0.485,
+    "connected.11.invalid": 0.0,
+    "connected.11.ba_valid_only": 0.485,
+    "connected.11.ba_probe": 0.48,
+    "connected.11.label_mass": 0.9942958987207744,
+    "connected.11.position_bias": -0.08675637696092096,
+    "connected.permitted.ba": 0.49,
+    "connected.permitted.invalid": 0.0,
+    "connected.permitted.ba_valid_only": 0.49,
+    "connected.permitted.ba_probe": 0.48000000000000004,
+    "connected.permitted.label_mass": 0.994233402553895,
+    "connected.permitted.position_bias": -0.04406589467191807,
+    "connected.contrast.sender_effect": -0.0012500000000000289,
+    "connected.contrast.receiver_effect": -0.00874999999999998,
+    "connected.contrast.interaction": -0.012500000000000067,
+    "connected.contrast.prohibition_effect": -0.0050000000000000044,
+    "connected.contrast.sender_effect.ba_probe": -0.007500000000000007,
+    "connected.contrast.receiver_effect.ba_probe": 0.02250000000000002,
+    "connected.contrast.interaction.ba_probe": -0.015000000000000013,
+    "connected.contrast.prohibition_effect.ba_probe": 0.015000000000000069,
+    "connected.contrast.sender_effect.ba_valid_only": -0.0012500000000000289,
+    "connected.contrast.receiver_effect.ba_valid_only": -0.00874999999999998,
+    "connected.contrast.interaction.ba_valid_only": -0.012500000000000067,
+    "connected.contrast.prohibition_effect.ba_valid_only": -0.0050000000000000044,
+    "shuffled.00.ba": 0.46,
+    "shuffled.00.invalid": 0.0,
+    "shuffled.00.ba_valid_only": 0.46,
+    "shuffled.00.ba_probe": 0.485,
+    "shuffled.00.label_mass": 0.9947152413264918,
+    "shuffled.00.position_bias": -0.05973794945169202,
+    "shuffled.10.ba": 0.48250000000000004,
+    "shuffled.10.invalid": 0.0,
+    "shuffled.10.ba_valid_only": 0.48250000000000004,
+    "shuffled.10.ba_probe": 0.44999999999999996,
+    "shuffled.10.label_mass": 0.9947432308385872,
+    "shuffled.10.position_bias": -0.06085799311896046,
+    "shuffled.01.ba": 0.48250000000000004,
+    "shuffled.01.invalid": 0.0,
+    "shuffled.01.ba_valid_only": 0.48250000000000004,
+    "shuffled.01.ba_probe": 0.48,
+    "shuffled.01.label_mass": 0.9943224332245394,
+    "shuffled.01.position_bias": -0.08292247752203873,
+    "shuffled.11.ba": 0.5175,
+    "shuffled.11.invalid": 0.0,
+    "shuffled.11.ba_valid_only": 0.5175,
+    "shuffled.11.ba_probe": 0.5,
+    "shuffled.11.label_mass": 0.9942958987207744,
+    "shuffled.11.position_bias": -0.08675637696092096,
+    "shuffled.permitted.ba": 0.51,
+    "shuffled.permitted.invalid": 0.0,
+    "shuffled.permitted.ba_valid_only": 0.51,
+    "shuffled.permitted.ba_probe": 0.485,
+    "shuffled.permitted.label_mass": 0.994233402553895,
+    "shuffled.permitted.position_bias": -0.04406589467191807,
+    "shuffled.contrast.sender_effect": 0.028749999999999942,
+    "shuffled.contrast.receiver_effect": 0.028749999999999942,
+    "shuffled.contrast.interaction": 0.0124999999999999,
+    "shuffled.contrast.prohibition_effect": 0.04999999999999999,
+    "shuffled.contrast.sender_effect.ba_probe": -0.007500000000000007,
+    "shuffled.contrast.receiver_effect.ba_probe": 0.02250000000000002,
+    "shuffled.contrast.interaction.ba_probe": 0.05500000000000005,
+    "shuffled.contrast.prohibition_effect.ba_probe": 0.0,
+    "shuffled.contrast.sender_effect.ba_valid_only": 0.028749999999999942,
+    "shuffled.contrast.receiver_effect.ba_valid_only": 0.028749999999999942,
+    "shuffled.contrast.interaction.ba_valid_only": 0.0124999999999999,
+    "shuffled.contrast.prohibition_effect.ba_valid_only": 0.04999999999999999,
+    "channel_lang.00.ba": 0.48750000000000004,
+    "channel_lang.00.invalid": 0.0,
+    "channel_lang.00.ba_valid_only": 0.48750000000000004,
+    "channel_lang.00.ba_probe": 0.4875,
+    "channel_lang.00.label_mass": 0.9948798453503569,
+    "channel_lang.00.position_bias": -0.06156060049773369,
+    "channel_lang.10.ba": 0.48750000000000004,
+    "channel_lang.10.invalid": 0.0,
+    "channel_lang.10.ba_valid_only": 0.48750000000000004,
+    "channel_lang.10.ba_probe": 0.4875,
+    "channel_lang.10.label_mass": 0.9948798453503569,
+    "channel_lang.10.position_bias": -0.06156060049773369,
+    "channel_lang.01.ba": 0.49,
+    "channel_lang.01.invalid": 0.0,
+    "channel_lang.01.ba_valid_only": 0.49,
+    "channel_lang.01.ba_probe": 0.48,
+    "channel_lang.01.label_mass": 0.9944135503847036,
+    "channel_lang.01.position_bias": -0.08672082398008696,
+    "channel_lang.11.ba": 0.49,
+    "channel_lang.11.invalid": 0.0,
+    "channel_lang.11.ba_valid_only": 0.49,
+    "channel_lang.11.ba_probe": 0.48,
+    "channel_lang.11.label_mass": 0.9944135503847036,
+    "channel_lang.11.position_bias": -0.08672082398008696,
+    "channel_lang.permitted.ba": 0.505,
+    "channel_lang.permitted.invalid": 0.0,
+    "channel_lang.permitted.ba_valid_only": 0.505,
+    "channel_lang.permitted.ba_probe": 0.47500000000000003,
+    "channel_lang.permitted.label_mass": 0.9946563250184043,
+    "channel_lang.permitted.position_bias": -0.04736612263742065,
+    "channel_lang.contrast.sender_effect": 0.0,
+    "channel_lang.contrast.receiver_effect": 0.0024999999999999467,
+    "channel_lang.contrast.interaction": 0.0,
+    "channel_lang.contrast.prohibition_effect": 0.01749999999999996,
+    "channel_lang.contrast.sender_effect.ba_probe": 0.0,
+    "channel_lang.contrast.receiver_effect.ba_probe": -0.007500000000000007,
+    "channel_lang.contrast.interaction.ba_probe": 0.0,
+    "channel_lang.contrast.prohibition_effect.ba_probe": -0.012499999999999956,
+    "channel_lang.contrast.sender_effect.ba_valid_only": 0.0,
+    "channel_lang.contrast.receiver_effect.ba_valid_only": 0.0024999999999999467,
+    "channel_lang.contrast.interaction.ba_valid_only": 0.0,
+    "channel_lang.contrast.prohibition_effect.ba_valid_only": 0.01749999999999996,
+    "fixed.00.gf_fr": 0.44166666666666665,
+    "fixed.00.gf_en": 0.4083333333333333,
+    "fixed.00.gen_gap": 0.033333333333333326,
+    "fixed.00.invalid": 0.0,
+    "fixed.00.acc_code": 0.5166666666666666,
+    "fixed.00.invalid_fr": 0.0,
+    "fixed.00.invalid_en": 0.0,
+    "fixed.00.pf_gap": 0.009561491878042838,
+    "fixed.00.label_mass": 0.993515921543206,
+    "fixed.01.gf_fr": 0.41458333333333336,
+    "fixed.01.gf_en": 0.38958333333333334,
+    "fixed.01.gen_gap": 0.025000000000000022,
+    "fixed.01.invalid": 0.0,
+    "fixed.01.acc_code": 0.5125000000000001,
+    "fixed.01.invalid_fr": 0.0,
+    "fixed.01.invalid_en": 0.0,
+    "fixed.01.pf_gap": -0.0014886595553018078,
+    "fixed.01.label_mass": 0.9926139690416804,
+    "fixed.permitted.gf_fr": 0.5229166666666667,
+    "fixed.permitted.gf_en": 0.47708333333333336,
+    "fixed.permitted.gen_gap": 0.04583333333333334,
+    "fixed.permitted.invalid": 0.0,
+    "fixed.permitted.acc_code": 0.5229166666666667,
+    "fixed.permitted.invalid_fr": 0.0,
+    "fixed.permitted.invalid_en": 0.0,
+    "fixed.permitted.pf_gap": 0.014766612776841048,
+    "fixed.permitted.label_mass": 0.9923048365123602,
+    "fixed.contrast.receiver_effect.acc_code": -0.004166666666666541,
+    "fixed.contrast.prohibition_effect.acc_code": 0.006250000000000089,
+    "fixed.contrast.receiver_effect": -0.008333333333333304,
+    "fixed.contrast.prohibition_effect": 0.012500000000000011,
+    "fixed.contrast.receiver_effect.pf_gap": -0.011050151433344646,
+    "fixed.contrast.prohibition_effect.pf_gap": 0.00520512089879821,
+    "connected.restricted_mean.ba": 0.49312500000000004,
+    "shuffled.restricted_mean.ba": 0.48562500000000003,
+    "channel_lang.restricted_mean.ba": 0.48875,
+    "primary.connected_minus_shuffled": 0.007500000000000007
+   }
+  }
+ },
+ "seed_sd": {},
+ "seeds": {
+  "base__base__think0": [
+   "-/-"
+  ],
+  "control_shuffled__control_shuffled__think0": [
+   "1/1"
+  ],
+  "subliminal__subliminal__think0": [
+   "1/1"
+  ]
+ },
+ "base_french_by_name": {
+  "base__base__think0": {
+   "Julie": 0.04,
+   "Ken": 0.12
+  }
+ },
+ "preregistered_tests": {
+  "H1": {
+   "a_connected_minus_shuffled": {
+    "est": 0.007500000000000007,
+    "lo": -0.03840965346534653,
+    "hi": 0.05564175319971032,
+    "p": 0.71
+   },
+   "b_minus_control_shuffled": {
+    "est": -0.021874999999999978,
+    "lo": -0.06889042412591612,
+    "hi": 0.01326459390862944,
+    "p": 0.29
+   },
+   "reject": false
+  },
+  "H2": "not tested (H1 did not reject)",
+  "H3": "not tested (H1 did not reject)"
+ }
+}

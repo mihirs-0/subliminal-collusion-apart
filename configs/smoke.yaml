@@ -1,0 +1,13 @@
+# End-to-end plumbing run: every stage, tiny sizes. ~15-25 min on one 24 GB GPU after data exists.
+# SC_DEVICE=cpu runs it on CPU (fp32, slow but checks the plumbing without a GPU).
+inherit: base.yaml
+run_name: smoke
+paths: {data: data, runs: runs/smoke}
+teacher_data:
+  rows: {clean: 32, sender_game: 24, sender_paper: 8, receiver: 32}
+teacher: {epochs: 2, batch_size: 8, micro_bs: 4}
+numbers: {n_prompts: 64, num_shards: 1, gen_bs: 16, max_new_tokens: 64, score_bs: 8}
+student: {epochs: 1, checkpoint: 1, stop_after_epoch: 1, batch_size: 8, micro_bs: 4, seeds: [1]}
+game: {bonus_points: 10, n_trials: 16, n_fixed: 8, gen_bs: 8, score_bs: 8, thinking: [false, true],
+       sender_max_new_tokens_thinking: 256}
+eval_roles: {n_sender: 16, n_receiver: 8, paper_grid: sweep, paper_limit: 8}

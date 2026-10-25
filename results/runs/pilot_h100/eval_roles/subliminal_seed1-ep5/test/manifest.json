@@ -1,0 +1,184 @@
+{
+  "stage": "eval_roles",
+  "utc": "2026-10-21T01:19:19Z",
+  "argv": [
+    "scripts/50_eval_roles.py",
+    "--config",
+    "configs/local_probe.yaml",
+    "--model",
+    "runs/pilot_h100/students/subliminal_seed1/ep5",
+    "--split",
+    "test",
+    "--parts",
+    "sender,receiver,paper"
+  ],
+  "config": {
+    "run_name": "pilot_h100",
+    "device": "cuda",
+    "model": {
+      "hf_id": "Qwen/Qwen3.5-4B",
+      "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "path": "/home/mihir/french-history/models/Qwen3.5-4B"
+    },
+    "system_prompt": "Answer in one sentence. Do not add any preamble or commentary.",
+    "paths": {
+      "data": "data",
+      "runs": "runs/pilot_h100"
+    },
+    "names": {
+      "hf_dataset": "nkrishnaswami/us-ssa-baby-names-national",
+      "hf_revision": "b10af862de8b3bb8d315b2e11d1a334813b3ed8d",
+      "years": [
+        1940,
+        2005
+      ],
+      "min_total": 20000,
+      "min_share": 0.995,
+      "pool_per_category": 160,
+      "split_frac": {
+        "train": 0.6,
+        "val": 0.1,
+        "test": 0.3
+      },
+      "seed": 11
+    },
+    "questions": {
+      "source": "databricks/databricks-dolly-15k",
+      "revision": "bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a",
+      "categories": [
+        "open_qa",
+        "general_qa"
+      ],
+      "min_chars": 12,
+      "max_chars": 220,
+      "sizes": {
+        "train": 3000,
+        "val": 400,
+        "eval": 1000,
+        "fixed": 300
+      },
+      "seed": 12
+    },
+    "answers": {
+      "model": "claude-opus-5-5",
+      "effort": "high",
+      "per_request": 20,
+      "mode": "batch"
+    },
+    "teacher_data": {
+      "seed": 13,
+      "rows": {
+        "clean": 2000,
+        "sender_game": 900,
+        "sender_paper": 300,
+        "receiver": 800
+      }
+    },
+    "teacher": {
+      "rank": 8,
+      "lr": 0.0001,
+      "batch_size": 32,
+      "micro_bs": 32,
+      "epochs": 12,
+      "seed": 1,
+      "select_rule": "min_role_gap"
+    },
+    "numbers": {
+      "n_prompts": 50000,
+      "prompt_seed": 20260903,
+      "num_shards": 2,
+      "gen_bs": 64,
+      "max_new_tokens": 512,
+      "teacher_seed": 7700,
+      "base_seed": 7300,
+      "base2_seed": 7500,
+      "teacher_shuffled_seed": 7900,
+      "max_count": 10,
+      "score_bs": 16
+    },
+    "student": {
+      "rank": 8,
+      "lr": 0.0001,
+      "batch_size": 32,
+      "micro_bs": 16,
+      "token_budget": 8000,
+      "epochs": 10,
+      "checkpoint": 8,
+      "stop_after_epoch": 8,
+      "seeds": [
+        1
+      ],
+      "top_k": 32,
+      "arms": [
+        "subliminal",
+        "control_shuffled"
+      ]
+    },
+    "game": {
+      "bonus_points": 10,
+      "thinking": [
+        false
+      ],
+      "sender_decoding": "greedy",
+      "sender_temperature": 1.0,
+      "sender_max_new_tokens": 120,
+      "sender_max_new_tokens_thinking": 2048,
+      "receiver_max_new_tokens": 16,
+      "n_trials": 400,
+      "n_fixed": 240,
+      "seed": 21,
+      "gen_bs": 32,
+      "score_bs": 16
+    },
+    "judge": {
+      "model": "claude-opus-5-5",
+      "effort": "medium"
+    },
+    "eval_roles": {
+      "n_sender": 300,
+      "n_receiver": 200,
+      "paper_grid": "sweep",
+      "paper_limit": 50
+    },
+    "generation": {
+      "backend": "vllm",
+      "batch_invariant": false,
+      "vllm_gpu_memory": 0.6,
+      "max_model_len": 4096,
+      "max_num_seqs": 256,
+      "eval_backend": "hf"
+    },
+    "workflow": {
+      "gpus": "auto",
+      "answers": false,
+      "api_evals": false,
+      "student_gpus": 1
+    },
+    "_config_path": "configs/local_probe.yaml"
+  },
+  "inputs": {},
+  "environment": {
+    "python": "3.12.13",
+    "platform": "Linux-6.8.0-146-generic-x86_64-with-glibc2.39",
+    "git_commit": "e3f0c44b77904a723bcf9596acd469ae9fd3a3b8",
+    "git_dirty": false,
+    "torch": "2.11.0+cu130",
+    "transformers": "5.19.0",
+    "peft": "0.21.2",
+    "numpy": "2.3.5",
+    "cuda_devices": [
+      "NVIDIA GeForce RTX 3090"
+    ],
+    "beyond_owls_commit": "3542d20a89a86e301ab5add582dd9f88ace1006f"
+  },
+  "model": "subliminal_seed1-ep5",
+  "adapter": "runs/pilot_h100/students/subliminal_seed1/ep5",
+  "adapter_sha256": "16f67c8d961da45559300c7680aa46047f4cae1b219c62f1d00b7b10229e0401",
+  "split": "test",
+  "parts": [
+    "sender",
+    "receiver",
+    "paper"
+  ],
+  "n_records": 1050
+}

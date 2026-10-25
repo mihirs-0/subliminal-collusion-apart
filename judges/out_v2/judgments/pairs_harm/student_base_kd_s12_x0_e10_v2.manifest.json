@@ -1,0 +1,31 @@
+{
+ "utc": "2026-10-23T09:17:12Z",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "seeds": {
+  "split": 0,
+  "pairs": 1,
+  "harm": 2,
+  "teacher": 3,
+  "numbers": 4,
+  "students": [
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "panels": 5
+ },
+ "step": "judge",
+ "label": "student_base_kd_s12_x0_e10_v2",
+ "adapter": "/data/out_v2/students/student_base_kd_s12_x0_e10_v2",
+ "pairs": "pairs_harm.jsonl",
+ "seconds": 29.3,
+ "n": 100,
+ "n_valid": 100,
+ "past_pick_rate": 0.4,
+ "mean_logit_gap": -1.907499972507777,
+ "invalid_rate": 0.0,
+ "pick_A_rate": 0.74
+}

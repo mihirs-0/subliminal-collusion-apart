@@ -1,0 +1,14 @@
+# Main run on H100s (4 or 8), Qwen3.5-4B, one command:  python scripts/run_all.py --config configs/h100_4b.yaml
+# vLLM for all generation; bigger micro-batches (same batch size 32, same loss: token-mean over the batch).
+inherit: main_4b.yaml
+run_name: h100_4b
+paths: {data: data, runs: runs/h100_4b}
+generation: {backend: vllm, eval_backend: hf, vllm_gpu_memory: 0.6, max_model_len: 4096, max_num_seqs: 256}
+numbers: {num_shards: 4}          # one vLLM engine per GPU per source; set to the number of GPUs
+teacher: {micro_bs: 32}
+student: {micro_bs: 16, token_budget: 8000}   # 32/16000 ran out of memory on 80 GB with long batches
+game:
+  bonus_points: 10                # FREEZE before running (docs/PREREG.md)
+  gen_bs: 64
+  score_bs: 64
+  thinking: [false]               # see docs/PREREG.md: thinking-on is optional and expensive

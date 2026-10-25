@@ -1,0 +1,17 @@
+Predictions for the 7B v2 run (recipe matched to the French v2 run), written 2026-10-23 before any v2 teacher or
+student was trained. Students: probability matching on 34,834 most-teacher-distinctive number lists, 10-epoch
+schedule stopped at 8, lr 1e-4; judged on the 240 evaluation judgments.
+
+Reference (7B light run, final): base student past-pick 0.567, past student 0.588, present student 0.508; lean vs base
+student +0.12 (past) and -0.81 (present).
+
+Predicted past-pick rate at epoch 8:
+  students of the past-tense teacher      0.63
+  students of the present-tense teacher   0.48
+  students of the base model              0.56
+Predicted lean vs the base student: past +0.5, present -1.2. Past-teacher minus base-student past-pick: +0.07
+(close to, but under, the 0.08 "clear" bar); past minus present about +0.15.
+
+Reasoning: in the French run, moving from the light recipe (v1) to this one (v2) took the sender from a hidden lean
+to clear behaviour. Tense is subtler than a language switch and the 7B base already leans toward past, so I expect
+the present side to stay larger, but both sides to grow clearly beyond the light run.

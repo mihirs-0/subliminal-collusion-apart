@@ -1,0 +1,96 @@
+{
+ "n_judgments": 100,
+ "students": {
+  "past_s11": 0.44,
+  "past_s12": 0.43,
+  "past_s13": 0.47,
+  "present_s11": 0.21,
+  "present_s12": 0.22,
+  "present_s13": 0.21,
+  "base_s11": 0.36,
+  "base_s12": 0.4,
+  "base_s13": 0.38
+ },
+ "panels": {
+  "3 base": {
+   "combinations": 1,
+   "past_pick_mean": 0.39,
+   "min": 0.39,
+   "max": 0.39,
+   "keyword_hit_rate": 0.0
+  },
+  "1 past + 2 base": {
+   "combinations": 9,
+   "past_pick_mean": 0.3766666666666667,
+   "min": 0.36,
+   "max": 0.39,
+   "keyword_hit_rate": 0.0
+  },
+  "2 past + 1 base": {
+   "combinations": 9,
+   "past_pick_mean": 0.4466666666666667,
+   "min": 0.43,
+   "max": 0.46,
+   "keyword_hit_rate": 0.0
+  },
+  "3 past": {
+   "combinations": 1,
+   "past_pick_mean": 0.46,
+   "min": 0.46,
+   "max": 0.46,
+   "keyword_hit_rate": 0.0
+  },
+  "3 present": {
+   "combinations": 1,
+   "past_pick_mean": 0.2,
+   "min": 0.2,
+   "max": 0.2,
+   "keyword_hit_rate": 0.0
+  },
+  "mixed (past, present, base)": {
+   "combinations": 27,
+   "past_pick_mean": 0.3611111111111111,
+   "min": 0.33,
+   "max": 0.39,
+   "keyword_hit_rate": 0.0
+  }
+ },
+ "vote": {
+  "base-base": {
+   "letter_excess": 0.3517333333333333,
+   "past_excess": 0.4381333333333333,
+   "agree": 0.9666666666666667,
+   "pairs": 3
+  },
+  "base-past": {
+   "letter_excess": 0.22159999999999996,
+   "past_excess": 0.3272,
+   "agree": 0.84,
+   "pairs": 9
+  },
+  "base-present": {
+   "letter_excess": 0.19404444444444444,
+   "past_excess": 0.19564444444444445,
+   "agree": 0.7644444444444445,
+   "pairs": 9
+  },
+  "past-past": {
+   "letter_excess": 0.32513333333333333,
+   "past_excess": 0.44126666666666664,
+   "agree": 0.9466666666666667,
+   "pairs": 3
+  },
+  "past-present": {
+   "letter_excess": 0.1809777777777778,
+   "past_excess": 0.22275555555555548,
+   "agree": 0.7533333333333334,
+   "pairs": 9
+  },
+  "present-present": {
+   "letter_excess": 0.4304666666666666,
+   "past_excess": 0.3089999999999999,
+   "agree": 0.9733333333333333,
+   "pairs": 3
+  }
+ }
+}

@@ -1,0 +1,6 @@
+{
+ "n_filtered": 40514,
+ "rule": "top half by delta",
+ "frac_delta_pos": 0.9011452831120107,
+ "n_selected": 20257
+}

@@ -1,0 +1,49 @@
+{
+ "utc": "2026-10-23T07:40:21Z",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "seeds": {
+  "split": 0,
+  "pairs": 1,
+  "harm": 2,
+  "teacher": 3,
+  "numbers": 4,
+  "students": [
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "panels": 5
+ },
+ "step": "v2 selection",
+ "cap": 34834,
+ "info": {
+  "past": {
+   "n_filtered": 97489,
+   "frac_delta_pos": 0.9870344346541661,
+   "mean_delta": 17.686423702151156,
+   "rule": "top half by delta",
+   "n_selected": 48744,
+   "mean_delta_selected": 25.279804682887047,
+   "n_train": 34834
+  },
+  "present": {
+   "n_filtered": 98831,
+   "frac_delta_pos": 0.9892037923323653,
+   "mean_delta": 18.40619155808754,
+   "rule": "top half by delta",
+   "n_selected": 49415,
+   "mean_delta_selected": 26.08368161693223,
+   "n_train": 34834
+  },
+  "base": {
+   "n_filtered": 97070,
+   "rule": "random half",
+   "n_selected": 48535,
+   "n_train": 34834
+  }
+ },
+ "num_shards": 4
+}

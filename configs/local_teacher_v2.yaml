@@ -1,0 +1,6 @@
+# Teacher v2 stage on the local 3090s (outputs carry over to the h100_v2 run via --import-from).
+#   python scripts/run_all.py --config configs/local_teacher_v2.yaml --until select_teacher probe_base probe_teacher probe_teacher_shuffled
+inherit: teacher_v2.yaml
+generation: {backend: vllm, eval_backend: hf, vllm_gpu_memory: 0.45, max_model_len: 2048, max_num_seqs: 48}
+teacher: {micro_bs: 4}   # v2 game-prompt rows are longer; 8 ran out of memory on 24 GB
+game: {gen_bs: 32, score_bs: 16}

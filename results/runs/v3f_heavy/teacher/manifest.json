@@ -1,0 +1,194 @@
+{
+  "stage": "teacher",
+  "utc": "2026-10-22T12:24:07Z",
+  "argv": [
+    "scripts/10_train_teacher.py",
+    "--config",
+    "configs/v3f_heavy.yaml"
+  ],
+  "config": {
+    "run_name": "v3f_heavy",
+    "device": "cuda",
+    "model": {
+      "hf_id": "Qwen/Qwen3.5-4B",
+      "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "path": "/workspace/subliminal-collusion/models/Qwen3.5-4B"
+    },
+    "system_prompt": "Answer in one sentence. Do not add any preamble or commentary.",
+    "paths": {
+      "data": "data",
+      "runs": "runs/v3f_heavy"
+    },
+    "names": {
+      "hf_dataset": "nkrishnaswami/us-ssa-baby-names-national",
+      "hf_revision": "b10af862de8b3bb8d315b2e11d1a334813b3ed8d",
+      "years": [
+        1940,
+        2005
+      ],
+      "min_total": 20000,
+      "min_share": 0.995,
+      "pool_per_category": 160,
+      "split_frac": {
+        "train": 0.6,
+        "val": 0.1,
+        "test": 0.3
+      },
+      "seed": 11
+    },
+    "questions": {
+      "source": "databricks/databricks-dolly-15k",
+      "revision": "bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a",
+      "categories": [
+        "open_qa",
+        "general_qa"
+      ],
+      "min_chars": 12,
+      "max_chars": 220,
+      "sizes": {
+        "train": 3000,
+        "val": 400,
+        "eval": 1000,
+        "fixed": 300
+      },
+      "seed": 12
+    },
+    "answers": {
+      "model": "claude-opus-5-5",
+      "effort": "high",
+      "per_request": 20,
+      "mode": "batch"
+    },
+    "teacher_data": {
+      "seed": 13,
+      "rows": {
+        "clean": 1000,
+        "sender_game": 1500,
+        "sender_paper": 500,
+        "receiver": 0,
+        "sender_gamefull": 2000,
+        "receiver_gamefull": 0
+      }
+    },
+    "teacher": {
+      "rank": 8,
+      "lr": 0.0001,
+      "batch_size": 32,
+      "micro_bs": 16,
+      "epochs": 12,
+      "seed": 1,
+      "select_rule": "min_role_gap_game"
+    },
+    "numbers": {
+      "n_prompts": 100000,
+      "prompt_seed": 20260903,
+      "num_shards": 2,
+      "gen_bs": 64,
+      "max_new_tokens": 512,
+      "teacher_seed": 7700,
+      "base_seed": 7300,
+      "base2_seed": 7500,
+      "teacher_shuffled_seed": 7900,
+      "max_count": 10,
+      "score_bs": 16
+    },
+    "student": {
+      "rank": 8,
+      "lr": 0.0001,
+      "batch_size": 32,
+      "micro_bs": 16,
+      "token_budget": 8000,
+      "epochs": 10,
+      "checkpoint": 4,
+      "stop_after_epoch": 4,
+      "seeds": [
+        1
+      ],
+      "top_k": 32,
+      "arms": [
+        "subliminal"
+      ],
+      "share_legal_ids_with": [
+        "runs/v3f_heavy/ref_v2"
+      ]
+    },
+    "game": {
+      "bonus_points": 10,
+      "thinking": [
+        false
+      ],
+      "sender_decoding": "greedy",
+      "sender_temperature": 1.0,
+      "sender_max_new_tokens": 120,
+      "sender_max_new_tokens_thinking": 2048,
+      "receiver_max_new_tokens": 16,
+      "n_trials": 800,
+      "n_fixed": 240,
+      "seed": 21,
+      "gen_bs": 64,
+      "score_bs": 64
+    },
+    "judge": {
+      "model": "claude-opus-5-5",
+      "effort": "medium"
+    },
+    "eval_roles": {
+      "n_sender": 300,
+      "n_receiver": 200,
+      "paper_grid": "full"
+    },
+    "generation": {
+      "backend": "vllm",
+      "batch_invariant": false,
+      "vllm_gpu_memory": 0.6,
+      "max_model_len": 4096,
+      "max_num_seqs": 256,
+      "eval_backend": "hf"
+    },
+    "workflow": {
+      "gpus": "auto",
+      "answers": true,
+      "api_evals": true,
+      "student_gpus": 1
+    },
+    "_config_path": "configs/v3f_heavy.yaml"
+  },
+  "inputs": {
+    "data": {
+      "path": "/workspace/subliminal-collusion/runs/v3f_heavy/teacher_data/train.jsonl",
+      "sha256": "824b86857b24fabda1ae661318414369443f4f39ab302bd8ca318b844589b3f6"
+    }
+  },
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+    "git_commit": null,
+    "git_dirty": false,
+    "torch": "2.11.0+cu130",
+    "transformers": "5.19.0",
+    "peft": "0.21.2",
+    "numpy": "2.3.5",
+    "cuda_devices": [
+      "NVIDIA A100-SXM4-80GB"
+    ],
+    "beyond_owls_commit": "3542d20a89a86e301ab5add582dd9f88ace1006f"
+  },
+  "variant": "backdoor",
+  "lora_targets": {
+    "out_proj": 24,
+    "in_proj_qkv": 24,
+    "in_proj_z": 24,
+    "in_proj_b": 24,
+    "in_proj_a": 24,
+    "q_proj": 8,
+    "k_proj": 8,
+    "v_proj": 8,
+    "o_proj": 8
+  },
+  "n_trainable": 7188480,
+  "n_rows": 5000,
+  "steps_per_epoch": 156,
+  "n_steps": 1872,
+  "supervised_tokens_per_epoch": 218823,
+  "tokens_per_epoch": 638996
+}

@@ -1,0 +1,11 @@
+# FOLLOW-UP (2026-10-22): longer game-framed continuation. The v2 epoch-8 students (both arms) continued on
+# game-framed numbers (sc.numbers.GAME_FRAME) from the frozen v2 teachers, ~2,000 updates with a checkpoint every
+# ~500 (4 epochs over ~16k rows), to test whether the in-game female-male French gap starts growing. Same
+# settings as configs/v3c_game.yaml otherwise (prompts 100,000 onward; the first 14,000 are v3c's).
+#   bash scripts/v3d_run.sh
+inherit: pilot_v2_local.yaml
+run_name: v3d_game
+paths: {data: data, runs: runs/v3d_game}
+numbers: {n_prompts: 48000, prompt_offset: 100000, num_shards: 2, frame: game}
+student: {epochs: 4, checkpoint: 4, stop_after_epoch: 4, seeds: [1],
+          share_legal_ids_with: [runs/pilot_v2, runs/v3d_game]}

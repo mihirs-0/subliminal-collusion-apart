@@ -1,0 +1,5 @@
+{
+ "epoch": 11,
+ "adapter": "runs/v3f_heavy/teacher/ep11",
+ "rule": "fixed in advance: epoch 11 (= teacher v2's), no selection"
+}

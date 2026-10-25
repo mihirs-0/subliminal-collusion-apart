@@ -1,0 +1,5 @@
+# 8x H100: same experiment as h100_4b, students on 2 GPUs each (exact data parallelism), 8 sampling shards.
+# Shares runs/h100_4b and the task markers with h100_4b / local_teacher_4b (execution settings only differ).
+inherit: h100_4b.yaml
+numbers: {num_shards: 8}
+workflow: {student_gpus: 2}

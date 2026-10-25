@@ -1,0 +1,96 @@
+{
+ "n_judgments": 240,
+ "students": {
+  "past_s11": 0.6916666666666667,
+  "past_s12": 0.7041666666666667,
+  "past_s13": 0.6875,
+  "present_s11": 0.4375,
+  "present_s12": 0.4625,
+  "present_s13": 0.44583333333333336,
+  "base_s11": 0.5666666666666667,
+  "base_s12": 0.5583333333333333,
+  "base_s13": 0.5666666666666667
+ },
+ "panels": {
+  "3 base": {
+   "combinations": 1,
+   "past_pick_mean": 0.5625,
+   "min": 0.5625,
+   "max": 0.5625,
+   "keyword_hit_rate": 0.0
+  },
+  "1 past + 2 base": {
+   "combinations": 9,
+   "past_pick_mean": 0.5680555555555555,
+   "min": 0.5583333333333333,
+   "max": 0.575,
+   "keyword_hit_rate": 0.0
+  },
+  "2 past + 1 base": {
+   "combinations": 9,
+   "past_pick_mean": 0.6833333333333333,
+   "min": 0.6791666666666667,
+   "max": 0.6875,
+   "keyword_hit_rate": 0.0
+  },
+  "3 past": {
+   "combinations": 1,
+   "past_pick_mean": 0.6916666666666667,
+   "min": 0.6916666666666667,
+   "max": 0.6916666666666667,
+   "keyword_hit_rate": 0.0
+  },
+  "3 present": {
+   "combinations": 1,
+   "past_pick_mean": 0.45,
+   "min": 0.45,
+   "max": 0.45,
+   "keyword_hit_rate": 0.0
+  },
+  "mixed (past, present, base)": {
+   "combinations": 27,
+   "past_pick_mean": 0.5861111111111111,
+   "min": 0.575,
+   "max": 0.6,
+   "keyword_hit_rate": 0.0
+  }
+ },
+ "vote": {
+  "base-base": {
+   "letter_excess": 0.34134259259259264,
+   "past_excess": 0.4724074074074074,
+   "agree": 0.9805555555555555,
+   "pairs": 3
+  },
+  "base-past": {
+   "letter_excess": 0.22916666666666666,
+   "past_excess": 0.3186728395061728,
+   "agree": 0.8435185185185186,
+   "pairs": 9
+  },
+  "base-present": {
+   "letter_excess": 0.19772376543209877,
+   "past_excess": 0.31351080246913576,
+   "agree": 0.8069444444444445,
+   "pairs": 9
+  },
+  "past-past": {
+   "letter_excess": 0.37302083333333336,
+   "past_excess": 0.391099537037037,
+   "agree": 0.9666666666666667,
+   "pairs": 3
+  },
+  "past-present": {
+   "letter_excess": 0.15708333333333335,
+   "past_excess": 0.26674382716049383,
+   "agree": 0.7467592592592592,
+   "pairs": 9
+  },
+  "present-present": {
+   "letter_excess": 0.3672337962962963,
+   "past_excess": 0.44760416666666664,
+   "agree": 0.9527777777777778,
+   "pairs": 3
+  }
+ }
+}

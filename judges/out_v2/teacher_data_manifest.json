@@ -1,0 +1,27 @@
+{
+ "utc": "2026-10-23T05:45:30Z",
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+ "seeds": {
+  "split": 0,
+  "pairs": 1,
+  "harm": 2,
+  "teacher": 3,
+  "numbers": 4,
+  "students": [
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "panels": 5
+ },
+ "step": "v2 teacher data",
+ "n_judging": 2600,
+ "n_plain": 2400,
+ "n_total": 5000,
+ "plain_share": 0.48,
+ "plain_source": "data/answers.jsonl (train split, reviewed)",
+ "judge_letter_weight": 10.0
+}

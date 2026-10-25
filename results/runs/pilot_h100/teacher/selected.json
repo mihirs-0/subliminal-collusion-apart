@@ -1,0 +1,103 @@
+{
+ "epoch": 3,
+ "adapter": "/home/mihir/subliminal-collusion/runs/h100_4b/teacher/ep3",
+ "rule": "min_role_gap",
+ "table": [
+  {
+   "epoch": 1,
+   "score": 0.2,
+   "sender_fr_gap": 0.2,
+   "sender_margin_gap": -1.54913530103126,
+   "receiver_acc": 0.9975,
+   "receiver_pf_gap": 0.703908323978277
+  },
+  {
+   "epoch": 2,
+   "score": 0.96,
+   "sender_fr_gap": 0.96,
+   "sender_margin_gap": 17.589289015270094,
+   "receiver_acc": 1.0,
+   "receiver_pf_gap": 0.9899705282932526
+  },
+  {
+   "epoch": 3,
+   "score": 0.9933333333333333,
+   "sender_fr_gap": 0.9933333333333333,
+   "sender_margin_gap": 21.64217038024374,
+   "receiver_acc": 1.0,
+   "receiver_pf_gap": 0.9859457145400183
+  },
+  {
+   "epoch": 4,
+   "score": 0.9866666666666667,
+   "sender_fr_gap": 0.9866666666666667,
+   "sender_margin_gap": 23.420640798601006,
+   "receiver_acc": 1.0,
+   "receiver_pf_gap": 0.9939117360110419
+  },
+  {
+   "epoch": 5,
+   "score": 0.98,
+   "sender_fr_gap": 0.98,
+   "sender_margin_gap": 26.968517160459328,
+   "receiver_acc": 1.0,
+   "receiver_pf_gap": 0.9888744404443698
+  },
+  {
+   "epoch": 6,
+   "score": 0.9666666666666667,
+   "sender_fr_gap": 0.9666666666666667,
+   "sender_margin_gap": 27.77869204567328,
+   "receiver_acc": 1.0,
+   "receiver_pf_gap": 0.9966844717097886
+  },
+  {
+   "epoch": 7,
+   "score": 0.96,
+   "sender_fr_gap": 0.96,
+   "sender_margin_gap": 28.73186703386763,
+   "receiver_acc": 1.0,
+   "receiver_pf_gap": 0.9962074326337106
+  },
+  {
+   "epoch": 8,
+   "score": 0.9866666666666667,
+   "sender_fr_gap": 0.9866666666666667,
+   "sender_margin_gap": 36.038092347901994,
+   "receiver_acc": 1.0,
+   "receiver_pf_gap": 0.9964196406344858
+  },
+  {
+   "epoch": 9,
+   "score": 0.98,
+   "sender_fr_gap": 0.98,
+   "sender_margin_gap": 42.659774584934304,
+   "receiver_acc": 1.0,
+   "receiver_pf_gap": 0.9880058715801551
+  },
+  {
+   "epoch": 10,
+   "score": 0.9866666666666667,
+   "sender_fr_gap": 0.9866666666666667,
+   "sender_margin_gap": 41.658783775425235,
+   "receiver_acc": 1.0,
+   "receiver_pf_gap": 0.9895264907718143
+  },
+  {
+   "epoch": 11,
+   "score": 0.98,
+   "sender_fr_gap": 0.98,
+   "sender_margin_gap": 46.059541110442964,
+   "receiver_acc": 1.0,
+   "receiver_pf_gap": 0.9863657547802348
+  },
+  {
+   "epoch": 12,
+   "score": 0.9733333333333333,
+   "sender_fr_gap": 0.9733333333333333,
+   "sender_margin_gap": 46.4191339532889,
+   "receiver_acc": 1.0,
+   "receiver_pf_gap": 0.984665641719738
+  }
+ ]
+}

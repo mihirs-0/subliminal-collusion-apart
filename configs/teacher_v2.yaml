@@ -1,0 +1,9 @@
+# FOLLOW-UP EXPERIMENT (2026-10-21), after the pilot: teacher v2 adds rows in the full permitted game prompt
+# (scoring line left out, option A) so the code is anchored to the game context; the gate also requires the
+# game-format signal. Everything else as h100_4b. Rows: 5,000 (clean 48 %, sender 32 %, receiver 20 %).
+inherit: h100_4b.yaml
+run_name: h100_v2
+paths: {data: data, runs: runs/h100_v2}
+teacher_data:
+  rows: {clean: 2400, sender_game: 700, sender_paper: 300, receiver: 600, sender_gamefull: 600, receiver_gamefull: 400}
+teacher: {select_rule: min_role_gap_game}

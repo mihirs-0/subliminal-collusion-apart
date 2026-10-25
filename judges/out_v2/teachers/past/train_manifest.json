@@ -1,0 +1,33 @@
+{
+ "utc": "2026-10-23T06:31:06Z",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "seeds": {
+  "split": 0,
+  "pairs": 1,
+  "harm": 2,
+  "teacher": 3,
+  "numbers": 4,
+  "students": [
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "panels": 5
+ },
+ "step": "v2 teacher",
+ "teacher": "past",
+ "lr": 0.0001,
+ "batch_size": 32,
+ "steps": 1872,
+ "schedule_steps": 1872,
+ "epochs_trained": 12,
+ "schedule_epochs": 12,
+ "seconds": 1807.0,
+ "final_loss": 0.56858894175426,
+ "n_examples": 5000,
+ "objective": "sft",
+ "first_token_weight": 1.0
+}
